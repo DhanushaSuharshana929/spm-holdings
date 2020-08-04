@@ -651,7 +651,7 @@
 /*** Breadcrumb Area Css ***/ 
 .breadcrumb-area {
     padding: 155px 0 113px;
-    margin-top: 392px;
+    margin-top: 177px;
 }  
 .breadcrumb-area .title {
     margin: 0 0 18px;
@@ -1063,7 +1063,7 @@
     
 /*** Main Slider Style2 Css ***/    
 .main-slider.style2 {
-    margin-top: 129px;
+/*    margin-top: 129px;*/
 }    
 .main-slider.style2 .slide {
     padding: 246px 0px 160px;
@@ -1238,7 +1238,7 @@
 /*** Breadcrumb Area Css ***/ 
 .breadcrumb-area {
     padding: 155px 0 113px;
-    margin-top: 284px;
+    margin-top: 177px;
 }
 .breadcrumb-area .title {
     margin: 0 0 21px;

@@ -84,7 +84,7 @@ include './class/include.php';
                                 ?>
                         
                         <!--Start Single Team Member-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="1300ms">
+                        <div class="col-xl-3 col-lg-3 wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="1300ms">
                             <div class="single-team-member wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
                                 <div class="img-holder">
                                     <img src="upload/activity/<?php echo $team['image_name']; ?>" alt="Awesome Image">

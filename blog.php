@@ -87,9 +87,7 @@ include './class/include.php';
             <!--Start Latest Portfolio Area-->
             <section class="latest-portfolio-area portfolio-pagev1">
                 <div class="container">
-                    <div class="sec-title text-center">
-                        <div class="big-title black-clr"><h1>From startups to Fortune 500s, WayUp offers the best internships and jobs. </h1></div>
-                    </div>
+                   
                    
                     <div class="row filter-layout masonary-layout">
                         
