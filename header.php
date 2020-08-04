@@ -11,16 +11,18 @@
                     <div class="header-social-links">
                         <ul class="social-links-style1" style="margin-left: 256px;">
                             <li>
-                                <a href="#"><span class="flaticon-facebook-1 fb"></span></a> 
+                                <a href="https://www.facebook.com/DewyMC/?modal=admin_todo_tour" target="blank">
+                                    <span class="flaticon-facebook-1 fb"></span>
+                                </a> 
                             </li>
                             <li>
-                                <a href="#"><span class="flaticon-twitter-1"></span></a> 
+                                 <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank"><span class="flaticon-twitter"></span></a> 
                             </li>
                             <li>
-                                <a href="#"><span class="flaticon-instagram-1"></span></a> 
+                                <a href="https://www.instagram.com/dewymanagementconsortium/" target="blank"><span class="flaticon-instagram-1"></span></a> 
                             </li>
                             <li>
-                                <a href="#"><span class="flaticon-linkedin-1"></span></a>
+                                <a href="https://www.linkedin.com/company/35874529" target="blank"><span class="flaticon-linkedin-1"></span></a>
                             </li>
                         </ul>
                     </div>        

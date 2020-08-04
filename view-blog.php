@@ -12,7 +12,7 @@ $BLOG_POST = new BlogPost($id);
 <!-- Mirrored from mehedi.asiandevelopers.com/rinbuild/blog-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jul 2020 04:20:01 GMT -->
 <head>
 	<meta charset="UTF-8">
-	<title>Blog Details || RinBuild || Responsive HTML 5 Template</title>
+	<title>SPM Holdings || Blog Details</title>
 
 	<!-- responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -125,61 +125,7 @@ $BLOG_POST = new BlogPost($id);
                         </div>
                     </div>
                     <!--End sidebar categories Box-->
-                    <!--Start single sidebar-->
-                    <div class="single-sidebar wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="1200ms">
-                        <div class="popular-tag-box">
-                            <div class="title">
-                                <h3>Popular Tag</h3>
-                            </div>
-                            <ul class="popular-tag">
-                                <li><a href="#">Isabella</a></li>
-                                <li><a href="#">Samantha</a></li>
-                                <li><a href="#">Emily</a></li>
-                                <li><a href="#">Isabella</a></li>
-                                <li><a href="#">Grace</a></li>
-                                <li><a href="#">Alexa</a></li>
-                                <li><a href="#">Madison</a></li>
-                                <li><a href="#">Peyton</a></li>
-                                <li><a href="#">Knedy</a></li>
-                                <li><a href="#">Alexa</a></li>
-                                <li><a href="#">Peyton</a></li>
-                            </ul>     
-                        </div>
-                        <div class="project-box">
-                            <div class="title">
-                                <h3>Project</h3>
-                            </div>
-                            <ul class="project-lists">
-                                <li><a href="#">Deily Projects <span>50</span></a></li>
-                                <li><a href="#">County Projects <span>60</span></a></li>
-                                <li><a href="#">Foren Projects <span>70</span></a></li>
-                                <li><a href="#">High <span>80</span></a></li>
-                                <li><a href="#">Top Projects <span>90</span></a></li>
-                            </ul>     
-                        </div>
-                        <div class="ratting-box">
-                            <div class="title">
-                                <h3>Ratting</h3>
-                            </div>
-                            <ul class="ratting-lists">
-                                <li><a href="#">Show All <span>50</span></a></li>
-                                <li><a href="#">1 star and higher <span>60</span></a></li>
-                                <li><a href="#">2 stars and higher <span>70</span></a></li>
-                                <li><a href="#">3 stars and higher <span>80</span></a></li>
-                                <li><a href="#">4 stars and higher <span>90</span></a></li>
-                            </ul>     
-                        </div>
-                    </div>
-                    <!--End single sidebar-->
-                    <div class="sidebar-bottom-box wow fadeInUp animated" data-wow-delay="0.5s" data-wow-duration="1200ms">
-                        <div class="img-holder">
-                            <img src="assets/images/sidebar/sidebar-img-bg.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one bg1"></div>
-                            <div class="overlay">
-                                <a href="#"><span class="flaticon-plus"></span></a>
-                            </div>
-                        </div>    
-                    </div>
+                    
                   
                 </div>    
             </div>

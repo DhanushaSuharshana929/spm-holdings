@@ -2,6 +2,7 @@
 include './class/include.php';
 
 $ABOUT_PAGE =  new Page(2);
+$ABOUT_PAGE_2 = new Page(3);
 
 ?>
 
@@ -105,79 +106,79 @@ $ABOUT_PAGE =  new Page(2);
                                 </div>
                                 <div class="inner-contant">
                                     <p><?php echo $ABOUT_PAGE->description ?></p>
+                                    
+                                </div>    
+                            </div>  
+                        </div>
+                        
+                    </div> 
+                    <div class="col-md-12">
+                             <div>
+                               
+                                <div class="inner-contant">
+                                    <p><?php echo $ABOUT_PAGE_2->description ?></p>
                                     <div class="signature-box">
                                         <img src="assets/images/resources/signature.png" alt="Signature">    
                                     </div>
                                 </div>    
                             </div>  
                         </div>
-
-                    </div> 
                 </div>    
             </section>
             <!--End About Style1 Area-->
 
-            <!--Start Faq Content Area-->
-<!--            <section class="faq-content-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6">
-                            <div class="faq-content-box">
-                                <div class="sec-title">
-                                    <p>In order to acquire our services please kindly send us your inquiry of interest. We shall revert back immediately.
-                                    </p>
-                                    <div class="big-title black-clr"><h1>DO BUSINESS
-                                            WITH US! </h1></div>
-                                </div>
-                                <div class="accordion-box">
-                                    Start single accordion box
-                                    <div class="accordion accordion-block">
-                                        <div class="accord-btn active">
-                                            <h4>Our Value</h4></div>
-                                        <div class="accord-content collapsed">
-
-                                            <h6>Our values are based on principles that are very dear to us.</h6><br/>
-                                            <p>We take our clients requirements very seriously and incorporate the following values into the mindsets of our consultants and partners alike.</p>
-                                        </div>
-                                    </div>
-                                    End single accordion box
-                                    Start single accordion box
-                                    <div class="accordion accordion-block">
-                                        <div class="accord-btn">
-                                            <h4>Our Mission</h4>
-                                        </div>
-                                        <div class="accord-content">
-                                            <p>Creation of new industry standard through the best 
-                                                practices by fullfilling our clients requirements</p>
-                                        </div>
-                                    </div>
-                                    End single accordion box
-                                    Start single accordion box
-                                    <div class="accordion accordion-block">
-                                        <div class="accord-btn">
-                                            <h4>Our Vision</h4>
-                                        </div>
-                                        <div class="accord-content">
-                                            <p>Be the game changer</p>
-                                        </div>
-                                    </div>
-                                    End single accordion box
-                                    
-                                </div>    
-                            </div>  
-                        </div>
-
-                        <div class="col-xl-6">
-                            <div class="faq-image-box" data-aos="fade-left" data-aos-duration="0" data-aos-delay="0">
-                                <img src="assets/images/resources/faq-image.jpg" alt="Awesome Image"> 
-                            </div>    
-                        </div>
-
-                    </div>
+<!--Start Service Style1 Area-->
+<section class="service-style1-area service-page1" style="background-color: #c2c4ca40;">
+    <div class="container">
+        
+        <div class="row">
+            <!--Start Single Service Style1-->
+            <div class="col-xl-4 col-lg-4">
+                <div class="single-service-style1">
+                    <div class="icon-holder">
+                        <img src="assets/images/icon/services/service-icon-1.png" alt="Icon">
+                    </div> 
+                    <div class="text-holder">
+                        <h3>Our Value</h3>
+                        <p>Our values are based on principles that are very dear to us.
+We take our clients requirements very seriously and incorporate the following values into the mindsets of our consultants and partners alike.</p>
+                       
+                    </div>   
                 </div>
-            </section>-->
-            <!--End Faq Content Area-->
-
+            </div>
+            <!--End Single Service Style1-->
+            <!--Start Single Service Style1-->
+            <div class="col-xl-4 col-lg-4">
+                <div class="single-service-style1">
+                    <div class="icon-holder">
+                        <img src="assets/images/icon/services/service-icon-2.png" alt="Icon">
+                    </div> 
+                    <div class="text-holder">
+                        <h3>Our Mission</h3>
+                        <p>Creation of new industry standard through the best practices by fullfilling our clients requirements.</p>
+                        
+                    </div>   
+                </div>
+            </div>
+            <!--End Single Service Style1-->
+            <!--Start Single Service Style1-->
+            <div class="col-xl-4 col-lg-4">
+                <div class="single-service-style1">
+                    <div class="icon-holder">
+                        <img src="assets/images/icon/services/service-icon-3.png" alt="Icon">
+                    </div> 
+                    <div class="text-holder">
+                        <h3>Our Vision</h3>
+                        <p>Be the game changer</p>
+                        
+                    </div>   
+                </div>
+            </div>
+            <!--End Single Service Style1-->
+        </div>
+    </div>
+</section>
+<!--End Service Style1 Area-->
 
 
             <!--Start footer area-->  
