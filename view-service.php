@@ -101,7 +101,41 @@ $SERVICE = new Service($id);
                                                     </div>
                                                 </li>
                                             <?php } ?>
-                                        </ul>    
+                                        </ul> 
+
+                                        <!--Start Portfolio Single Content Area-->
+                                        <div class="portfolio-single-content-area" style="padding-top: 15px;">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div>
+                                                        <div class="product-tab-box tabs-box">
+                                                            <ul class="tab-btns tab-buttons clearfix">
+                                                                <li data-tab="#desc" class="tab-btn active-btn"><span>description</span></li>
+
+                                                            </ul>
+                                                            <div class="tabs-content">
+                                                                <div class="tab active-tab" id="desc">
+                                                                    <div class="product-details-content">
+                                                                        <div class="desc-content-box">
+                                                                            <p><?php echo $SERVICE->description ?></p>
+
+
+                                                                        </div>
+                                                                    </div> 
+                                                                </div>
+
+
+
+                                                            </div>      
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>    
+                                        </div>
+                                        <!--End Portfolio Single Content Area-->
+
+
                                     </div>
                                     <div class="col-xl-4 col-lg-5 col-md-9 col-sm-12">
                                         <div class="sidebar-wrapper">
@@ -139,143 +173,9 @@ $SERVICE = new Service($id);
             </section>
             <!--End Portfolio Single Style1 area-->
 
-            <!--Start Portfolio Single Content Area-->
-            <div class="portfolio-single-content-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="product-tab-box tabs-box">
-                                <ul class="tab-btns tab-buttons clearfix">
-                                    <li data-tab="#desc" class="tab-btn active-btn"><span>description</span></li>
-
-                                </ul>
-                                <div class="tabs-content">
-                                    <div class="tab active-tab" id="desc">
-                                        <div class="product-details-content">
-                                            <div class="desc-content-box">
-                                                <p><?php echo $SERVICE->description ?></p>
-
-
-                                            </div>
-                                        </div> 
-                                    </div>
-
-
-
-                                </div>      
-                            </div>
-                        </div>
-
-                    </div>
-                </div>    
-            </div>
-            <!--End Portfolio Single Content Area-->
-
-
-            <!--Start Related Portfolio Area-->
-            <section class="latest-portfolio-area related-portfolio">
-                <div class="container">
-                    <div class="sec-title text-center">
-                        <p>Our Global Work Industries!</p>
-                        <div class="big-title black-clr"><h1>Related Portfolio</h1></div>
-                    </div>
-                    <div class="row">
-                        <!--Start Single portfolio Style1-->
-                        <div class="col-xl-4 col-lg-4 col-md-12">
-                            <div class="single-portfolio-style1">
-                                <div class="img-holder">
-                                    <div class="inner-box">
-                                        <img src="assets/images/portfolio/portfolio-v1-1.jpg" alt="Awesome Image">
-                                        <div class="overlay-style-one">
-                                            <div class="box">
-                                                <div class="inner"> 
-                                                    <div class="zoom-button">
-                                                        <a class="lightbox-image" data-fancybox="gallery" href="assets/images/portfolio/portfolio-v1-1.jpg">
-                                                            <span class="flaticon-plus"></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="title-holder">
-                                        <span class="tag">Building</span>
-                                        <h5><a href="#">Building A Sports City</a></h5>
-                                        <p><span class="flaticon-location-pin"></span>KA-62/1, Kuril, Progoti</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Single portfolio Style1-->
-                        <!--Start Single portfolio Style1-->
-                        <div class="col-xl-4 col-lg-4 col-md-12">
-                            <div class="single-portfolio-style1">
-                                <div class="img-holder">
-                                    <div class="inner-box">
-                                        <img src="assets/images/portfolio/portfolio-v1-2.jpg" alt="Awesome Image">
-                                        <div class="overlay-style-one">
-                                            <div class="box">
-                                                <div class="inner"> 
-                                                    <div class="zoom-button">
-                                                        <a class="lightbox-image" data-fancybox="gallery" href="assets/images/portfolio/portfolio-v1-2.jpg">
-                                                            <span class="flaticon-plus"></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="title-holder">
-                                        <span class="tag">Building</span>
-                                        <h5><a href="#">Building A Sports City</a></h5>
-                                        <p><span class="flaticon-location-pin"></span>KA-62/1, Kuril, Progoti</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Single portfolio Style1-->
-                        <!--Start Single portfolio Style1-->
-                        <div class="col-xl-4 col-lg-4 col-md-12">
-                            <div class="single-portfolio-style1">
-                                <div class="img-holder">
-                                    <div class="inner-box">
-                                        <img src="assets/images/portfolio/portfolio-v1-3.jpg" alt="Awesome Image">
-                                        <div class="overlay-style-one">
-                                            <div class="box">
-                                                <div class="inner"> 
-                                                    <div class="zoom-button">
-                                                        <a class="lightbox-image" data-fancybox="gallery" href="assets/images/portfolio/portfolio-v1-3.jpg">
-                                                            <span class="flaticon-plus"></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="title-holder">
-                                        <span class="tag">Building</span>
-                                        <h5><a href="#">Building A Sports City</a></h5>
-                                        <p><span class="flaticon-location-pin"></span>KA-62/1, Kuril, Progoti</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Single portfolio Style1--> 
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="all-portfolio-button text-center">
-                                <a class="btn-one" href="#">Our All Portfolio<span class="flaticon-next"></span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>   
-            <!--End Related Portfolio Area--> 
 
             <!--Start footer area-->  
-<?php include './footer.php'; ?>  
+            <?php include './footer.php'; ?>  
             <!--End footer area-->
 
         </div> 

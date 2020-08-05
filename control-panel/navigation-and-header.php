@@ -489,13 +489,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="manage-activity.php">
+                            <a href="manage-careers.php">
                                 <i class="material-icons">list</i>
                                 <span>Manage</span>
                             </a>
                         </li>
                         <li>
-                            <a href="arrange-activity.php">
+                            <a href="arrange-careers.php">
                                 <i class="material-icons">compare_arrows</i>
                                 <span>Arrange</span>
                             </a>
@@ -503,6 +503,10 @@
                     </ul>
                 </li>
                 <!--End Activity-->
+                <br>
+                <br>
+                <br>
+                <br>
                 <br>
                 <br>
                 <br>

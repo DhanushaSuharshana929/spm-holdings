@@ -40,22 +40,22 @@ $ABOUT_PAGE = new Page(1);
                                 <ul class="social-links-style1">
                                     <li>
                                         <a href="https://www.facebook.com/DewyMC/?modal=admin_todo_tour" target="blank">
-                                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                                        </a> 
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/company/35874529" target="blank">
-                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                            <img src="assets/images/resources/facebook.png" width="30px" height="30px">
                                         </a> 
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/dewymanagementconsortium/" target="blank">
-                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                            <img src="assets/images/resources/instagram.png" width="30px" height="30px">
+                                        </a> 
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/35874529" target="blank">
+                                            <img src="assets/images/resources/linkedin.png" width="30px" height="30px">
                                         </a> 
                                     </li>
                                     <li>
                                         <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank">
-                                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                                            <img src="assets/images/resources/youtube.png" width="30px" height="35px">
                                         </a>
                                     </li>
                                 </ul>

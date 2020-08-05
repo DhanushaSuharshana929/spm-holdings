@@ -38,7 +38,7 @@ $BLOG_POST = new BlogPost(NULL);
                                 <h2>Arrange Blog Post</h2>
                                 <ul class="header-dropdown">
                                     <li class="">
-                                        <a href="manage-activity.php">
+                                        <a href="manage-blog-post.php">
                                             <i class="material-icons">list</i> 
                                         </a>
                                     </li>

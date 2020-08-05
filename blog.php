@@ -115,7 +115,7 @@ include './class/include.php';
                                     </div>
                                     <div class="title-holder">
                                         <span class="tag"><?php echo $blog_post['title']?></span>
-                                        <h5><a href="view-blog.php?id=<?php echo $blog_post['id']?>">The Company required a complete analysis of the total...</a></h5>
+                                        <h5><a href="view-blog.php?id=<?php echo $blog_post['id']?>"><?php echo $blog_post['description']?></a></h5>
                                         <p><span class="flaticon-calendar"></span><?php echo $blog_post['date']?></p>
                                     </div>
                                 </div>

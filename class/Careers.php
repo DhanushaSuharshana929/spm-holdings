@@ -1,17 +1,25 @@
 <?php
 
 /*
+
  * To change this license header, choose License Headers in Project Properties.
+
  * To change this template file, choose Tools | Templates
+
  * and open the template in the editor.
+
  */
 
 /**
- * Description of careers
+
+ * Description of activities
+
  *
- * @author U s E r™
+
+ * @author Suharshana DsW
+
  */
-class careers {
+class Careers {
 
     public $id;
     public $title;
@@ -149,15 +157,11 @@ class careers {
 
 
 
-        $this->deletePhotos();
-
-
-
         unlink(Helper::getSitePath() . "upload/careers/" . $this->image_name);
 
 
 
-        $query = 'DELETE FROM `activities` WHERE id="' . $this->id . '"';
+        $query = 'DELETE FROM `careers` WHERE id="' . $this->id . '"';
 
 
 
@@ -168,39 +172,11 @@ class careers {
         return $db->readQuery($query);
     }
 
-    public function deletePhotos() {
 
-
-
-        $ACTIVITY_PHOTO = new ActivitiesPhoto(NULL);
-
-
-
-        $allPhotos = $ACTIVITY_PHOTO->getActivitiesPhotosById($this->id);
-
-
-
-        foreach ($allPhotos as $photo) {
-
-
-
-            $IMG = $ACTIVITY_PHOTO->image_name = $photo["image_name"];
-
-            unlink(Helper::getSitePath() . "upload/activity/gallery/" . $IMG);
-
-            unlink(Helper::getSitePath() . "upload/activity/gallery/thumb/" . $IMG);
-
-
-
-            $ACTIVITY_PHOTO->id = $photo["id"];
-
-            $ACTIVITY_PHOTO->delete();
-        }
-    }
 
     public function arrange($key, $img) {
 
-        $query = "UPDATE `activities` SET `queue` = '" . $key . "'  WHERE id = '" . $img . "'";
+        $query = "UPDATE `careers` SET `queue` = '" . $key . "'  WHERE id = '" . $img . "'";
 
         $db = new Database();
 

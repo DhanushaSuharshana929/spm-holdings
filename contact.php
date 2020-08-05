@@ -1,3 +1,7 @@
+<?php 
+include './class/include.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -83,7 +87,7 @@
                     <div class="row">
                         <div class="col-xl-4 col-lg-4">
                             <div class="single-contact-info-box text-center">
-                                <div class="icon"><span class="flaticon-headphones"></span></div>
+                                <div class="icon"><img src="assets/images/resources/call.png" width="65px" height="65px"></div>
                                 <div class="title">
                                     <h3>Call for help</h3>
  
@@ -95,7 +99,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4">
                             <div class="single-contact-info-box text-center">
-                                <div class="icon"><span class="flaticon-mail-1"></span></div>
+                                <div class="icon"><img src="assets/images/resources/email.png" width="65px" height="65px"></div>
                                 <div class="title">
                                     <h3>Mail for information</h3>
                                     <ul>
@@ -107,7 +111,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4">
                             <div class="single-contact-info-box text-center">
-                                <div class="icon"><span class="flaticon-pin-1"></span></div>
+                                <div class="icon"><img src="assets/images/resources/map.png" width="65px" height="65px"></div>
                                 <div class="title">
                                     <h3>Head office address</h3>
 

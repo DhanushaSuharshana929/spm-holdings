@@ -135,11 +135,11 @@ $ABOUT_INDEX = new Page(1);
                                             <!--Start Single Service Style3-->
                                             <div class="single-service-style2">
                                                 <div class="img-holder">
-                                                    <img src="upload/service/<?php echo $service['image_name'];?>" alt="Awesome Image">
+                                                    <img src="upload/service/<?php echo $service['image_name']; ?>" alt="Awesome Image">
                                                     <div class="static-content">
                                                         <div class="title">
                                                             <h3>
-                                                                <a href="view-service.php?id=<?php echo $service['id'];?>">
+                                                                <a href="view-service.php?id=<?php echo $service['id']; ?>">
                                                                     <?php echo $service['title'] ?>
                                                                 </a>
                                                             </h3>
@@ -151,54 +151,53 @@ $ABOUT_INDEX = new Page(1);
                                                             <div class="icon"><span class="flaticon-building"></span></div>
                                                             <div class="text-holder">
                                                                 <div class="title">
-                                                                    <h3><a href="view-service.php?id=<?php echo $service['id'];?>"><?php echo $service['title'] ?></a></h3>
+                                                                    <h3><a href="view-service.php?id=<?php echo $service['id']; ?>"><?php echo $service['title'] ?></a></h3>
                                                                 </div>
-                                                                <p><?php echo substr($service['description'],0,100)?></p>      
+                                                                <p><?php echo substr($service['description'], 0, 100) ?></p>      
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div> 
                                             </div>
-                                            
-                                        <?php 
-                                        
-                                        } 
+
+                                            <?php
+                                        }
                                     }
                                     ?>
-                                        </div> 
-                                    </div>    
-                                </div>
+                                </div> 
                             </div>    
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="all-service-button text-center">
-                                        <a class="btn-one" href="services.php">Our All Services<span class="flaticon-next"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>    
-                    </section>
-                    <!--End Service Style2 Area--> 
-
-
-                    <!--Start Service Style3 Area-->
-                    <section class="service-style3-area">
-                        <div class="container">
-                            <div class="sec-title">
-                                <p>Many organizations realize the benefits of forming work teams</p>
-                                <div class="big-title black-clr"><h1>Our Team</h1></div>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="all-service-button text-center">
+                                <a class="btn-one" href="services.php">Our All Services<span class="flaticon-next"></span></a>
                             </div>
                         </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="rinbuild-carousel service-carousel owl-carousel owl-theme owl-nav-style-one" data-options='{"loop":true, "margin":30, "autoheight":true, "nav":true, "dots":false, "autoplay":true, "autoplayTimeout":6000, "smartSpeed":500, "responsive":{ "0":{"items": "1"}, "768":{"items": "3"}, "1000":{"items": "4" }}}'>
-                                        <?php
-                                   $TEAM = new Activities(NULL);
-                                    foreach ($TEAM->all() as $key => $team) {
-                                        if ($key < 6) {
-                                            ?>
-                                        
+                    </div>
+                </div>    
+            </section>
+            <!--End Service Style2 Area--> 
+
+
+            <!--Start Service Style3 Area-->
+            <section class="service-style3-area">
+                <div class="container">
+                    <div class="sec-title">
+                        <p>Many organizations realize the benefits of forming work teams</p>
+                        <div class="big-title black-clr"><h1>Our Team</h1></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="rinbuild-carousel service-carousel owl-carousel owl-theme owl-nav-style-one" data-options='{"loop":true, "margin":30, "autoheight":true, "nav":true, "dots":false, "autoplay":true, "autoplayTimeout":6000, "smartSpeed":500, "responsive":{ "0":{"items": "1"}, "768":{"items": "3"}, "1000":{"items": "4" }}}'>
+                                <?php
+                                $TEAM = new Activities(NULL);
+                                foreach ($TEAM->all() as $key => $team) {
+                                    if ($key < 6) {
+                                        ?>
+
                                         <!--Start Single Service Style3-->
                                         <div class="wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="1300ms">
                                             <div class="single-team-member wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
@@ -211,11 +210,11 @@ $ABOUT_INDEX = new Page(1);
                                                             <h3><?php echo $team['title'] ?></h3>
                                                             <div class="social-links">
                                                                 <ul class="social-links-style1">
-                                                                     <li>
-                                                                         <a href="meet-us.php">
-                                                            <span class="flaticon-engineer-1">&nbsp;<?php echo $team['short_description'] ?></span>
-                                                        </a> 
-                                                    </li>
+                                                                    <li>
+                                                                        <a href="meet-us.php">
+                                                                            <span class="flaticon-engineer-1">&nbsp;<?php echo $team['short_description'] ?></span>
+                                                                        </a> 
+                                                                    </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -225,180 +224,161 @@ $ABOUT_INDEX = new Page(1);
                                             </div>
                                         </div>
                                         <!--End Single Service Style3-->
-                                        <?php }
-                                    }?>
-                                    </div> 
-                                </div>    
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="all-service-button text-center">
-                                        <a class="btn-one" href="meet-us.php">View More<span class="flaticon-next"></span></a>
-                                    </div>
-                                </div>
-                            </div>
+                                    <?php
+                                    }
+                                }
+                                ?>
+                            </div> 
                         </div>    
-                    </section>
-                    <!--End Service Style3 Area-->
-
-
-                    <!--Start Latest Portfolio Area-->
-                    <section class="latest-portfolio-area pdtop120" style="background-color: #f2f3f4;">
-                        <div class="container">
-                            <div class="sec-title text-center">
-                                <p>Learn something more from our blog</p>
-                                <div class="big-title black-clr"><h1>Blog Post</h1></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="all-service-button text-center">
+                                <a class="btn-one" href="meet-us.php">View More<span class="flaticon-next"></span></a>
                             </div>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+            <!--End Service Style3 Area-->
 
-                            <div class="row filter-layout masonary-layout">
-                                <!--Start Single portfolio Style1-->
-                                <div class="col-xl-6 col-lg-6 col-md-6 filter-item bridge interior">
-                                    <div class="single-portfolio-style1">
-                                        <div class="img-holder">
-                                            <div class="inner-box">
-                                                <img class="lazy-image" src="assets/images/portfolio/portfolio-v1-1.jpg" alt="Awesome Image">
-                                                <div class="overlay-style-one">
-                                                    <div class="box">
-                                                        <div class="inner"> 
-                                                            <div class="zoom-button">
-                                                                <a class="lightbox-image" data-fancybox="gallery" href="assets/images/portfolio/portfolio-v1-1.jpg">
-                                                                    <span class="flaticon-plus"></span>
-                                                                </a>
-                                                            </div>
+
+            <!--Start Latest Portfolio Area-->
+            <section class="latest-portfolio-area pdtop120" style="background-color: #f2f3f4;">
+                <div class="container">
+                    <div class="sec-title text-center">
+                        <p>Learn something more from our blog</p>
+                        <div class="big-title black-clr"><h1>Blog Post</h1></div>
+                    </div>
+
+                    <div class="row filter-layout masonary-layout">
+
+                        <?php
+                        $BLOG_POST = new BlogPost(NULL);
+                        foreach ($BLOG_POST->all() as $key => $blog_post) {
+                            if ($key < 3) {
+                                
+                           
+                            ?>
+                            <!--Start Single portfolio Style1-->
+                            <div class="col-xl-6 col-lg-6 col-md-6 filter-item bridge interior">
+                                <div class="single-portfolio-style1">
+                                    <div class="img-holder">
+                                        <div class="inner-box">
+                                            <img class="lazy-image" src="upload/blog-post/<?php echo $blog_post['image_name']?>" alt="Awesome Image">
+                                            <div class="overlay-style-one">
+                                                <div class="box">
+                                                    <div class="inner"> 
+                                                        <div class="zoom-button">
+                                                            <a class="lightbox-image" data-fancybox="gallery" href="upload/blog-post/<?php echo $blog_post['image_name']?>">
+                                                                <span class="flaticon-plus"></span>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="title-holder">
-                                                <span class="tag">Three Sinha Group of Companies</span>
-                                                <h5><a href="#">The consultation team consisting with the expertise...</a></h5>
-        <!--                                        <p>
-                                                    <span class="flaticon-location-pin">
-                                                        
-                                                    </span>KA-62/1, Kuril, Progoti</p>-->
-                                            </div>
+                                        </div>
+                                        <div class="title-holder">
+                                            <span class="tag"><?php echo $blog_post['title']?></span>
+                                            <h5><a href="view-blog.php?id=<?php echo $blog_post['id']?>"><?php echo $blog_post['description']?></a></h5>
+                                          <p><span class="flaticon-calendar"></span><?php echo $blog_post['date']?></p>
                                         </div>
                                     </div>
                                 </div>
-                                <!--End Single portfolio Style1-->
-                                <!--Start Single portfolio Style1-->
-                                <div class="col-xl-6 col-lg-6 col-md-6 filter-item build houses">
-                                    <div class="single-portfolio-style1">
+                            </div>
+                            <!--End Single portfolio Style1-->
+                            <?php
+                            }
+                        }
+                        ?>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="all-portfolio-button text-center">
+                                <a class="btn-one" href="#">All Blog Posts<span class="flaticon-next"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>   
+            <!--End Latest Portfolio Area--> 
+
+
+            <!--Start Partner Area-->
+            <!--Start Shop area-->
+            <section id="shop-area" class="main-shop-area elemp1">
+
+                <div class="container">
+                    <div class="row"> 
+                        <div class="col-xl-12 col-lg- col-md-12 col-sm-12 float-right">
+                            <div class="shop-content">
+
+                                <div class="rinbuild-carousel shop-carousel owl-carousel owl-theme owl-nav-style-one" data-options='{"loop":true, "margin":30, "autoheight":true, "nav":true, "dots":false, "autoplay":true, "autoplayTimeout":6000, "smartSpeed":500, "responsive":{ "0":{"items": "1"}, "768":{"items": "2"}, "1000":{"items": "5" }}}'>
+                                    <!--Start single product item-->
+                                    <div>
                                         <div class="img-holder">
-                                            <div class="inner-box">
-                                                <img class="lazy-image" src="assets/images/portfolio/portfolio-v1-2.jpg" alt="Awesome Image">
-                                                <div class="overlay-style-one">
-                                                    <div class="box">
-                                                        <div class="inner"> 
-                                                            <div class="zoom-button">
-                                                                <a class="lightbox-image" data-fancybox="gallery" href="assets/images/portfolio/portfolio-v1-2.jpg">
-                                                                    <span class="flaticon-plus"></span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="title-holder">
-                                                <span class="tag">Kandurata Umbrella Industries</span>
-                                                <h5><a href="#">The Accounts and HR Team came up with full accounts...</a></h5>
-        <!--                                        <p>
-                                                    <span class="flaticon-location-pin">
-                                                        
-                                                    </span>KA-62/1, Kuril, Progoti</p>-->
+                                            <img src="assets/images/brand/brand-1.png" alt="Awesome Product Image">
+
+                                            <div class="overlay-content">
+
                                             </div>
                                         </div>
+
                                     </div>
-                                </div>
-                                <!--End Single portfolio Style1-->
+                                    <!--End single product item-->
+                                    <!--Start single product item-->
+                                    <div>
+                                        <div class="img-holder">
+                                            <img src="assets/images/brand/brand-2.png" alt="Awesome Product Image">
 
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="all-portfolio-button text-center">
-                                        <a class="btn-one" href="#">All Blog Posts<span class="flaticon-next"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>   
-                    <!--End Latest Portfolio Area--> 
-
-
-                    <!--Start Partner Area-->
-                    <!--Start Shop area-->
-                    <section id="shop-area" class="main-shop-area elemp1">
-
-                        <div class="container">
-                            <div class="row"> 
-                                <div class="col-xl-12 col-lg- col-md-12 col-sm-12 float-right">
-                                    <div class="shop-content">
-
-                                        <div class="rinbuild-carousel shop-carousel owl-carousel owl-theme owl-nav-style-one" data-options='{"loop":true, "margin":30, "autoheight":true, "nav":true, "dots":false, "autoplay":true, "autoplayTimeout":6000, "smartSpeed":500, "responsive":{ "0":{"items": "1"}, "768":{"items": "2"}, "1000":{"items": "5" }}}'>
-                                            <!--Start single product item-->
-                                            <div>
-                                                <div class="img-holder">
-                                                    <img src="assets/images/brand/brand-1.png" alt="Awesome Product Image">
-
-                                                    <div class="overlay-content">
-
-                                                    </div>
-                                                </div>
+                                            <div class="overlay-content">
 
                                             </div>
-                                            <!--End single product item-->
-                                            <!--Start single product item-->
-                                            <div>
-                                                <div class="img-holder">
-                                                    <img src="assets/images/brand/brand-2.png" alt="Awesome Product Image">
-
-                                                    <div class="overlay-content">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <!--End single product item-->
-                                            <!--Start single product item-->
-                                            <div>
-                                                <div class="img-holder">
-                                                    <img src="assets/images/brand/brand-3.png" alt="Awesome Product Image">
-
-                                                    <div class="overlay-content">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <!--End single product item-->
-                                            <!--Start single product item-->
-                                            <div>
-                                                <div class="img-holder">
-                                                    <img src="assets/images/brand/brand-4.png" alt="Awesome Product Image">
-
-                                                    <div class="overlay-content">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <!--End single product item-->
-
                                         </div>
 
+                                    </div>
+                                    <!--End single product item-->
+                                    <!--Start single product item-->
+                                    <div>
+                                        <div class="img-holder">
+                                            <img src="assets/images/brand/brand-3.png" alt="Awesome Product Image">
 
+                                            <div class="overlay-content">
+
+                                            </div>
+                                        </div>
 
                                     </div>
+                                    <!--End single product item-->
+                                    <!--Start single product item-->
+                                    <div>
+                                        <div class="img-holder">
+                                            <img src="assets/images/brand/brand-4.png" alt="Awesome Product Image">
+
+                                            <div class="overlay-content">
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!--End single product item-->
+
                                 </div>
+
+
+
                             </div>
                         </div>
-                    </section> 
-                    <!--End Shop area-->  
+                    </div>
+                </div>
+            </section> 
+            <!--End Shop area-->  
 
 
 
-                    <!--Start footer area-->  
-                    <?php include './footer.php'; ?> 
+            <!--Start footer area-->  
+<?php include './footer.php'; ?> 
             <!--End footer area-->
 
 

@@ -2104,7 +2104,7 @@ select:focus {
     z-index: 10;
 }
 .main-slider.style1 {
-    margin-top: 200px;
+/*    margin-top: 200px;*/
 }
 .main-slider .slide{
 	position: relative;
@@ -4090,7 +4090,7 @@ select:focus {
 .header-upper-style2 {
     position: relative;
     display: block;
-    background: rgba(255, 255, 255, 0.74);
+    background: rgba(255, 255, 255, 0.64);
     padding: 0;
 }
 .header-upper-left-style2 {
@@ -6407,7 +6407,7 @@ select:focus {
 .blog-pagev2-area{
     position: relative;
     display: block;
-    padding: 120px 0 120px;
+    padding: 30px 0 30px;
 }
 
 .single-blog-post-style3 {
@@ -6554,7 +6554,7 @@ select:focus {
 .single-blog-post-style3.withbdr {
     position: relative;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     padding: 0 75px 50px;
 }
 .single-blog-post-style3 .quote-box {
@@ -6642,10 +6642,10 @@ select:focus {
 .sidebar-categories-box{
     position: relative;
     display: block;
-    border: 1px solid #e8e8e8;
+    border: 1px solid #984e4c;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .categories-title{
     position: relative;
@@ -6855,7 +6855,7 @@ select:focus {
 .sidebar-bottom-box{
     position: relative;
     display: block;
-    margin-top: 70px;
+/*    margin-top: 70px;*/
 }
 .sidebar-bottom-box .img-holder{
     position: relative;
@@ -8567,8 +8567,8 @@ select:focus {
     position: relative;
     display: block;
     overflow: hidden;
-        border: 1px solid #ededed;
-    padding: 50px 50px 50px;
+        border: 2px solid #a65755;
+    padding: 20px 20px 20px;
 }
 .product-tab-box .tab-btns {
     position: relative;
