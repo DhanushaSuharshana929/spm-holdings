@@ -1,7 +1,14 @@
 <?php
 include_once(dirname(__FILE__) . '/../class/include.php');
 include_once(dirname(__FILE__) . '/auth.php');
-?>
+
+$id = '';
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
+}
+$CAREERS = new Careers($id);
+?> 
+
 <!DOCTYPE html>
 <html> 
     <head>
@@ -18,9 +25,11 @@ include_once(dirname(__FILE__) . '/auth.php');
         <link href="plugins/sweetalert/sweetalert.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet">
         <link href="css/themes/all-themes.css" rel="stylesheet" />
+        <link href="css/jm.spinner.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body class="theme-red">
+        <div class="box"></div>
         <?php
         include './navigation-and-header.php';
         ?>
@@ -29,7 +38,6 @@ include_once(dirname(__FILE__) . '/auth.php');
             <div class="container-fluid">  
                 <?php
                 $vali = new Validator();
-
                 $vali->show_message();
                 ?>
                 <!-- Vertical Layout -->
@@ -37,65 +45,59 @@ include_once(dirname(__FILE__) . '/auth.php');
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="card">
                             <div class="header">
-                                <h2>Create Careers</h2>
-                                <ul class="header-dropdown">
-                                    <li class="">
-                                        <a href="manage-careers.php">
-                                            <i class="material-icons">list</i> 
-                                        </a>
-                                    </li>
-                                </ul>
+                                <h2>
+                                    Edit Careers
+                                </h2>
+
                             </div>
                             <div class="body">
-                                <form class="form-horizontal"  method="post"  id="form-data" enctype="multipart/form-data"> 
+                                <form class="form-horizontal" method="post"  id="form-data" enctype="multipart/form-data"> 
                                     <div class="col-md-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">
-                                                <input type="text" id="title" class="form-control"  autocomplete="off" name="title" required="true">
+                                                <input type="text" id="title" class="form-control"  value="<?php echo $CAREERS->title; ?>"  name="title"  required="TRUE">
                                                 <label class="form-label">Title</label>
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="col-md-12">                                       
                                         <div class="form-group form-float">
                                             <div class="form-line">
-                                                <input type="file" id="image" class="form-control" name="image"  required="true">
+                                                <input type="file"  class="form-control" value="<?php echo $CAREERS->image_name; ?>"  name="image">
+                                                <input type="hidden" id="image" class="form-control" value="<?php echo $CAREERS->image_name; ?>"  name="image">
+                                                <img src="../upload/careers/<?php echo $CAREERS->image_name; ?>" id="image" class="view-edit-img img img-responsive img-thumbnail" name="image" alt="old image">
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-md-12">
+
+                                    <div class="col-sm-12 hidden">
                                         <div class="form-group form-float">
                                             <div class="form-line">
-                                                <input type="text" id="short_description" class="form-control" autocomplete="off" name="short_description" required="true">
+                                                <input type="text" id="short_description" class="form-control" value="<?php echo $CAREERS->short_description; ?>"  name="short_description">
                                                 <label class="form-label">Short Description</label>
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <label for="description">Description</label>
                                         <div class="form-line">
-                                            <textarea id="description" name="description" class="form-control" rows="5"></textarea> 
+                                            <textarea id="description" name="description" class="form-control" rows="5"><?php echo $CAREERS->description; ?></textarea> 
                                         </div>
-
                                     </div>
-                                    <div class="col-md-12"> 
-                                        <input type="hidden" name="create"value="create"/>
-                                        <input type="submit" id="create" class="btn btn-primary m-t-15 waves-effect" value="create"/>
+                                    <div class="col-md-12">
+                                        <input type="hidden" name="update"value="update"/>
+                                        <input type="hidden" id="oldImageName" value="<?php echo $CAREERS->image_name; ?>" name="oldImageName"/>
+                                        <input type="hidden" id="id" value="<?php echo $CAREERS->id; ?>" name="id"/>
+                                        <button type="submit" class="btn btn-primary m-t-15 waves-effect" id="update" value="update">Save Changes</button>
                                     </div>
+                                    <div class="row clearfix">  </div>
                                 </form>
-                                <div class="row clearfix">  </div>
-                                <hr/>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
                 <!-- #END# Vertical Layout -->
-
             </div>
         </section>
 
@@ -133,9 +135,11 @@ include_once(dirname(__FILE__) . '/auth.php');
 
                 relative_urls: false
 
-            }); 
+            });
+
 
         </script>
+        <script src="js/jm.spinner.js" type="text/javascript"></script>
         <script src="js/ajax/careers.js" type="text/javascript"></script>
     </body>
 

@@ -4,14 +4,14 @@ include_once(dirname(__FILE__) . '/../../class/include.php');
 
 if (isset($_POST['create'])) {
 
-    $SLIDER = new Slider(NULL);
+    $CAREERS = new Careers(NULL);
     $VALID = new Validator();
 
-    $SLIDER->title = $_POST['title'];
-    $SLIDER->description = $_POST['description'];
-    $SLIDER->url = $_POST['url'];
+    $CAREERS->title = $_POST['title'];
+    $CAREERS->short_description = $_POST['short_description'];
+    $CAREERS->description = $_POST['description'];
 
-    $dir_dest = '../../upload/slider/';
+    $dir_dest = '../../upload/careers/';
 
     $handle = new Upload($_FILES['image']);
 
@@ -22,8 +22,8 @@ if (isset($_POST['create'])) {
         $handle->file_new_name_ext = 'jpg';
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = Helper::randamId();
-        $handle->image_x = 1920;
-        $handle->image_y = 980;
+        $handle->image_x = 270;
+        $handle->image_y = 270;
 
         $handle->Process($dir_dest);
 
@@ -33,20 +33,16 @@ if (isset($_POST['create'])) {
         }
     }
 
-    $SLIDER->image_name = $imgName;
+    $CAREERS->image_name = $imgName;
+    $CAREERS->create();
 
-    if ($SLIDER->create()) {
-        $result = ["status" => 'success'];
-    } else {
-        $result = ["status" => 'error'];
-    }
-
+    $result = ["status" => 'success'];
     echo json_encode($result);
     exit();
 }
 
 if (isset($_POST['update'])) {
-    $dir_dest = '../../upload/slider/';
+    $dir_dest = '../../upload/careers/';
 
     $handle = new Upload($_FILES['image']);
 
@@ -59,9 +55,8 @@ if (isset($_POST['update'])) {
         $handle->file_new_name_ext = FALSE;
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = $_POST ["oldImageName"];
-        $handle->image_x = 1920;
-        $handle->image_y = 980;
-
+        $handle->image_x = 270;
+        $handle->image_y = 270;
         $handle->Process($dir_dest);
 
         if ($handle->processed) {
@@ -70,27 +65,27 @@ if (isset($_POST['update'])) {
         }
     }
 
-    $SLIDER = new Slider($_POST['id']);
+    $CAREERS = new Careers($_POST['id']);
 
-    $SLIDER->image_name = $_POST['oldImageName'];
-    $SLIDER->title = $_POST['title'];
-    $SLIDER->description = $_POST['description'];
-    $SLIDER->url = $_POST['url'];
-    $SLIDER->update();
+    $CAREERS->image_name = $_POST['oldImageName'];
+    $CAREERS->title = $_POST['title'];
+    $CAREERS->short_description = $_POST['short_description'];
+    $CAREERS->description = $_POST['description'];
+    $CAREERS->update();
+   
 
     $result = ["id" => $_POST['id']];
     echo json_encode($result);
     exit();
 }
 
-
-if (isset($_POST['save-date'])) {
+if (isset($_POST['save-data'])) {
 
     foreach ($_POST['sort'] as $key => $img) {
         $key = $key + 1;
 
-        $SLIDER = Slider::arrange($key, $img);
+        $CAREERS = Careers::arrange($key, $img);
 
-      header('Location:../arrange-slider.php?message=9');
+        header('Location: ' . $_SERVER['HTTP_REFERER']);
     }
 }

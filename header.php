@@ -3,83 +3,89 @@
         <div class="container">
             <div class="outer-box">
                 <div class="header-top-left">
-                    <div class="welcome-text">
+                    <div class="welcome-text mobile-text">
                         <h6><span class="flaticon-chat thm_clr1"></span>Welcome to <b class="thm_clr1">our consulting company</b></h6> 
                     </div>       
                 </div>
                 <div class="header-top-right">
                     <div class="header-social-links">
-                        <ul class="social-links-style1" style="margin-left: 256px;">
-                            <li>
+                        <ul class="social-links-style1 float-right">
+                            <li class="mobile-icon">
                                 <a href="https://www.facebook.com/DewyMC/?modal=admin_todo_tour" target="blank">
-                                    <span class="flaticon-facebook-1 fb"></span>
+                                    <img src="assets/images/resources/facebook.png" width="30px" height="30px">
                                 </a> 
                             </li>
-                            <li>
-                                 <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank"><span class="flaticon-twitter"></span></a> 
+                            <li class="mobile-icon">
+                                <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank"> 
+                                    <img src="assets/images/resources/youtube.png" width="30px" height="35px" style="border-radius: 4px">
+                                </a> 
                             </li>
-                            <li>
-                                <a href="https://www.instagram.com/dewymanagementconsortium/" target="blank"><span class="flaticon-instagram-1"></span></a> 
+                            <li class="mobile-icon">
+                                <a href="https://www.instagram.com/dewymanagementconsortium/" target="blank">
+                                    <img src="assets/images/resources/instagram.png" width="30px" height="30px">
+                                </a> 
                             </li>
-                            <li>
-                                <a href="https://www.linkedin.com/company/35874529" target="blank"><span class="flaticon-linkedin-1"></span></a>
+                            <li class="mobile-icon">
+                                <a href="https://www.linkedin.com/company/35874529" target="blank">
+                                    <img src="assets/images/resources/linkedin.png" width="30px" height="30px">
+                                </a>
                             </li>
                         </ul>
                     </div>        
                 </div>
-                       
+
             </div>    
         </div>
     </div>
-<!--    <div class="header-upper">
-        <div class="container clearfix">
-            <div class="outer-box clearfix"> 
-                <div class="header-upper-right float-right clearfix">
-                    <div class="header-contact-info">
-                        <ul>
-                             <li>
-                                <div class="icon">
-                                    <span class="flaticon-location-pin thm_clr1"></span>
-                                </div>
-                                <div class="title">
-                                    <span class="thm_clr1">Location</span>
-                                    <h6><a href="tel:123456789">(+99) 123456789</a></h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="flaticon-call thm_clr1"></span>
-                                </div>
-                                <div class="title">
-                                    <span class="thm_clr1">Call us anytime</span>
-                                    <h6><a href="tel:123456789">(+99) 123456789</a></h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="flaticon-clock thm_clr1"></span>
-                                </div>
-                                <div class="title">
-                                    <span class="thm_clr1">Opening time</span>
-                                    <h6>Sat - Sun 08.00 to 14.00</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="flaticon-mail thm_clr1"></span>
-                                </div>
-                                <div class="title">
-                                    <span class="thm_clr1">Email us now</span>
-                                    <h6><a href="mailto:info@templatepath.com">rinbuild@gmail.com</a></h6>
-                                </div>
-                            </li>
-                        </ul>    
-                    </div> 
-                        
+    <!--    <div class="header-upper">
+            <div class="container clearfix">
+                <div class="outer-box clearfix"> 
+                    <div class="header-upper-right float-right clearfix">
+                        <div class="header-contact-info">
+                            <ul>
+                                 <li>
+                                    <div class="icon">
+                                        <span class="flaticon-location-pin thm_clr1"></span>
+                                    </div>
+                                    <div class="title">
+                                        <span class="thm_clr1">Location</span>
+                                        <h6><a href="tel:123456789">(+99) 123456789</a></h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="flaticon-call thm_clr1"></span>
+                                    </div>
+                                    <div class="title">
+                                        <span class="thm_clr1">Call us anytime</span>
+                                        <h6><a href="tel:123456789">(+99) 123456789</a></h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="flaticon-clock thm_clr1"></span>
+                                    </div>
+                                    <div class="title">
+                                        <span class="thm_clr1">Opening time</span>
+                                        <h6>Sat - Sun 08.00 to 14.00</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="flaticon-mail thm_clr1"></span>
+                                    </div>
+                                    <div class="title">
+                                        <span class="thm_clr1">Email us now</span>
+                                        <h6><a href="mailto:info@templatepath.com">rinbuild@gmail.com</a></h6>
+                                    </div>
+                                </li>
+                            </ul>    
+                        </div> 
+                            
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>-->
+        </div>-->
     <!--Start Header upper -->
     <div class="header-upper header-upper-style2">
         <div class="container clearfix">
@@ -116,12 +122,12 @@
                         <!-- Main Menu End-->
                     </div>                   
                 </div>
-                
+
             </div>
         </div>
     </div>
     <!--End Header Upper-->
-   
+
     <!--Sticky Header-->
     <div class="sticky-header">
         <div class="container">
@@ -134,7 +140,7 @@
                 <div class="right-col float-right">
                     <!-- Main Menu -->
                     <nav class="main-menu clearfix">
-                    <!--Keep This Empty / Menu will come through Javascript-->
+                        <!--Keep This Empty / Menu will come through Javascript-->
                     </nav>   
                 </div>
             </div>
@@ -152,11 +158,26 @@
             <!--Social Links-->
             <div class="social-links">
                 <ul class="clearfix">
-                    <li><a href="#"><span class="fab fa fa-facebook-square"></span></a></li>
-                    <li><a href="#"><span class="fab fa fa-twitter-square"></span></a></li>
-                    <li><a href="#"><span class="fab fa fa-pinterest-square"></span></a></li>
-                    <li><a href="#"><span class="fab fa fa-google-plus-square"></span></a></li>
-                    <li><a href="#"><span class="fab fa fa-youtube-square"></span></a></li>
+                    <li>
+                        <a href="https://www.facebook.com/DewyMC/?modal=admin_todo_tour" target="blank">
+                            <img src="assets/images/resources/facebook.png" width="30px" height="30px">
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/dewymanagementconsortium/" target="blank">
+                            <img src="assets/images/resources/instagram.png" width="30px" height="30px">
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/35874529" target="blank">
+                            <img src="assets/images/resources/linkedin.png" width="30px" height="30px">
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank">
+                            <img src="assets/images/resources/youtube.png" width="30px" height="35px">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>

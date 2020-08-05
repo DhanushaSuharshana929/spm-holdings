@@ -202,6 +202,7 @@
 }
 .single-blog-post-style3.withbdr {
     border: 5px solid #a65755;
+    border-radius: 10px;
 }
 .mobile-menu .navigation li > a:before {
     border-left: 5px solid #a65755;
