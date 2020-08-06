@@ -11,7 +11,7 @@ include './class/include.php';
         <meta charset="UTF-8">
 
 
-        <title>SPM Holdings || Contact Us</title>
+        <title>MPBC.lk || Contact Us</title>
 
 
         <!-- responsive meta -->
@@ -20,6 +20,7 @@ include './class/include.php';
 
         <!-- For IE -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 
         <link rel="stylesheet" href="assets/css/aos.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">	
@@ -61,6 +62,7 @@ include './class/include.php';
             <!-- main header -->
             <?php include './header.php'; ?>
 
+
             <!--Start breadcrumb area-->     
             <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-1.jpg);">
                 <div class="container">
@@ -94,9 +96,8 @@ include './class/include.php';
                                 <div class="icon"><img src="assets/images/resources/call.png" width="65px" height="65px"></div>
                                 <div class="title">
                                     <h3>Call for help</h3>
-
                                     <ul>
-                                        <li><a href="tel:+94771490000">(+94) 77 149 0000</a></li>
+                                        <li><a href="#"> +94 (0)112 189 134</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -107,8 +108,7 @@ include './class/include.php';
                                 <div class="title">
                                     <h3>Mail for information</h3>
                                     <ul>
-                                        <li><a href="info@dewymanagementconsortium.com">info@dewymanagementconsortium.com</a></li>
-
+                                        <li><a href="">info@MPBC.lk</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -117,9 +117,8 @@ include './class/include.php';
                             <div class="single-contact-info-box text-center">
                                 <div class="icon"><img src="assets/images/resources/map.png" width="65px" height="65px"></div>
                                 <div class="title">
-                                    <h3>Head office address</h3>
-
-                                    <p>10/A-4/3,<br> Ward place,<br> Horana</p>
+                                    <h3>Registered address</h3>
+                                    <p>10 10/3,<br> Ward place,<br>Colombo 7.</p>
                                 </div>
                             </div>
                         </div>  
@@ -129,83 +128,87 @@ include './class/include.php';
             </section>
             <!--End Contact Info Area-->
 
+
             <!--Start Contact Form Section-->
             <section class="contact-form-area">
                 <div class="auto-container">
                     <div class="row clearfix"> 
-
                         <div class="col-xl-8 col-lg-7 col-md-12">
                             <div class="contact-form">
                                 <div class="title">
                                     <h3>Send Us a Message</h3>
                                 </div>
                                 <div class="inner-box">
-                                        <div class="row">
-                                            <div class="form-group col-xl-6">
-                                                <div class="input-box"> 
-                                                    <p>Name:</p>  
-                                                    <input type="text" id="txtFullName" name="name" value="" placeholder="Enter Your Full name" required="">
-                                                    <span id="spanFullName"></span>
-                                                </div>      
-                                            </div>
 
-                                            <div class="form-group col-xl-6">
-                                                <div class="input-box">
-                                                    <p>Phone:</p>   
-                                                    <input type="text" id="txtPhone" name="phone" value="" placeholder="Enter Your Phone Number" required="">
-                                                    <span id="spanPhone"></span>
-                                                </div>      
-                                            </div>
-
+                                    <div class="row">                                           
+                                        <div class="form-group col-xl-6">
+                                            <div class="input-box"> 
+                                                <p>Name:</p>  
+                                                <input type="text" id="txtFullName" name="name" value="" placeholder="Enter Your Full name" required="">
+                                                <span id="spanFullName"></span>
+                                            </div>      
                                         </div>
-                                        <div class="row">
-                                            <div class="form-group col-xl-12">
-                                                <div class="input-box">
-                                                    <p>Email Address:</p>   
-                                                    <input type="email" id="txtEmail" name="email" value="" placeholder="Enter Your Email" required="">
-                                                    <span id="spanEmail"></span>
-                                                </div>      
-                                            </div>
 
-                                        </div> 
-                                        <div class="row">
-                                            <div class="form-group col-xl-12">
-                                                <div class="input-box"> 
-                                                    <p>Message:</p>      
-                                                    <textarea name="message" id="txtMessage" placeholder="Enter Your Message" required=""></textarea>
-                                                    <span id="spanMessage"></span>
-                                                </div>      
-                                            </div>    
+                                        <div class="form-group col-xl-6">
+                                            <div class="input-box">
+                                                <p>Phone:</p>   
+                                                <input type="text" id="txtPhone" name="phone" value="" placeholder="Enter Your Phone Number" required="">
+                                                <span id="spanPhone"></span>
+                                            </div>      
                                         </div>
-                                        <div class="row">
-                                            <div class="form-group col-md-5">
-
-                                                <input type="text" name="captchacode" placeholder="Security Code"  class="form-group" id="captchacode" >
-
-                                                <div class="vc-cd-12 vc-od-12">
-                                                    <span id="capspan" ></span> 
-                                                </div>
-
-                                            </div>
-
-
-                                            <div class="form-group col-md-3">
-                                                <?php include './contact-form/captchacode-widget.php'; ?>
-
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="form-group col-xl-12">
-                                                <div class="button-box">
-                                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                                    <button class="btn-one" id="btnSubmit" type="submit" data-loading-text="Please wait..." style="background-color: #a65755">Submit</button>    
-                                                </div>  
-                                            </div>
-                                             <div class="col-sm-12">
-                                        <div id="dismessage" align="center"></div>
                                     </div>
 
-                                        </div>                        
+
+                                    <div class="row">
+                                        <div class="form-group col-xl-12">
+                                            <div class="input-box">
+                                                <p>Email Address:</p>   
+                                                <input type="email" id="txtEmail" name="email" value="" placeholder="Enter Your Email" required="">
+                                                <span id="spanEmail"></span>
+                                            </div>      
+                                        </div>
+                                    </div> 
+
+
+                                    <div class="row">
+                                        <div class="form-group col-xl-12">
+                                            <div class="input-box"> 
+                                                <p>Message:</p>      
+                                                <textarea name="message" id="txtMessage" placeholder="Enter Your Message" required=""></textarea>
+                                                <span id="spanMessage"></span>
+                                            </div>      
+                                        </div>    
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="form-group col-md-5">
+                                            <input type="text" name="captchacode" placeholder="Security Code"  class="form-group" id="captchacode">
+                                            <div class="vc-cd-12 vc-od-12">
+                                                <span id="capspan" ></span> 
+                                            </div>
+                                        </div>
+
+
+                                        <div class="form-group col-md-3">
+                                            <?php include './contact-form/captchacode-widget.php'; ?>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="form-group col-xl-12">
+                                            <div class="button-box">
+                                                <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                                <button class="btn-one" id="btnSubmit" type="submit" data-loading-text="Please wait..." style="background-color: #640e27">Submit</button>    
+                                            </div>  
+                                        </div>
+
+
+                                        <div class="col-sm-12">
+                                            <div id="dismessage" align="center"></div>
+                                        </div>
+                                    </div>                        
                                 </div>
                             </div>
                         </div>
@@ -221,7 +224,7 @@ include './class/include.php';
                                             <span class="flaticon-pin-1"></span>
                                         </div>
                                         <div class="text">
-                                            <p>27 Division St, New York,<br> NY 10002, USA</p>
+                                            <p>752/A3, Aminda Kumara Mawatha,<br>  Rukmale Rd, Pannipitiya</p>
                                         </div>
                                     </li>
                                     <li>
@@ -229,7 +232,7 @@ include './class/include.php';
                                             <span class="flaticon-open-envelope-with-letter"></span>
                                         </div>
                                         <div class="text">
-                                            <a href="mailto:info@templatepath.com">bioxin.zin@gmail.com</a>
+                                            <p>rukmal.alwis@gmail.com<br/>MD@MPBC.lk<br/>Director@MPBC.lk<br/>Investor@MPBC.lk</p>
                                         </div>
                                     </li>
                                     <li>
@@ -237,7 +240,7 @@ include './class/include.php';
                                             <span class="flaticon-smartphone"></span>
                                         </div>
                                         <div class="text">
-                                            <a href="tel:+11987654321">(+11) 987654321</a>
+                                            <p>+94 (0)77 149 0000</p>
                                         </div>
                                     </li>   
                                 </ul>
@@ -251,34 +254,28 @@ include './class/include.php';
             <!--End Contact Form Section-->
 
 
-
             <section class="google-map-area">
                 <div class="map-outer">
-                    <!--Map Canvas-->
-                    <div class="map-canvas"
-                         data-zoom="12"
-                         data-lat="-37.817085"
-                         data-lng="144.955631"
-                         data-type="roadmap"
-                         data-hue="#ffc400"
-                         data-title="Envato"
-                         data-icon-path="assets/images/resources/map-marker.png"
-                         data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
+                    <!-- Google Map -->
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.7169017267956!2d80.21371001307674!3d6.033534895630315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173ab164cc223%3A0x26f35b51c49d6d1d!2sSynotec%20Holdings%20Pvt.%20Ltd!5e0!3m2!1sen!2slk!4v1591701703939!5m2!1sen!2slk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
+                    <!--// Google Map -->
                 </div>
             </section>
+
 
             <!--Start footer area-->  
             <?php include './footer.php'; ?>  
             <!--End footer area-->
 
+            
         </div> 
 
 
         <button class="scroll-top scroll-to-target" data-target="html">
             <span class="icon-angle"></span>
         </button>
-
 
 
         <script src="assets/js/jquery.js"></script>
@@ -308,6 +305,8 @@ include './class/include.php';
         <script src="assets/js/lazyload.js"></script>
         <script src="http://maps.google.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
         <script src="assets/js/jQuery.style.switcher.min.js"></script>
+        
+        
         <!-- thm custom script -->
         <script src="assets/js/custom.js"></script>
 
@@ -318,5 +317,5 @@ include './class/include.php';
 
     </body>
 
-    <!-- Mirrored from mehedi.asiandevelopers.com/rinbuild/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jul 2020 04:20:30 GMT -->
+   
 </html>

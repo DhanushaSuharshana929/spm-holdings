@@ -14,7 +14,7 @@ $(document).ready(function () {
         }, function () {
 
             $.ajax({
-                url: "delete/ajax/careers",
+                url: "delete/ajax/careers.php",
                 type: "POST",
                 data: {id: id, option: 'delete'},
                 dataType: "JSON",

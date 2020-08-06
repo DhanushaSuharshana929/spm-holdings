@@ -29,16 +29,16 @@ $(document).ready(function () {
                 timer: 1500,
                 showConfirmButton: false
             });
-        } else if (!$('#description').val() || $('#description').val().length === 0) {
-            swal({
-                title: "Error!",
-                text: "Please enter description..!",
-                type: 'error',
-                timer: 1500,
-                showConfirmButton: false
-            });
-
-        } else if ($('#title').val().includes("'")) {
+//        } else if (!$('#description').val() || $('#description').val().length === 0) {
+//            swal({
+//                title: "Error!",
+//                text: "Please enter description..!",
+//                type: 'error',
+//                timer: 1500,
+//                showConfirmButton: false
+//            });
+//
+//        } else if ($('#title').val().includes("'")) {
             swal({
                 title: "Error!",
                 text: "Sorry, Invalid character found ( ' ) in title. Please remove that character.",

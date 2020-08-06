@@ -5,18 +5,28 @@ $id = '';
 $id = $_GET['id'];
 $SERVICE = new Service($id);
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Mirrored from mehedi.asiandevelopers.com/rinbuild/portfolio-single-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jul 2020 04:17:11 GMT -->
+
     <head>
+
+
         <meta charset="UTF-8">
-        <title>SPM Holdings || Service Details</title>
+
+
+        <title>MPBC.lk || Services || Service Details</title>
+
 
         <!-- responsive meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
         <!-- For IE -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 
         <link rel="stylesheet" href="assets/css/aos.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">	
@@ -31,28 +41,30 @@ $SERVICE = new Service($id);
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
+
+
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
 
-        <!-- Fixing Internet Explorer-->
-        <!--[if lt IE 9]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-            <script src="assets/js/html5shiv.js"></script>
-        <![endif]-->
 
     </head>
 
+
     <body>
+        
+        
         <div class="boxed_wrapper">
 
+            
             <div class="preloader"></div>
 
 
             <!-- main header -->
             <?php include './header.php'; ?>
 
+            
             <!--Start breadcrumb area-->     
             <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-1.jpg);">
                 <div class="container">
@@ -60,13 +72,15 @@ $SERVICE = new Service($id);
                         <div class="col-xl-12">
                             <div class="inner-content clearfix">
                                 <div class="title">
-                                    <h1>View Service</h1>
+                                    <h1><?php echo $SERVICE->title ?></h1>
                                 </div>
                                 <div class="breadcrumb-menu">
                                     <ul class="clearfix">
                                         <li><a href="./">Home</a></li>
                                         <li><span class="flaticon-next-1"></span></li>
-                                        <li class="active">Service</li>
+                                        <li><a href="services.php">Services</a></li>
+                                        <li><span class="flaticon-next-1"></span></li>
+                                        <li class="active"><?php echo $SERVICE->title ?></li>
                                     </ul>    
                                 </div>
                             </div>
@@ -76,6 +90,7 @@ $SERVICE = new Service($id);
             </section>
             <!--End breadcrumb area-->
 
+            
             <!--Start Portfolio Single Style1 area-->
             <section class="portfolio-single-style1-area">
                 <div class="container">
@@ -103,6 +118,7 @@ $SERVICE = new Service($id);
                                             <?php } ?>
                                         </ul> 
 
+                                        
                                         <!--Start Portfolio Single Content Area-->
                                         <div class="portfolio-single-content-area" style="padding-top: 15px;">
                                             <div class="container">
@@ -111,21 +127,15 @@ $SERVICE = new Service($id);
                                                         <div class="product-tab-box tabs-box">
                                                             <ul class="tab-btns tab-buttons clearfix">
                                                                 <li data-tab="#desc" class="tab-btn active-btn"><span>description</span></li>
-
                                                             </ul>
                                                             <div class="tabs-content">
                                                                 <div class="tab active-tab" id="desc">
                                                                     <div class="product-details-content">
                                                                         <div class="desc-content-box">
                                                                             <p><?php echo $SERVICE->description ?></p>
-
-
                                                                         </div>
                                                                     </div> 
                                                                 </div>
-
-
-
                                                             </div>      
                                                         </div>
                                                     </div>
@@ -135,8 +145,9 @@ $SERVICE = new Service($id);
                                         </div>
                                         <!--End Portfolio Single Content Area-->
 
-
                                     </div>
+                                    
+                                    
                                     <div class="col-xl-4 col-lg-5 col-md-9 col-sm-12">
                                         <div class="sidebar-wrapper">
                                             <!--Start sidebar categories Box-->
@@ -147,25 +158,22 @@ $SERVICE = new Service($id);
                                                 <ul class="categories clearfix">
                                                     <?php
                                                     $SERVICE_OBJ = new Service(null);
-                                                    foreach ($SERVICE_OBJ->all() as $services) {
-                                                        ?>
-                                                        <li><a href="view-service.php?id=<?= $services['id'] ?>"><?= $services['title'] ?></a></li>
+                                                    foreach ($SERVICE_OBJ->all() as $key => $services) {
+                                                        if ($key < 11) {
+                                                            ?>
+                                                            <li><a href="view-service.php?id=<?= $services['id'] ?>"><?= $services['title'] ?></a></li>
 
-                                                    <?php } ?>
+                                                        <?php }
+                                                    }
+                                                    ?>
                                                 </ul>
                                                 <div class="more-categories">
-                                                    <a href="#"></span>View all Services</a>
+                                                    <a href="services.php"></span>View all Services</a>
                                                 </div>
                                             </div>
-
                                         </div>    
-                                    </div>
-                                    <!--                                    <div class="col-xl-4">
-                                                                            <div class="slider-pager">
-                                                                                <ul class="thumb-box">
-                                    <                                  </div>-->
+                                    </div>                                   
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -178,13 +186,13 @@ $SERVICE = new Service($id);
             <?php include './footer.php'; ?>  
             <!--End footer area-->
 
+            
         </div> 
 
 
         <button class="scroll-top scroll-to-target" data-target="html">
             <span class="icon-angle"></span>
         </button>
-
 
 
         <script src="assets/js/jquery.js"></script>
@@ -214,12 +222,13 @@ $SERVICE = new Service($id);
         <script src="assets/js/lazyload.js"></script>
         <script src="assets/js/jquery.bxslider.min.js"></script>
         <script src="assets/js/jQuery.style.switcher.min.js"></script>
+        
+        
         <!-- thm custom script -->
         <script src="assets/js/custom.js"></script>
 
 
-
     </body>
 
-    <!-- Mirrored from mehedi.asiandevelopers.com/rinbuild/portfolio-single-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jul 2020 04:17:54 GMT -->
+    
 </html>

@@ -14,8 +14,9 @@ include './class/include.php';
         <meta charset="UTF-8">
 
 
-        <title>SPM Holdings || Blog</title>
+        <title>MPBC.lk || Blog</title>
 
+        
         <!-- responsive meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -83,12 +84,11 @@ include './class/include.php';
                 </div>
             </section>
             <!--End breadcrumb area-->
+            
 
             <!--Start Latest Portfolio Area-->
             <section class="latest-portfolio-area portfolio-pagev1">
                 <div class="container">
-                   
-                   
                     <div class="row filter-layout masonary-layout">
                         
                         <?php 
@@ -115,17 +115,16 @@ include './class/include.php';
                                     </div>
                                     <div class="title-holder">
                                         <span class="tag"><?php echo $blog_post['title']?></span>
-                                        <h5><a href="view-blog.php?id=<?php echo $blog_post['id']?>"><?php echo $blog_post['description']?></a></h5>
+                                        <h5><a href="view-blog.php?id=<?php echo $blog_post['id']?>"><?php echo substr($blog_post['description'],0,100)?></a></h5>
                                         <p><span class="flaticon-calendar"></span><?php echo $blog_post['date']?></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!--End Single portfolio Style1-->
-                        <?php }?>        
+                        <?php }?>  
+                        
                     </div>
-                    
-
                 </div>
             </section>   
             <!--End Latest Portfolio Area--> 
@@ -135,6 +134,7 @@ include './class/include.php';
             <?php include './footer.php'; ?>  
             <!--End footer area-->
 
+            
         </div> 
 
 
@@ -170,6 +170,8 @@ include './class/include.php';
         <script src="assets/js/slick.js"></script>
         <script src="assets/js/lazyload.js"></script>
         <script src="assets/js/jQuery.style.switcher.min.js"></script>
+        
+        
         <!-- thm custom script -->
         <script src="assets/js/custom.js"></script>
 

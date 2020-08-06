@@ -9,7 +9,7 @@ $BLOG_POST = new BlogPost(NULL);
     <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Blog Posts</title>
+        <title>Blog Post</title>
         <!-- Favicon-->
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
@@ -45,7 +45,7 @@ $BLOG_POST = new BlogPost(NULL);
                                 </ul>
                             </div>
                             <div class="body">
-                                <form method="post" action="post-and-get/blog-post.php" class="form-horizontal" >
+                                <form method="post" action="post-and-get/blog-post.php" class="form-horizontal">
                                     <div class="panel-body">
                                         <div class="row">
                                             <div class="col-md-12 arrange-container">
@@ -100,7 +100,7 @@ $BLOG_POST = new BlogPost(NULL);
         <script src="js/admin.js"></script>
         <script src="js/demo.js"></script>
         <script src="js/add-new-ad.js" type="text/javascript"></script>
-        <script src="delete/js/slider.js" type="text/javascript"></script>
+        <script src="delete/js/blog-post.js" type="text/javascript"></script>
 
         <script src="plugins/sweetalert/sweetalert.min.js"></script>
         <script src="plugins/bootstrap-notify/bootstrap-notify.js"></script>

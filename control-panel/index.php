@@ -4,7 +4,7 @@ include_once(dirname(__FILE__) . '/auth.php');
 
 $COUNT_COMMENT = count(Comments::pendingComments());
 $COUNT_SERVICES = count(Service::all());
-$SLIDER_IMAGES = count(Slider::all()); 
+$SLIDER_IMAGES = count(Slider::all());
 $COUNT_GALLERY = count(AlbumPhoto::all());
 $COUNT_PRODUCT = count(Product::all());
 $COUNT_COMMENT = count(Comments::activeComments());
@@ -114,46 +114,6 @@ $COUNT_COMMENT = count(Comments::activeComments());
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="card">
-                            <div class="header bg-blue-grey">
-                                <h2>
-                                    PRODUCT  
-                                </h2>
-                                <ul class="header-dropdown m-r--5">
-                                    <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_PRODUCT; ?>" data-speed="1500" data-fresh-interval="1"></div>
-                                </ul>
-                            </div>
-                            <div class="body">
-                                <div class="list-group">
-                                    <a href="create-product.php"><button type="button" class="list-group-item">Add new</button></a>
-                                    <a href="manage-product.php"><button type="button" class="list-group-item">Manage</button></a>
-                                    <a href="arrange-product.php"><button type="button" class="list-group-item">Arrange</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="card">
-                            <div class="header bg-blue-grey">
-                                <h2>
-                                    COMMENTS
-    <!--                                    <small>  </small>-->
-                                </h2>
-                                <ul class="header-dropdown m-r--5">
-                                    <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_COMMENT; ?>" data-speed="1500" data-fresh-interval="1"></div>
-                                </ul>
-                            </div>
-                            <div class="body">
-                                <div class="list-group">
-                                    <a href="create-comment.php"><button type="button" class="list-group-item">Add new</button></a>
-                                    <a href="manage-comments.php"><button type="button" class="list-group-item">Manage</button></a>
-                                    <a href="arrange-comment.php"><button type="button" class="list-group-item">Arrange</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="card">
                             <div class="header bg-blue-grey">
@@ -178,7 +138,47 @@ $COUNT_COMMENT = count(Comments::activeComments());
                         <div class="card">
                             <div class="header bg-blue-grey">
                                 <h2>
-                                    GALLERY
+                                    CAREERS 
+                                </h2>
+                                <ul class="header-dropdown m-r--5">
+                                    <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_PRODUCT; ?>" data-speed="1500" data-fresh-interval="1"></div>
+                                </ul>
+                            </div>
+                            <div class="body">
+                                <div class="list-group">
+                                    <a href="create-careers.php"><button type="button" class="list-group-item">Add new</button></a>
+                                    <a href="manage-careers.php"><button type="button" class="list-group-item">Manage</button></a>
+                                    <a href="arrange-careers.php"><button type="button" class="list-group-item">Arrange</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <div class="header bg-blue-grey">
+                                <h2>
+                                    OUR TEAM
+    <!--                                    <small>  </small>-->
+                                </h2>
+                                <ul class="header-dropdown m-r--5">
+                                    <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_COMMENT; ?>" data-speed="1500" data-fresh-interval="1"></div>
+                                </ul>
+                            </div>
+                            <div class="body">
+                                <div class="list-group">
+                                    <a href="create-activity.php.php"><button type="button" class="list-group-item">Add new</button></a>
+                                    <a href="manage-activity.php.php"><button type="button" class="list-group-item">Manage</button></a>
+                                    <a href="arrange-activity.php.php"><button type="button" class="list-group-item">Arrange</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <div class="header bg-blue-grey">
+                                <h2>
+                                    BLOG POST
                                 </h2>
                                 <ul class="header-dropdown m-r--5">
                                     <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_GALLERY; ?>" data-speed="1500" data-fresh-interval="1"></div>
@@ -187,9 +187,9 @@ $COUNT_COMMENT = count(Comments::activeComments());
                             <div class="body">
 
                                 <div class="list-group">
-                                    <a href="view-album-photos.php?id=1"><button type="button" class="list-group-item">Add new</button></a>
-                                    <a href="view-album-photos.php?id=1"><button type="button" class="list-group-item">Manage</button></a>
-                                    <a href="arrange-album-photos.php?id=1"><button type="button" class="list-group-item">Arrange</button></a>
+                                    <a href="create-blog-post.php"><button type="button" class="list-group-item">Add new</button></a>
+                                    <a href="manage-blog-post.php"><button type="button" class="list-group-item">Manage</button></a>
+                                    <a href="arrange-blog-post.php"><button type="button" class="list-group-item">Arrange</button></a>
 
                                 </div>
                             </div>

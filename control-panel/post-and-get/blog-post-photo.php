@@ -88,42 +88,80 @@ if (isset($_POST['update'])) {
     $dir_dest = '../../upload/blog-post/gallery/';
     $dir_dest_thumb = '../../upload/blog-post/gallery/thumb/';
     
-    $handle = new Upload($_FILES['image']);
+   $handle = new Upload($_FILES['image']);
+
+
 
     $img = $_POST ["oldImageName"];
 
+
+
     if ($handle->uploaded) {
+
         $handle->image_resize = true;
+
         $handle->file_new_name_body = TRUE;
+
         $handle->file_overwrite = TRUE;
+
         $handle->file_new_name_ext = FALSE;
+
         $handle->image_ratio_crop = 'C';
+
+        $handle->file_new_name_body = $img;
+
         $handle->image_x = 740;
+        
         $handle->image_y = 480;
+
+
 
         $handle->Process($dir_dest);
 
+
+
         if ($handle->processed) {
+
             $info = getimagesize($handle->file_dst_pathname);
+
             $img = $handle->file_dst_name;
+
         }
+
+
+
 
 
         $handle->image_resize = true;
+
         $handle->file_new_name_body = TRUE;
+
         $handle->file_overwrite = TRUE;
+
         $handle->file_new_name_ext = FALSE;
+
         $handle->image_ratio_crop = 'C';
+
         $handle->file_new_name_body = $img;
+
         $handle->image_x = 250;
+
         $handle->image_y = 175;
+
+
 
         $handle->Process($dir_dest_thumb);
 
+
+
         if ($handle->processed) {
+
             $info = getimagesize($handle->file_dst_pathname);
+
             $img = $handle->file_dst_name;
+
         }
+
     }
 
     $BLOG_PHOTOS = new BlogPhoto($_POST['id']);

@@ -13,7 +13,7 @@ include './class/include.php';
         <meta charset="UTF-8">
         
         
-        <title>SAM Holdings|| Services</title>
+        <title>MPBC.lk || Services</title>
 
         
         <!-- responsive meta -->
@@ -103,8 +103,7 @@ include './class/include.php';
                                     <div class="static-content">
                                         <div class="title">
                                             <h3><a href="view-service.php?id=<?php echo $service['id'];?>"><?php echo $service['title'] ?></a></h3>
-                                        </div>
-                                        
+                                        </div>                                       
                                     </div>
                                     <div class="overlay-content">
                                         <div class="inner-content">
@@ -113,7 +112,7 @@ include './class/include.php';
                                                 <div class="title">
                                                     <h3><a href="view-service.php?id=<?php echo $service['id']?>"><?php echo $service['title'] ?></a></h3>
                                                 </div>
-                                                <p><?php echo $service['description'] ?></p>      
+                                                <p><?php echo substr($service['description'],0,200) ?></p>      
                                             </div>
                                         </div>
                                     </div>
@@ -123,7 +122,6 @@ include './class/include.php';
                         <!--End Single Service Style2-->
                         <?php } ?>          
                     </div>
-
                 </div>    
             </section>
             <!--End Service Style2 Area-->

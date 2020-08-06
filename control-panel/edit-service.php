@@ -48,7 +48,13 @@ $SERVICE = new Service($id);
                                 <h2>
                                     Edit Service
                                 </h2>
-
+                                <ul class="header-dropdown">
+                                    <li class="">
+                                        <a href="manage-service.php">
+                                            <i class="material-icons">list</i> 
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="body">
                                 <form class="form-horizontal" method="post"  id="form-data" enctype="multipart/form-data"> 

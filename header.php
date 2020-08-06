@@ -37,7 +37,7 @@
             </div>    
         </div>
     </div>
-    <!--    <div class="header-upper">
+    <!--<div class="header-upper">
             <div class="container clearfix">
                 <div class="outer-box clearfix"> 
                     <div class="header-upper-right float-right clearfix">
