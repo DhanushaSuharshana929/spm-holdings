@@ -1,4 +1,4 @@
-<?php 
+<?php
 include './class/include.php';
 ?>
 
@@ -13,11 +13,11 @@ include './class/include.php';
 
         <title>SPM Holdings || Contact Us</title>
 
-        
+
         <!-- responsive meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        
+
+
         <!-- For IE -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -34,25 +34,29 @@ include './class/include.php';
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        
+
+
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
-        
+
+
+        <!--contact form-->
+        <link href="contact-form/style.css" rel="stylesheet" type="text/css"/>
+
 
     </head>
 
-    
+
     <body>
-        
-        
+
+
         <div class="boxed_wrapper">
 
-            
+
             <div class="preloader"></div>
-                 
+
 
             <!-- main header -->
             <?php include './header.php'; ?>
@@ -80,7 +84,7 @@ include './class/include.php';
             </section>
             <!--End breadcrumb area-->
 
-            
+
             <!--Start Contact Info Area-->
             <section class="contact-info-area">
                 <div class="container">
@@ -90,7 +94,7 @@ include './class/include.php';
                                 <div class="icon"><img src="assets/images/resources/call.png" width="65px" height="65px"></div>
                                 <div class="title">
                                     <h3>Call for help</h3>
- 
+
                                     <ul>
                                         <li><a href="tel:+94771490000">(+94) 77 149 0000</a></li>
                                     </ul>
@@ -104,7 +108,7 @@ include './class/include.php';
                                     <h3>Mail for information</h3>
                                     <ul>
                                         <li><a href="info@dewymanagementconsortium.com">info@dewymanagementconsortium.com</a></li>
-                                        
+
                                     </ul>
                                 </div>
                             </div>
@@ -133,55 +137,75 @@ include './class/include.php';
                         <div class="col-xl-8 col-lg-7 col-md-12">
                             <div class="contact-form">
                                 <div class="title">
-                                    <h3>Leave Reply</h3>
+                                    <h3>Send Us a Message</h3>
                                 </div>
                                 <div class="inner-box">
-                                    <form id="contact-form" name="contact_form" class="default-form2" action="http://mehedi.asiandevelopers.com/rinbuild/assets/inc/sendmail.php" method="post">
                                         <div class="row">
-                                            <div class="col-xl-6">
+                                            <div class="form-group col-xl-6">
                                                 <div class="input-box"> 
                                                     <p>Name:</p>  
-                                                    <input type="text" name="form_name" value="" placeholder="" required="">
+                                                    <input type="text" id="txtFullName" name="name" value="" placeholder="Enter Your Full name" required="">
+                                                    <span id="spanFullName"></span>
                                                 </div>      
                                             </div>
-                                            <div class="col-xl-6">
-                                                <div class="input-box">
-                                                    <p>Email Address:</p>   
-                                                    <input type="email" name="form_email" value="" placeholder="" required="">
-                                                </div>      
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-xl-6">
-                                                <div class="input-box">
-                                                    <p>Subject:</p>   
-                                                    <input type="text" name="form_subject" value="" placeholder="">
-                                                </div>       
-                                            </div>
-                                            <div class="col-xl-6">
+
+                                            <div class="form-group col-xl-6">
                                                 <div class="input-box">
                                                     <p>Phone:</p>   
-                                                    <input type="text" name="form_phone" value="" placeholder="">
+                                                    <input type="text" id="txtPhone" name="phone" value="" placeholder="Enter Your Phone Number" required="">
+                                                    <span id="spanPhone"></span>
                                                 </div>      
                                             </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-xl-12">
+                                                <div class="input-box">
+                                                    <p>Email Address:</p>   
+                                                    <input type="email" id="txtEmail" name="email" value="" placeholder="Enter Your Email" required="">
+                                                    <span id="spanEmail"></span>
+                                                </div>      
+                                            </div>
+
                                         </div> 
                                         <div class="row">
-                                            <div class="col-xl-12">
+                                            <div class="form-group col-xl-12">
                                                 <div class="input-box"> 
                                                     <p>Message:</p>      
-                                                    <textarea name="form_message" placeholder="" required=""></textarea>
+                                                    <textarea name="message" id="txtMessage" placeholder="Enter Your Message" required=""></textarea>
+                                                    <span id="spanMessage"></span>
                                                 </div>      
                                             </div>    
                                         </div>
                                         <div class="row">
-                                            <div class="col-xl-12">
+                                            <div class="form-group col-md-5">
+
+                                                <input type="text" name="captchacode" placeholder="Security Code"  class="form-group" id="captchacode" >
+
+                                                <div class="vc-cd-12 vc-od-12">
+                                                    <span id="capspan" ></span> 
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="form-group col-md-3">
+                                                <?php include './contact-form/captchacode-widget.php'; ?>
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-xl-12">
                                                 <div class="button-box">
                                                     <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                                    <button class="btn-one" type="submit" data-loading-text="Please wait...">Submit</button>    
+                                                    <button class="btn-one" id="btnSubmit" type="submit" data-loading-text="Please wait..." style="background-color: #a65755">Submit</button>    
                                                 </div>  
                                             </div>
+                                             <div class="col-sm-12">
+                                        <div id="dismessage" align="center"></div>
+                                    </div>
+
                                         </div>                        
-                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -189,8 +213,7 @@ include './class/include.php';
                         <div class="col-xl-4 col-lg-5 col-md-12">
                             <div class="contact-information-box">
                                 <div class="title">
-                                    <h3>Contact Info</h3>
-                                    <p>Make a free consultation with our expert team to solve your prolems.</p>
+                                    <h3 style="text-align: center;">Make a free consultation with our expert team to solve your prolems.</h3>
                                 </div>
                                 <ul class="contact-us">
                                     <li>
@@ -218,6 +241,7 @@ include './class/include.php';
                                         </div>
                                     </li>   
                                 </ul>
+                                <img src="assets/images/resources/contact-about1.png" alt=""/>
                             </div>    
                         </div>
 
@@ -288,9 +312,11 @@ include './class/include.php';
         <script src="assets/js/custom.js"></script>
 
 
+        <!--contact form-->
+        <script src="contact-form/scripts.js" type="text/javascript"></script>
+
 
     </body>
 
     <!-- Mirrored from mehedi.asiandevelopers.com/rinbuild/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jul 2020 04:20:30 GMT -->
 </html>
-
