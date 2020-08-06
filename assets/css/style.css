@@ -7064,7 +7064,7 @@ select:focus {
 .contact-form-area {
     position: relative;
     display: block;
-    padding: 30px 0px 120px;
+    padding: 30px 0px 50px;
     background-color: #c3c5cab0;
 }
 .contact-form{
@@ -7088,16 +7088,16 @@ select:focus {
 
 
 
-.contact-form form{
+.contact-form {
     position: relative;
     display: block;
 }
-.contact-form form .input-box{
+.contact-form  .input-box{
     position: relative;
     display: block;
     margin-bottom: 24px;
 }
-.contact-form form .input-box p {
+.contact-form  .input-box p {
     color: #798795;
     font-size: 14px;
     line-height: 14px;
@@ -7105,9 +7105,9 @@ select:focus {
     margin: 0 0 8px;
 }
 
-.contact-form form input[type="text"],
-.contact-form form input[type="email"],
-.contact-form form textarea{
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea{
     position: relative;
     display: block;   
     background: #ffffff;
@@ -7122,65 +7122,65 @@ select:focus {
     margin-bottom: 10px;
     transition: all 500ms ease;
 }
-.contact-form form textarea {
+.contact-form textarea {
     height: 150px;
     padding-top: 17px;
     padding-left: 30px;
     padding-right: 20px;
 }
-.contact-form form input[type="text"]:focus{
+.contact-form input[type="text"]:focus{
     color: #222222;
     border-color: #d9d5d5; 
 }
-.contact-form form input[type="email"]:focus{
+.contact-form input[type="email"]:focus{
     color: #222222;
     border-color: #d9d5d5;
 }
-.contact-form form textarea:focus{
+.contact-form textarea:focus{
     color: #222222;
     border-color: #d9d5d5;
 }
-.contact-form form input[type="text"]::-webkit-input-placeholder {
+.contact-form input[type="text"]::-webkit-input-placeholder {
     color: #022447;
 }
-.contact-form form input[type="text"]:-moz-placeholder {
+.contact-form input[type="text"]:-moz-placeholder {
     color: #022447;
 }
-.contact-form form input[type="text"]::-moz-placeholder {
+.contact-form input[type="text"]::-moz-placeholder {
     color: #022447;
 }
-.contact-form form input[type="text"]:-ms-input-placeholder {
+.contact-form input[type="text"]:-ms-input-placeholder {
     color: #022447;
 }
-.contact-form form input[type="email"]::-webkit-input-placeholder {
+.contact-form input[type="email"]::-webkit-input-placeholder {
     color: #022447;
 }
-.contact-form form input[type="email"]:-moz-placeholder {
+.contact-form input[type="email"]:-moz-placeholder {
     color: #022447;
 }
-.contact-form form input[type="email"]::-moz-placeholder {
+.contact-form input[type="email"]::-moz-placeholder {
     color: #022447;
 }
-.contact-form form input[type="email"]:-ms-input-placeholder {
+.contact-form input[type="email"]:-ms-input-placeholder {
     color: #022447;
 }
-.contact-form form textarea::-webkit-input-placeholder {
+.contact-form textarea::-webkit-input-placeholder {
     color: #022447;
 }
-.contact-form form textarea:-moz-placeholder {
+.contact-form textarea:-moz-placeholder {
     color: #022447;
 }
-.contact-form form textarea::-moz-placeholder {
+.contact-form textarea::-moz-placeholder {
     color: #022447;
 }
-.contact-form form textarea:-ms-input-placeholder {
+.contact-form textarea:-ms-input-placeholder {
     color: #022447;
 }
-.contact-form form button {
+.contact-form button {
     color: #ffffff;
     font-weight: 600;
 }
-.contact-form form button:hover{
+.contact-form button:hover{
     background: transparent;
 }
 
@@ -7188,7 +7188,7 @@ select:focus {
 .contact-information-box {
     position: relative;
     display: block;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 .contact-information-box .title {
     position: relative;
@@ -7201,7 +7201,6 @@ select:focus {
     line-height: 30px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-top: -6px;
 }
 .contact-information-box .title p {
     color: #798795;
