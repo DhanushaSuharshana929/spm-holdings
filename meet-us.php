@@ -12,14 +12,16 @@ include './class/include.php';
         <meta charset="UTF-8">
         
         
-        <title>SPM Holdings || Meet Us</title>
+        <title>MPBC.lk || Meet Us</title>
 
         
         <!-- responsive meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
+        
         <!-- For IE -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
 
         <link rel="stylesheet" href="assets/css/aos.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">	
@@ -34,23 +36,30 @@ include './class/include.php';
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
 
         
-
     </head>
 
+    
     <body>
+        
+        
         <div class="boxed_wrapper">
 
+            
             <div class="preloader"></div> 
 
+            
             <!-- main header -->
             <?php include './header.php'; ?>
 
+            
             <!--Start breadcrumb area-->     
             <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-1.jpg);">
                 <div class="container">
@@ -74,15 +83,16 @@ include './class/include.php';
             </section>
             <!--End breadcrumb area-->
 
+            
             <!--Start Team Area-->
             <section class="team-area team-page">
                 <div class="container">
                     <div class="row">
+                        
                         <?php 
                         $TEAM = new Activities(NULL);
                         foreach ($TEAM->all() as $team){
-                                ?>
-                        
+                                ?>                        
                         <!--Start Single Team Member-->
                         <div class="col-xl-3 col-lg-3 wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="1300ms">
                             <div class="single-team-member wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
@@ -104,17 +114,12 @@ include './class/include.php';
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="right">
-                                            <a href=""><span class="flaticon-engineer-1"></span></a>
-                                        </div>
                                     </div>    
                                 </div>
                             </div>
                         </div>
-                        <!--End Single Team Member-->
-                        
-                        <?php } ?>
-                        
+                        <!--End Single Team Member-->                        
+                        <?php } ?>                        
                         
                     </div>
                 </div>
@@ -126,13 +131,13 @@ include './class/include.php';
             <?php include './footer.php'; ?>  
             <!--End footer area-->
 
+            
         </div> 
 
 
         <button class="scroll-top scroll-to-target" data-target="html">
             <span class="icon-angle"></span>
         </button>
-
 
 
         <script src="assets/js/jquery.js"></script>
@@ -161,6 +166,8 @@ include './class/include.php';
         <script src="assets/js/slick.js"></script>
         <script src="assets/js/lazyload.js"></script>
         <script src="assets/js/jQuery.style.switcher.min.js"></script>
+        
+        
         <!-- thm custom script -->
         <script src="assets/js/custom.js"></script>
 
@@ -168,5 +175,5 @@ include './class/include.php';
 
     </body>
 
-    <!-- Mirrored from mehedi.asiandevelopers.com/rinbuild/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jul 2020 04:18:27 GMT -->
+    
 </html>

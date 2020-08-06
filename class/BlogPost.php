@@ -150,7 +150,7 @@ class BlogPost {
 
         $this->deletePhotos();
 
-        unlink(Helper::getSitePath() . "upload/blog/" . $this->image_name);
+        unlink(Helper::getSitePath() . "upload/blog-post/" . $this->image_name);
 
 
 
@@ -183,9 +183,9 @@ class BlogPost {
 
             $IMG = $BLOG_PHOTO->image_name = $photo["image_name"];
 
-            unlink(Helper::getSitePath() . "upload/blog/gallery/" . $IMG);
+            unlink(Helper::getSitePath() . "upload/blog-post/gallery/" . $IMG);
 
-            unlink(Helper::getSitePath() . "upload/blog/gallery/thumb/" . $IMG);
+            unlink(Helper::getSitePath() . "upload/blog-post/gallery/thumb/" . $IMG);
 
 
 

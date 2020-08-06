@@ -83,7 +83,7 @@ if (isset($_POST['save-data'])) {
     foreach ($_POST['sort'] as $key => $img) {
         $key = $key + 1;
 
-        $BLOG_POST = Service::arrange($key, $img);
+        $BLOG_POST = BlogPost::arrange($key, $img);
 
         header('Location:../arrange-blog-post.php?message=9');
     }

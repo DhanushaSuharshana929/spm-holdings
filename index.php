@@ -15,7 +15,7 @@ $ABOUT_INDEX = new Page(1);
         <meta charset="UTF-8">
 
 
-        <title>SPM Holdings || Home</title>
+        <title>MPBC.lk || Home</title>
 
 
         <!-- responsive meta -->
@@ -84,7 +84,7 @@ $ABOUT_INDEX = new Page(1);
                                 <div class="video-holder-box" style="background-image:url(assets/images/about/video-gallery.jpg);">
                                     <div class="icon">
                                         <div class="inner">
-                                            <a class="video-popup wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms" title="SPM Holdings" href="https://www.youtube.com/watch?v=p25gICT63ek">
+                                            <a class="video-popup wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms" title="MPBC.lk" href="https://www.youtube.com/watch?v=p25gICT63ek">
                                                 <span class="flaticon-play-button"></span>
                                             </a>
                                         </div>   
@@ -96,7 +96,7 @@ $ABOUT_INDEX = new Page(1);
                             <div class="about-style1-text-box">
                                 <div class="title">
                                     <p>WELCOME</p>
-                                    <h1><span>SPM Holdings</span>Think <b>big</b> <br> <b>Think</b> different<br> </h1>
+                                    <h1><span>MPBC.lk</span>Think <b>big</b> <br> <b>Think</b> different<br> </h1>
                                 </div>
                                 <div class="inner-contant">
                                     <p><?php echo $ABOUT_INDEX->description ?></p>
@@ -224,7 +224,7 @@ $ABOUT_INDEX = new Page(1);
                                             </div>
                                         </div>
                                         <!--End Single Service Style3-->
-                                    <?php
+                                        <?php
                                     }
                                 }
                                 ?>
@@ -257,37 +257,35 @@ $ABOUT_INDEX = new Page(1);
                         $BLOG_POST = new BlogPost(NULL);
                         foreach ($BLOG_POST->all() as $key => $blog_post) {
                             if ($key < 3) {
-                                
-                           
-                            ?>
-                            <!--Start Single portfolio Style1-->
-                            <div class="col-xl-6 col-lg-6 col-md-6 filter-item bridge interior">
-                                <div class="single-portfolio-style1">
-                                    <div class="img-holder">
-                                        <div class="inner-box">
-                                            <img class="lazy-image" src="upload/blog-post/<?php echo $blog_post['image_name']?>" alt="Awesome Image">
-                                            <div class="overlay-style-one">
-                                                <div class="box">
-                                                    <div class="inner"> 
-                                                        <div class="zoom-button">
-                                                            <a class="lightbox-image" data-fancybox="gallery" href="upload/blog-post/<?php echo $blog_post['image_name']?>">
-                                                                <span class="flaticon-plus"></span>
-                                                            </a>
+                                ?>
+                                <!--Start Single portfolio Style1-->
+                                <div class="col-xl-4 col-lg-4 col-md-4 filter-item bridge interior">
+                                    <div class="single-portfolio-style1">
+                                        <div class="img-holder">
+                                            <div class="inner-box">
+                                                <img class="lazy-image" src="upload/blog-post/<?php echo $blog_post['image_name'] ?>" alt="Awesome Image">
+                                                <div class="overlay-style-one">
+                                                    <div class="box">
+                                                        <div class="inner"> 
+                                                            <div class="zoom-button">
+                                                                <a class="lightbox-image" data-fancybox="gallery" href="upload/blog-post/<?php echo $blog_post['image_name'] ?>">
+                                                                    <span class="flaticon-plus"></span>
+                                                                </a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="title-holder">
-                                            <span class="tag"><?php echo $blog_post['title']?></span>
-                                            <h5><a href="view-blog.php?id=<?php echo $blog_post['id']?>"><?php echo $blog_post['description']?></a></h5>
-                                          <p><span class="flaticon-calendar"></span><?php echo $blog_post['date']?></p>
+                                            <div class="title-holder">
+                                                <span class="tag"><?php echo $blog_post['title'] ?></span>
+                                                <h5><a href="view-blog.php?id=<?php echo $blog_post['id'] ?>"><?php echo substr($blog_post['description'], 0, 100) ?></a></h5>
+                                                <p><span class="flaticon-calendar"></span><?php echo $blog_post['date'] ?></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!--End Single portfolio Style1-->
-                            <?php
+                                <!--End Single portfolio Style1-->
+                                <?php
                             }
                         }
                         ?>
@@ -296,7 +294,7 @@ $ABOUT_INDEX = new Page(1);
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="all-portfolio-button text-center">
-                                <a class="btn-one" href="#">All Blog Posts<span class="flaticon-next"></span></a>
+                                <a class="btn-one" href="blog.php">All Blog Posts<span class="flaticon-next"></span></a>
                             </div>
                         </div>
                     </div>
@@ -378,7 +376,7 @@ $ABOUT_INDEX = new Page(1);
 
 
             <!--Start footer area-->  
-<?php include './footer.php'; ?> 
+            <?php include './footer.php'; ?> 
             <!--End footer area-->
 
 
