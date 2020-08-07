@@ -1,7 +1,5 @@
 <?php
 include './class/include.php';
-
-
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +14,7 @@ include './class/include.php';
 
         <title>MPBC.lk || Blog</title>
 
-        
+
         <!-- responsive meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -63,7 +61,7 @@ include './class/include.php';
 
 
             <!--Start breadcrumb area-->     
-            <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-1.jpg);">
+            <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-blog.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -84,57 +82,57 @@ include './class/include.php';
                 </div>
             </section>
             <!--End breadcrumb area-->
-            
+
 
             <!--Start Latest Portfolio Area-->
             <section class="latest-portfolio-area portfolio-pagev1">
                 <div class="container">
                     <div class="row filter-layout masonary-layout">
-                        
-                        <?php 
+
+                        <?php
                         $BLOG_POST = new BlogPost(NULL);
-                        foreach ($BLOG_POST ->all() as $blog_post){
-                        ?>
-                        <!--Start Single portfolio Style1-->
-                        <div class="col-xl-4 col-lg-6 col-md-6 filter-item bridge interior">
-                            <div class="single-portfolio-style1">
-                                <div class="img-holder">
-                                    <div class="inner-box">
-                                        <img src="upload/blog-post/<?php echo $blog_post['image_name']?>" alt="Awesome Image">
-                                        <div class="overlay-style-one">
-                                            <div class="box">
-                                                <div class="inner"> 
-                                                    <div class="zoom-button">
-                                                        <a class="lightbox-image" data-fancybox="gallery" href="upload/blog-post/<?php echo $blog_post['image_name']?>">
-                                                            <span class="flaticon-right-arrow"></span>
-                                                        </a>
+                        foreach ($BLOG_POST->all() as $blog_post) {
+                            ?>
+                            <!--Start Single portfolio Style1-->
+                            <div class="col-xl-4 col-lg-6 col-md-6 filter-item bridge interior">
+                                <div class="single-portfolio-style1">
+                                    <div class="img-holder">
+                                        <div class="inner-box">
+                                            <img src="upload/blog-post/<?php echo $blog_post['image_name'] ?>" alt="Awesome Image">
+                                            <div class="overlay-style-one">
+                                                <div class="box">
+                                                    <div class="inner"> 
+                                                        <div class="zoom-button">
+                                                            <a class="lightbox-image" data-fancybox="gallery" href="upload/blog-post/<?php echo $blog_post['image_name'] ?>">
+                                                                <span class="flaticon-right-arrow"></span>
+                                                            </a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="title-holder">
-                                        <span class="tag"><?php echo $blog_post['title']?></span>
-                                        <h5><a href="view-blog.php?id=<?php echo $blog_post['id']?>"><?php echo substr($blog_post['description'],0,100)?></a></h5>
-                                        <p><span class="flaticon-calendar"></span><?php echo $blog_post['date']?></p>
+                                        <div class="title-holder">
+                                            <span class="tag"><?php echo $blog_post['title'] ?></span>
+                                            <h5><a href="view-blog.php?id=<?php echo $blog_post['id'] ?>"><?php echo substr($blog_post['description'], 0, 100) ?></a></h5>
+                                            <p><span class="flaticon-calendar"></span><?php echo $blog_post['date'] ?></p>                                           
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!--End Single portfolio Style1-->
-                        <?php }?>  
-                        
+                            <!--End Single portfolio Style1-->
+                        <?php } ?>  
+
                     </div>
                 </div>
             </section>   
             <!--End Latest Portfolio Area--> 
- 
+
 
             <!--Start footer area-->  
             <?php include './footer.php'; ?>  
             <!--End footer area-->
 
-            
+
         </div> 
 
 
@@ -170,8 +168,8 @@ include './class/include.php';
         <script src="assets/js/slick.js"></script>
         <script src="assets/js/lazyload.js"></script>
         <script src="assets/js/jQuery.style.switcher.min.js"></script>
-        
-        
+
+
         <!-- thm custom script -->
         <script src="assets/js/custom.js"></script>
 

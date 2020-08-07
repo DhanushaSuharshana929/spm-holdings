@@ -125,7 +125,7 @@ $ABOUT_INDEX = new Page(1);
                     <div class="auto-container">
                         <div class="row">
                             <div class="col-xl-12">
-                                <div class="rinbuild-carousel service-carousel owl-carousel owl-theme owl-nav-style-one" data-options='{"loop":true, "margin":30, "autoheight":true, "nav":true, "dots":false, "autoplay":true, "autoplayTimeout":6000, "smartSpeed":500, "responsive":{ "0":{"items": "1"}, "768":{"items": "2"}, "1000":{"items": "3" }}}'>
+                                <div class="rinbuild-carousel service-carousel owl-carousel owl-theme owl-nav-style-one mobile-owl-nav" data-options='{"loop":true, "margin":30, "autoheight":true, "nav":true, "dots":false, "autoplay":true, "autoplayTimeout":6000, "smartSpeed":500, "responsive":{ "0":{"items": "1"}, "768":{"items": "2"}, "1000":{"items": "3" }}}'>
                                     <?php
                                     $SERVICE = new Service(NULL);
                                     foreach ($SERVICE->all() as $key => $service) {
@@ -248,7 +248,7 @@ $ABOUT_INDEX = new Page(1);
                 <div class="container">
                     <div class="sec-title text-center">
                         <p>Learn something more from our blog</p>
-                        <div class="big-title black-clr"><h1>Blog Post</h1></div>
+                        <div class="big-title black-clr"><h1>Blog Posts</h1></div>
                     </div>
 
                     <div class="row filter-layout masonary-layout">
@@ -304,7 +304,6 @@ $ABOUT_INDEX = new Page(1);
 
 
             <!--Start Partner Area-->
-            <!--Start Shop area-->
             <section id="shop-area" class="main-shop-area elemp1">
 
                 <div class="container">

@@ -55,7 +55,7 @@ $ABOUT_PAGE = new Page(1);
                                     </li>
                                     <li>
                                         <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank">
-                                            <img src="assets/images/resources/youtube.png" width="30px" height="35px">
+                                            <img src="assets/images/resources/youtube.png" width="30px" height="35px" style="border-radius: 4px;">
                                         </a>
                                     </li>
                                 </ul>
@@ -124,9 +124,9 @@ $ABOUT_PAGE = new Page(1);
                                 <ul class="page-links">
                                     <li><span class="flaticon-house" style="color: #fba2bc">  10 10/3, Ward place, Colombo 7.</span></li>
                                     <li><span class="flaticon-location-pin" style="color: #fba2bc">  752/A3, Aminda Kumara Mawatha, Rukmale Rd, Pannipitiya.</span></li>
-                                    <li><span class="flaticon-call" style="color: #fba2bc">  +94 (0)112 189 134</span></li>
-                                    <li><span class="flaticon-call" style="color: #fba2bc">  +94 (0)77 149 0000</span></li>
-                                    <li><span class="flaticon-mail" style="color: #fba2bc">  info@MPBC.lk</span></li>
+                                    <li><span class="flaticon-call" style="color: #fba2bc">  (+94) 11 218 9134</span></li>
+                                    <li><span class="flaticon-call" style="color: #fba2bc">  (+94) 77 149 0000</span></li>
+                                    <li><span class="flaticon-mail" style="color: #fba2bc">  info@mpbc.lk</span></li>
                                     <li><span class="flaticon-calendar" style="color: #fba2bc">  Monday - Sunday</span></li>
                                     <li><span class="flaticon-clock" style="color: #fba2bc">  8.00 am – 6.00 pm</span></li>
                                 </ul>
