@@ -13,7 +13,7 @@
                     <div class="image-layer lazy-image" style="background-image:url(upload/slider/<?php echo $slider['image_name']; ?>)"></div>
                     <div class="auto-container">
                         <div class="content">
-                            <h2><span><?php echo $slider['title']; ?></span></h2>
+                            <h2><?php echo $slider['title']; ?></h2>
                             <h3><img src="assets/images/icon/slide-title-icon-1.png" alt="">Our MPBC.lk Management Consortium</h3>
                             <div class="btns-box">
                                 <a href="services.php" class="btn-two">Our Services</a>

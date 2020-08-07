@@ -3,7 +3,6 @@ include './class/include.php';
 
 $ABOUT_PAGE = new Page(2);
 $ABOUT_PAGE_2 = new Page(3);
-
 ?>
 
 
@@ -12,21 +11,21 @@ $ABOUT_PAGE_2 = new Page(3);
 
 
     <head>
-        
+
         <meta charset="UTF-8">
-        
-        
+
+
         <title>MPBC.lk || About Us</title>
 
-        
+
         <!-- responsive meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        
+
+
         <!-- For IE -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        
+
         <link rel="stylesheet" href="assets/css/aos.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">	
         <link rel="stylesheet" href="assets/css/imp.css">
@@ -40,8 +39,8 @@ $ABOUT_PAGE_2 = new Page(3);
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        
+
+
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
@@ -52,20 +51,20 @@ $ABOUT_PAGE_2 = new Page(3);
     </head>
 
     <body>
-        
-        
+
+
         <div class="boxed_wrapper">
 
-            
+
             <div class="preloader"></div> 
 
 
             <!-- main header -->
             <?php include './header.php'; ?>
 
-            
+
             <!--Start breadcrumb area-->     
-            <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-1.jpg);">
+            <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-about.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -87,7 +86,7 @@ $ABOUT_PAGE_2 = new Page(3);
             </section>
             <!--End breadcrumb area-->
 
-            
+
             <!--Start About Style1 Area-->
             <section class="about-style1-area bg-white">
                 <div class="container">
@@ -139,12 +138,82 @@ $ABOUT_PAGE_2 = new Page(3);
             </section>
             <!--End About Style1 Area-->
 
-            
+
+            <!--Start Fact Counter Area-->
+            <section class="fact-counter-area">
+                <div class="container">
+                    <div class="row">
+                        <!--Start Single Fact Counter-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <div class="single-fact-counter text-left wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                <div class="title">
+                                    <h3>Team <br> Members</h3>
+                                </div>
+                                <div class="count-box">
+                                    <h1>
+                                        <span class="timer" data-from="1" data-to="30" data-speed="5000" data-refresh-interval="50">30</span>
+                                    </h1>
+                                    <div class="icon"><span class="flaticon-plus"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Single Fact Counter-->
+                        <!--Start Single Fact Counter-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <div class="single-fact-counter text-left wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                <div class="title">
+                                    <h3>Client’s <br> Feedback</h3>
+                                </div>
+                                <div class="count-box">
+                                    <h1>
+                                        <span class="timer" data-from="1" data-to="215" data-speed="5000" data-refresh-interval="50">215</span>
+                                    </h1>
+                                    <div class="icon"><span class="flaticon-plus"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Single Fact Counter-->
+                        <!--Start Single Fact Counter-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <div class="single-fact-counter text-left wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                <div class="title">
+                                    <h3>Earning to <br> Customers</h3>
+                                </div>
+                                <div class="count-box">
+                                    <h1>
+                                        <span class="timer" data-from="1" data-to="50" data-speed="5000" data-refresh-interval="50">50</span>
+                                    </h1>
+                                    <div class="icon"><span class="flaticon-plus">million</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Single Fact Counter-->
+                        <!--Start Single Fact Counter-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <div class="single-fact-counter text-left wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                <div class="title">
+                                    <h3>Completed <br> Works</h3>
+                                </div>
+                                <div class="count-box">
+                                    <h1>
+                                        <span class="timer" data-from="1" data-to="310" data-speed="5000" data-refresh-interval="50">310</span>
+                                    </h1>
+                                    <div class="icon"><span class="flaticon-plus"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Single Fact Counter-->
+                    </div>
+                </div>
+            </section>   
+            <!--End Fact Counter Area--> 
+
+
             <!--Start Service Style1 Area-->
             <section class="service-style1-area service-page1" style="background-color: #c2c4ca40;">
                 <div class="container">
                     <div class="row">
-                        
+
                         <!--Start Single Service Style1-->
                         <div class="col-xl-4 col-lg-4">
                             <div class="single-service-style1">
@@ -160,8 +229,8 @@ $ABOUT_PAGE_2 = new Page(3);
                             </div>
                         </div>
                         <!--End Single Service Style1-->
-                        
-                        
+
+
                         <!--Start Single Service Style1-->
                         <div class="col-xl-4 col-lg-4">
                             <div class="single-service-style1">
@@ -176,8 +245,8 @@ $ABOUT_PAGE_2 = new Page(3);
                             </div>
                         </div>
                         <!--End Single Service Style1-->
-                        
-                        
+
+
                         <!--Start Single Service Style1-->
                         <div class="col-xl-4 col-lg-4">
                             <div class="single-service-style1">
@@ -192,8 +261,8 @@ $ABOUT_PAGE_2 = new Page(3);
                             </div>
                         </div>
                         <!--End Single Service Style1-->
-                        
-                        
+
+
                     </div>
                 </div>
             </section>
@@ -204,7 +273,7 @@ $ABOUT_PAGE_2 = new Page(3);
             <?php include './footer.php'; ?>  
             <!--End footer area-->
 
-            
+
         </div> 
 
 
@@ -240,8 +309,8 @@ $ABOUT_PAGE_2 = new Page(3);
         <script src="assets/js/slick.js"></script>
         <script src="assets/js/lazyload.js"></script>
         <script src="assets/js/jQuery.style.switcher.min.js"></script>
-        
-        
+
+
         <!-- thm custom script -->
         <script src="assets/js/custom.js"></script>
 
@@ -249,5 +318,5 @@ $ABOUT_PAGE_2 = new Page(3);
 
     </body>
 
-   
+
 </html>

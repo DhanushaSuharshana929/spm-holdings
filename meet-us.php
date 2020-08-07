@@ -61,7 +61,7 @@ include './class/include.php';
 
             
             <!--Start breadcrumb area-->     
-            <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-1.jpg);">
+            <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-team.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">

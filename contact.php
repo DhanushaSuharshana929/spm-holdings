@@ -64,7 +64,7 @@ include './class/include.php';
 
 
             <!--Start breadcrumb area-->     
-            <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-1.jpg);">
+            <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-contact.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -97,7 +97,7 @@ include './class/include.php';
                                 <div class="title">
                                     <h3>Call for help</h3>
                                     <ul>
-                                        <li><a href="#"> +94 (0)112 189 134</a></li>
+                                        <li><a href="#"> (+94) 11 218 9134</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@ include './class/include.php';
                                 <div class="title">
                                     <h3>Mail for information</h3>
                                     <ul>
-                                        <li><a href="">info@MPBC.lk</a></li>
+                                        <li><a href="">info@mpbc.lk</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -232,7 +232,7 @@ include './class/include.php';
                                             <span class="flaticon-open-envelope-with-letter"></span>
                                         </div>
                                         <div class="text">
-                                            <p>rukmal.alwis@gmail.com<br/>MD@MPBC.lk<br/>Director@MPBC.lk<br/>Investor@MPBC.lk</p>
+                                            <p>rukmal.alwis@gmail.com<br/>md@mpbc.lk<br/>director@mpbc.lk<br/>investor@mpbc.lk</p>
                                         </div>
                                     </li>
                                     <li>
@@ -240,7 +240,7 @@ include './class/include.php';
                                             <span class="flaticon-smartphone"></span>
                                         </div>
                                         <div class="text">
-                                            <p>+94 (0)77 149 0000</p>
+                                            <p>(+94) 77 149 0000</p>
                                         </div>
                                     </li>   
                                 </ul>

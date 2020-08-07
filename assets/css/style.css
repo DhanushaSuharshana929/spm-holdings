@@ -2370,7 +2370,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 120px 0 80px;
+    padding: 25px 0 80px;
 }
 .service-style1-area.pdtop75{
     padding-top: 75px;
@@ -2900,6 +2900,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
+    padding-bottom: 15px;
 }
 .fact-counter-area.pdbottom120{
     padding-bottom: 120px;
@@ -4769,7 +4770,7 @@ select:focus {
     margin-top: 0;
 }
 .main-slider.style3 .slide {
-    padding: 252px 0px 400px;
+    padding: 252px 0px 195px;
 }
 .main-slider.style3 .slide .image-layer:before {
     position: absolute;
@@ -4777,7 +4778,7 @@ select:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(3, 13, 40, 0.80);
+    background-color: rgba(3, 13, 40, 0.55);
     content: "";
     z-index: -1;
 }
@@ -5228,7 +5229,7 @@ select:focus {
 =============================================
 ***/
 .service-style1-area.service-page1 {
-    padding-bottom: 62px;
+    padding-bottom: 0px;
 }
 .service-style1-area.service-page1 .single-service-style1{
     margin-bottom: 50px;    
@@ -7346,7 +7347,7 @@ select:focus {
 .team-area.element-page {
     position: relative;
     display: block;
-    padding: 120px 0 170px;
+    padding: 50px 0 0px;
 }
 .testimonial-style1-area.elemp1{
     padding: 120px 0 80px;
@@ -8029,8 +8030,8 @@ select:focus {
 =============================================
 ***/
 #shop-area.single-shop-area {
-    padding-top: 120px;
-    padding-bottom: 120px;
+/*    padding-top: 120px;
+    padding-bottom: 120px;*/
 }
 .single-product-image-holder {
     position: relative;
