@@ -361,6 +361,7 @@
     /*** Main Header Css ***/        
     .header-upper {
         padding: 30px 0 28px;
+        display: none;
     }    
     .header-upper-left {
         float: none !important;
@@ -871,7 +872,7 @@
         display: none;
     }    
     .single-service-style1 {
-        margin: 0 auto 60px;
+        margin: 20px auto 60px;
     }    
 
     /*** About Style1 Area Css ***/
@@ -1292,7 +1293,7 @@
 
     /*** Portfolio Pagev1 Css ***/        
     .portfolio-pagev1 {
-        padding-top: 120px;
+        padding-top: 25px;
         padding-bottom: 0;
     }        
 

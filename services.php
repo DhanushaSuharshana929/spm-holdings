@@ -33,6 +33,8 @@ include './class/include.php';
         <link rel="stylesheet" href="assets/css/owl.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
+        <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Lobster&display=swap&family=Courgette&display=swap" rel="stylesheet"> 
+        
         <link rel="stylesheet" href="assets/css/color.css">
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -69,13 +71,13 @@ include './class/include.php';
                         <div class="col-xl-12">
                             <div class="inner-content clearfix">
                                 <div class="title">
-                                    <h1>Services</h1>
+                                    <br/><br/><h1 class="breadcrumb-letter">SERVICES</h1>
                                 </div>
                                 <div class="breadcrumb-menu">
                                     <ul class="clearfix">
                                         <li><a href="./">Home</a></li>
                                         <li><span class="flaticon-next-1"></span></li>
-                                        <li class="active">Services</li>
+                                        <li class="active" style="color: #fd4f4f">Services</li>
                                     </ul>    
                                 </div>
                             </div>
@@ -97,12 +99,13 @@ include './class/include.php';
                             ?>
                             <!--Start Single Service Style2-->
                             <div class="col-xl-4 col-lg-4">
+                                <a href="view-service.php?id=<?php echo $service['id']; ?>">
                                 <div class="single-service-style2">
                                     <div class="img-holder">
                                         <img src="upload/service/<?php echo $service['image_name']; ?>" alt="Awesome Image">
                                         <div class="static-content">
                                             <div class="title">
-                                                <h3><a href="view-service.php?id=<?php echo $service['id']; ?>"><?php echo $service['title'] ?></a></h3>
+                                                <h3><?php echo $service['title'] ?></h3>
                                             </div>                                       
                                         </div>
                                         <div class="overlay-content">
@@ -110,11 +113,11 @@ include './class/include.php';
                                                 <div class="icon"><span class="flaticon-building"></span></div>
                                                 <div class="text-holder">
                                                     <div class="title">
-                                                        <h3><a href="view-service.php?id=<?php echo $service['id'] ?>"><?php echo $service['title'] ?></a></h3>
+                                                        <h3 style="color: #fd4f4f"><?php echo $service['title'] ?></h3>
                                                     </div>
                                                     <p><?php echo substr($service['description'], 0, 200) ?></p>      
-                                                    <div class="read-more-button float-right">
-                                                        <a href="view-service.php?id=<?php echo $service['id'] ?>">Read More <span class="flaticon-next"></span></a>
+                                                    <div class="read-more-button float-right" style="color: #fd4f4f">
+                                                        Read More <span class="flaticon-next"></span>
                                                     </div>
                                                 </div>
 
@@ -122,6 +125,7 @@ include './class/include.php';
                                         </div>
                                     </div> 
                                 </div>
+                                </a>
                             </div>
                             <!--End Single Service Style2-->
                         <?php } ?>          

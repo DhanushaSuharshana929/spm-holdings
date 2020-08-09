@@ -1594,8 +1594,8 @@ select:focus {
 .header-upper {
     position: relative;
     display: block;
-    background: #ffffff;
-    padding: 28px 0;
+    background: #640b27;
+    padding: 2px 0;
 }
 .header-upper .outer-box {
     position: relative;
@@ -2410,7 +2410,7 @@ select:focus {
     display: block;
     text-align: center;
     max-width: 300px;
-    margin: 0 auto 42px;
+    margin: 27px auto 42px;
 }
 .single-service-style1 .icon-holder{
     position: relative;
@@ -4355,7 +4355,7 @@ select:focus {
 
 
 .about-style1-text-box.style2 {
-    padding-top: 116px;
+    padding-top: 80px;
     padding-left: 100px;
 }
 .about-style1-text-box.style2 .title:before {
@@ -4579,7 +4579,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 0px 0 120px;
+    padding: 40px 0 120px;
 }
 .faq-image-box{
     position: absolute;
@@ -4598,7 +4598,7 @@ select:focus {
 .video-gallery-area{
     position: relative;
     display: block;
-    padding: 250px 0 250px;
+    padding: 150px 0 150px;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -5229,7 +5229,7 @@ select:focus {
 =============================================
 ***/
 .service-style1-area.service-page1 {
-    padding-bottom: 0px;
+    padding-bottom: 32px;
 }
 .service-style1-area.service-page1 .single-service-style1{
     margin-bottom: 50px;    
@@ -6327,7 +6327,7 @@ select:focus {
 .partner-area.partner-page {
     position: relative;
     display: block;
-    padding-top: 120px;
+    padding-top: 0px;
     padding-bottom: 0;
 }
 .partner-box-bottom {
@@ -9709,4 +9709,13 @@ select:focus {
     background: #43c3ea;
     color: #fff;
     border-color: #43c3ea;
+}
+
+/*----------font style-----------*/
+.letter{
+     font-family: 'Lobster', regular;
+}
+
+.breadcrumb-letter{
+    font-family: 'Courgette', regular;
 }

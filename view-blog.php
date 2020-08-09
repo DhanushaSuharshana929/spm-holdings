@@ -37,6 +37,8 @@ $BLOG_POST = new BlogPost($id);
         <link rel="stylesheet" href="assets/css/owl.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
+        <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Lobster&display=swap&family=Courgette&display=swap" rel="stylesheet"> 
+        
         <link rel="stylesheet" href="assets/css/color.css">
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -72,7 +74,7 @@ $BLOG_POST = new BlogPost($id);
                         <div class="col-xl-12">
                             <div class="inner-content clearfix">
                                 <div class="title">
-                                    <h1><?php echo $BLOG_POST->title ?></h1>
+                                    <br/><br/><h1 class="breadcrumb-letter"><?php echo $BLOG_POST->title ?></h1>
                                 </div>
                                 <div class="breadcrumb-menu">
                                     <ul class="clearfix">
@@ -80,7 +82,7 @@ $BLOG_POST = new BlogPost($id);
                                         <li><span class="flaticon-next-1"></span></li>
                                         <li><a href="blog.php">Blog Posts</a></li>
                                         <li><span class="flaticon-next-1"></span></li>
-                                        <li class="active"><?php echo $BLOG_POST->title ?></li>
+                                        <li class="active" style="color: #fd4f4f"><?php echo $BLOG_POST->title ?></li>
                                     </ul>    
                                 </div>
                             </div>
@@ -139,7 +141,7 @@ $BLOG_POST = new BlogPost($id);
                                                                 ?>
                                                                 <a class="active" data-slide-index="<?php $key ?>" href="#">
                                                                     <div class="img-holder">
-                                                                        <img src="assets/images/shop/shop-single-thumb-1.jpg" alt="Awesome Image">    
+                                                                        <img src="upload/blog-post/gallery/thumb/<?php echo $blog_photo['image_name'] ?>" alt="Awesome Image">    
                                                                     </div>
                                                                 </a>                                                       
                                                                 <?php
@@ -218,7 +220,7 @@ $BLOG_POST = new BlogPost($id);
                 <div class="container">
                     <div class="sec-title text-center">
                         <p>Learn something more from our blog</p>
-                        <div class="big-title black-clr"><h1>Other Blog Posts</h1></div>
+                        <div class="big-title black-clr"><h1 class="letter">Other Blog Posts</h1></div>
                     </div>
                     <div class="row">
                         <div class="col-xl-12">

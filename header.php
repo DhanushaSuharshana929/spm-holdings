@@ -1,10 +1,58 @@
 <header class="main-header header-style2"> 
+    
+    <div class="header-upper mobile-text">
+        <div class="container clearfix">
+            <div class="outer-box clearfix"> 
+                <div class="header-upper-right float-right clearfix">
+                    <div class="header-contact-info">
+                        <ul>
+                            <li>
+                                <div class="icon">
+                                    <span class="flaticon-location-pin thm_clr1" style="color: #fff"></span>
+                                </div>
+                                <div class="title">
+                                    <h6 style="color: #fff">10 10/3, Ward place, Colombo 7.</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="flaticon-call thm_clr1" style="color: #fff"></span>
+                                </div>
+                                <div class="title">
+                                    <h6 style="color: #fff">(+94) 77 149 0000</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="flaticon-clock thm_clr1" style="color: #fff"></span>
+                                </div>
+                                <div class="title">
+                                    <h6 style="color: #fff">8.00 am – 6.00 pm</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="flaticon-mail thm_clr1" style="color: #fff"></span>
+                                </div>
+                                <div class="title">
+                                    <h6 style="color: #fff">info@mpbc.lk</h6>
+                                </div>
+                            </li>
+                        </ul>    
+                    </div> 
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
     <div class="header-top">
         <div class="container">
             <div class="outer-box">
                 <div class="header-top-left">
                     <div class="welcome-text mobile-text">
-                        <h6><span class="flaticon-chat thm_clr1"></span>Welcome to <b class="thm_clr1">our consulting company</b></h6> 
+                        <h6><span class="flaticon-chat thm_clr1" style="color: #fd4f4f"></span>Welcome to <b class="thm_clr1" style="color: #fd4f4f">our consulting company</b></h6> 
                     </div>       
                 </div>
                 <div class="header-top-right">
@@ -37,55 +85,8 @@
             </div>    
         </div>
     </div>
-    <!--<div class="header-upper">
-            <div class="container clearfix">
-                <div class="outer-box clearfix"> 
-                    <div class="header-upper-right float-right clearfix">
-                        <div class="header-contact-info">
-                            <ul>
-                                 <li>
-                                    <div class="icon">
-                                        <span class="flaticon-location-pin thm_clr1"></span>
-                                    </div>
-                                    <div class="title">
-                                        <span class="thm_clr1">Location</span>
-                                        <h6><a href="tel:123456789">(+99) 123456789</a></h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="flaticon-call thm_clr1"></span>
-                                    </div>
-                                    <div class="title">
-                                        <span class="thm_clr1">Call us anytime</span>
-                                        <h6><a href="tel:123456789">(+99) 123456789</a></h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="flaticon-clock thm_clr1"></span>
-                                    </div>
-                                    <div class="title">
-                                        <span class="thm_clr1">Opening time</span>
-                                        <h6>Sat - Sun 08.00 to 14.00</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="flaticon-mail thm_clr1"></span>
-                                    </div>
-                                    <div class="title">
-                                        <span class="thm_clr1">Email us now</span>
-                                        <h6><a href="mailto:info@templatepath.com">rinbuild@gmail.com</a></h6>
-                                    </div>
-                                </li>
-                            </ul>    
-                        </div> 
-                            
-                    </div>
-                </div>
-            </div>
-        </div>-->
+    
+               
     <!--Start Header upper -->
     <div class="header-upper header-upper-style2">
         <div class="container clearfix">
