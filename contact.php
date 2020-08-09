@@ -31,6 +31,8 @@ include './class/include.php';
         <link rel="stylesheet" href="assets/css/owl.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
+        <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Lobster&display=swap&family=Courgette&display=swap" rel="stylesheet"> 
+        
         <link rel="stylesheet" href="assets/css/color.css">
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -70,13 +72,13 @@ include './class/include.php';
                         <div class="col-xl-12">
                             <div class="inner-content clearfix">
                                 <div class="title">
-                                    <h1>Contact Us</h1>
+                                    <br/><br/><h1 class="breadcrumb-letter">CONTACT US</h1>
                                 </div>
                                 <div class="breadcrumb-menu">
                                     <ul class="clearfix">
                                         <li><a href="./">Home</a></li>
                                         <li><span class="flaticon-next-1"></span></li>
-                                        <li class="active">Contact Us</li>
+                                        <li class="active" style="color: #fd4f4f">Contact Us</li>
                                     </ul>    
                                 </div>
                             </div>
@@ -136,7 +138,7 @@ include './class/include.php';
                         <div class="col-xl-8 col-lg-7 col-md-12">
                             <div class="contact-form">
                                 <div class="title">
-                                    <h3>Send Us a Message</h3>
+                                    <h3 class="letter">Send Us a Message</h3>
                                 </div>
                                 <div class="inner-box">
 

@@ -99,13 +99,13 @@ $ABOUT_PAGE = new Page(1);
                         <div class="pages-box">
 
                             <ul class="page-links">
-                                <li><a href="./">License Survey</a></li>
-                                <li><a href="#">Legal Services</a></li>
-                                <li><a href="#">Quantity Surveying</a></li>
-                                <li><a href="#">Finance mechanisms</a></li>
-                                 <li><a href="#">Management</a></li>
-                                <li><a href="#">Engineering</a></li>
-                                <li><a href="#">Architecture</a></li>
+                                <li><a href="services.php">License Survey</a></li>
+                                <li><a href="services.php">Legal Services</a></li>
+                                <li><a href="services.php">Quantity Surveying</a></li>
+                                <li><a href="services.php">Finance mechanisms</a></li>
+                                <li><a href="services.php">Management</a></li>
+                                <li><a href="services.php">Engineering</a></li>
+                                <li><a href="services.php">Architecture</a></li>
                             </ul>      
 
                         </div>

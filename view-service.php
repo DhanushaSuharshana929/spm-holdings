@@ -37,6 +37,8 @@ $SERVICE = new Service($id);
         <link rel="stylesheet" href="assets/css/owl.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
+        <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Lobster&display=swap&family=Courgette&display=swap" rel="stylesheet"> 
+        
         <link rel="stylesheet" href="assets/css/color.css">
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -72,7 +74,7 @@ $SERVICE = new Service($id);
                         <div class="col-xl-12">
                             <div class="inner-content clearfix">
                                 <div class="title">
-                                    <h1><?php echo $SERVICE->title ?></h1>
+                                   <br/><br/> <h1 class="breadcrumb-letter"><?php echo $SERVICE->title ?></h1>
                                 </div>
                                 <div class="breadcrumb-menu">
                                     <ul class="clearfix">
@@ -80,7 +82,7 @@ $SERVICE = new Service($id);
                                         <li><span class="flaticon-next-1"></span></li>
                                         <li><a href="services.php">Services</a></li>
                                         <li><span class="flaticon-next-1"></span></li>
-                                        <li class="active"><?php echo $SERVICE->title ?></li>
+                                        <li class="active" style="color: #fd4f4f"><?php echo $SERVICE->title ?></li>
                                     </ul>    
                                 </div>
                             </div>

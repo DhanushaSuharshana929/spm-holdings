@@ -34,6 +34,8 @@ $ABOUT_INDEX = new Page(1);
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/owl.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        
+       <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Lobster&display=swap&family=Courgette&display=swap&family=Lemonada:wght@600&display=swap" rel="stylesheet"> 
 
         <link rel="stylesheet" href="assets/css/color.css">
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
@@ -96,7 +98,7 @@ $ABOUT_INDEX = new Page(1);
                             <div class="about-style1-text-box">
                                 <div class="title">
                                     <p>WELCOME</p>
-                                    <h1><span>MPBC.lk</span>Think <b>big</b> <br> <b>Think</b> different<br> </h1>
+                                    <h1 class="letter"><span>MPBC.lk</span>Think <b>big</b> <br> <b>Think</b> different<br> </h1>
                                 </div>
                                 <div class="inner-contant">
                                     <p><?php echo $ABOUT_INDEX->description ?></p>
@@ -120,7 +122,7 @@ $ABOUT_INDEX = new Page(1);
                     <div class="sec-title text-center">
                         <p style="font-size: 19px;color: #ffe1e1; font-weight: 330"><b>We position our clients at the forefront of their field by advancing 
                                 an agenda.</b></p>
-                        <div class="big-title"><h1>Company Services</h1></div>
+                                <div class="big-title"><h1 class="letter">Company Services</h1></div>
                     </div>
                     <div class="auto-container">
                         <div class="row">
@@ -185,7 +187,7 @@ $ABOUT_INDEX = new Page(1);
                 <div class="container">
                     <div class="sec-title">
                         <p>Many organizations realize the benefits of forming work teams</p>
-                        <div class="big-title black-clr"><h1>Our Team</h1></div>
+                        <div class="big-title black-clr"><h1 class="letter">Our Team</h1></div>
                     </div>
                 </div>
                 <div class="container">
@@ -248,7 +250,7 @@ $ABOUT_INDEX = new Page(1);
                 <div class="container">
                     <div class="sec-title text-center">
                         <p>Learn something more from our blog</p>
-                        <div class="big-title black-clr"><h1>Blog Posts</h1></div>
+                        <div class="big-title black-clr"><h1 class="letter">Blog Posts</h1></div>
                     </div>
 
                     <div class="row filter-layout masonary-layout">
