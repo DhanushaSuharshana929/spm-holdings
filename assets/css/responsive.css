@@ -786,7 +786,7 @@
 
     .sec-title {
         padding-bottom: 46px;
-    }    
+    }
     .sec-title p br{
         display: none;
     } 
@@ -1105,20 +1105,15 @@
 
     /*** Service Style3 Area Css ***/
     .service-style3-area .sec-title {
-        padding-bottom: 154px;
+        padding-bottom: 52px;
         text-align: center;
     }    
     .service-carousel.owl-nav-style-one.owl-theme .owl-nav {
-        top: -120px;
+        top: -58px;
         left: 0;
         right: 0;
         text-align: center;
-    } 
-    
-    .mobile-owl-nav{
-        
-}
-    
+    }
     .single-service-style3 .overlay-content .title-holder h3 {
         font-size: 20px;
         line-height: 32px;
@@ -1244,7 +1239,7 @@
     /*** Breadcrumb Area Css ***/ 
     .breadcrumb-area {
         padding: 155px 0 113px;
-/*        margin-top: 177px;*/
+        /*        margin-top: 177px;*/
     }
     .breadcrumb-area .title {
         margin: 0 0 21px;
@@ -1529,9 +1524,9 @@
     /*header content hidden*/
     .mobile-text{
         display: none;
-          
+
     }
-    
+
     .mobile-icon{
         height: 50px;
         width: 50px;

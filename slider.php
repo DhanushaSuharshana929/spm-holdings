@@ -13,23 +13,23 @@
                     <div class="image-layer lazy-image" style="background-image:url(upload/slider/<?php echo $slider['image_name']; ?>)"></div>
                     <div class="auto-container">
                         <div class="content beautypress-purple-overlay">
-                            <h3>
-                                <img src="assets/images/icon/slide-title-icon-1.png" alt="">Our MPBC.lk Management Consortium</h3><br/><br/><br/>
-                            <h2 style="color: #640b27;font-family: 'Lemonada', semi-bold; font-style: oblique; text-shadow: 0 0 3px #fff, 0 0 5px #fff; ">
-                                <?php echo $slider['title']; ?>
-                            </h2><br/>
-                            <div class="btns-box">
-                                <a href="services.php" class="btn-two">Our Services</a>
-                                <a class="btn-one" href="about.php">View More<span class="flaticon-next"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Slide -->
-            <?php } ?>
+                            <h3 class="text-center">
+                                <center><img src="assets/images/icon/slide-title-icon-1.png" alt="" class="center"><br/><br/><br/>
+                                    <h2 class="text-center slider-text">
+                                        <?php echo $slider['title']; ?>
+                                    </h2><br/>
+                                    <div class="btns-box text-center">
+                                        <a href="services.php" class="btn-two">Our Services</a>
+                                        <a class="btn-one" href="about.php">View More<span class="flaticon-next"></span></a>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <!-- End Slide -->
+                                <?php } ?>
 
-        </div>
+                                </div>
 
-    </div>
-</section>
-<!-- End Main Slider -->
+                                </div>
+                                </section>
+                                <!-- End Main Slider -->

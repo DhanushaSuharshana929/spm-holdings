@@ -72,7 +72,7 @@ include './class/include.php';
                         <div class="col-xl-12">
                             <div class="inner-content clearfix">
                                 <div class="title">
-                                    <br/><br/><h1 class="breadcrumb-letter">CONTACT US</h1>
+                                    <br/><br/><h1>Contact Us</h1>
                                 </div>
                                 <div class="breadcrumb-menu">
                                     <ul class="clearfix">
@@ -138,7 +138,7 @@ include './class/include.php';
                         <div class="col-xl-8 col-lg-7 col-md-12">
                             <div class="contact-form">
                                 <div class="title">
-                                    <h3 class="letter">Send Us a Message</h3>
+                                    <h3>Send Us a Message</h3>
                                 </div>
                                 <div class="inner-box">
 
@@ -260,7 +260,7 @@ include './class/include.php';
                 <div class="map-outer">
                     <!-- Google Map -->
                     <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.7169017267956!2d80.21371001307674!3d6.033534895630315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173ab164cc223%3A0x26f35b51c49d6d1d!2sSynotec%20Holdings%20Pvt.%20Ltd!5e0!3m2!1sen!2slk!4v1591701703939!5m2!1sen!2slk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.318441723046!2d79.96118811444128!3d6.852379921154424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2505351d45521%3A0xfa556cea048926da!2s752%20Rukmale%20Rd%2C%20Pannipitiya%2010230!5e0!3m2!1sen!2slk!4v1597050175913!5m2!1sen!2slk" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                     <!--// Google Map -->
                 </div>

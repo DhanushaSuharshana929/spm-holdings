@@ -72,7 +72,7 @@ $ABOUT_PAGE_2 = new Page(3);
                         <div class="col-xl-12">
                             <div class="inner-content clearfix">
                                 <div class="title">
-                                    <br/><br/><h1 class="breadcrumb-letter">ABOUT US</h1>
+                                    <br/><br/><h1>About Us</h1>
                                 </div>
                                 <div class="breadcrumb-menu">
                                     <ul class="clearfix">
@@ -95,44 +95,31 @@ $ABOUT_PAGE_2 = new Page(3);
                     <div class="row">
                         <div class="col-xl-5">
                             <div class="about-style1-image-box clearfix">
-                                <div class="shape zoom-fade"></div>
-                                <div class="image-box1">
+                                <div></div>
+                                <div>
                                     <img src="assets/images/about/about-1.jpg" alt="Awesome Image">
                                 </div>
-                                <div class="image-box2">
-                                    <img src="assets/images/about/about-2.jpg" alt="Awesome Image">
-                                </div>
-                                <div class="video-holder-box" style="background-image:url(assets/images/about/video-gallery.jpg);">
-                                    <div class="icon">
-                                        <div class="inner">
-                                            <a class="video-popup wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms" title="RinBuild Video Gallery" href="https://www.youtube.com/watch?v=p25gICT63ek">
-                                                <span class="flaticon-play-button"></span>
-                                            </a>
-                                        </div>   
-                                    </div>
-                                </div>
+
                             </div>     
                         </div>
                         <div class="col-xl-7 col-lg-12">
                             <div class="about-style1-text-box">
                                 <div class="title">
                                     <p>WELCOME</p>
-                                    <h1 class="letter"><span>MPBC.lk</span>Think <b>big</b> <br> <b>Think</b> different<br> </h1>
+                                    <h1><span>MPBC.lk</span>Think <b>big</b> <br> <b>Think</b> different<br> </h1>
                                 </div>
                                 <div class="inner-contant">
-                                    <p><?php echo $ABOUT_PAGE->description ?></p>
+                                    <p class="about-text"><?php echo $ABOUT_PAGE->description ?></p>
 
                                 </div>    
                             </div>  
                         </div>
                     </div> 
                     <div class="col-md-12">
-                        <div>
+                        <div class="about-style1-text-box">
                             <div class="inner-contant">
-                                <p><?php echo $ABOUT_PAGE_2->description ?></p>
-                                <div class="signature-box">
-                                    <img src="assets/images/resources/signature.png" alt="Signature">    
-                                </div>
+                                <p class="about-text"><?php echo $ABOUT_PAGE_2->description ?></p>
+
                             </div>    
                         </div>  
                     </div>
@@ -149,33 +136,17 @@ $ABOUT_PAGE_2 = new Page(3);
                         <div class="col-xl-5">
                             <div class="about-style2-image-box clearfix">
                                 <img src="assets/images/about/about-3.jpg" alt="Awesome Image">
-                                <div class="inner-box">
-                                    <div class="image-box1 lazy-image">
-                                        <img src="assets/images/about/about-4.jpg" alt="Awesome Image">
-                                    </div>
-                                    <div class="image-box2 lazy-image">
-                                        <img src="assets/images/about/about-2.jpg" alt="Awesome Image">
-                                    </div>
-                                    <div class="video-holder-box style2">
-                                        <div class="icon">
-                                            <div class="inner">
-                                                <a class="video-popup wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms" title="RinBuild Video Gallery" href="https://www.youtube.com/watch?v=p25gICT63ek">
-                                                    <span class="flaticon-play-button"></span>
-                                                </a>
-                                            </div>   
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>     
                         </div>
                         <div class="col-xl-7 col-lg-12">
                             <div class="about-style1-text-box style2">
                                 <div class="title">
-                                    
-                                    <h1>Our 14 <span>MPBC.lk</span><br> <b>years</b> working<br> experience.</h1>
+
+                                    <h1>Our 14 <span>MPBC.lk</span><br> <b>years</b> working<br> experience.</h1><br/>
                                 </div>
                                 <div class="inner-contant">
-                                    <h2 class="breadcrumb-letter text-center" style="color: #fdb2b2">Like What We Offer DO BUSINESS WITH US!</h2><br/>
+                                    <h2 class="breadcrumb-letter text-center" style="color: #fdb2b2">Like What We Offer, DO BUSINESS WITH US!</h2><br/>
                                     <h5 class="text-center" style="color: #acacac">In order to acquire our services please kindly send us your inquiry of interest. 
                                         We shall revert back immediately.</h5>
                                     <div class="fact-box-style2">
@@ -183,34 +154,34 @@ $ABOUT_PAGE_2 = new Page(3);
                                             <li class="single-fact-counter text-center wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
                                                 <div class="count-box">
                                                     <h1>
-                                                        <span class="timer" data-from="1" data-to="30" data-speed="5000" data-refresh-interval="50">30</span>
+                                                        <span class="timer" data-from="1" data-to="30" data-speed="5000" data-refresh-interval="50" style="color: darkorange">30</span>
                                                     </h1>
                                                     <div class="icon"><span class="flaticon-plus"></span></div>
                                                 </div>
                                                 <div class="title">
-                                                    <h3>Year of Experience</h3>
+                                                    <h3>Team Members</h3>
                                                 </div>
                                             </li>
                                             <li class="single-fact-counter text-center wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
                                                 <div class="count-box">
                                                     <h1>
-                                                        <span class="timer" data-from="1" data-to="25" data-speed="5000" data-refresh-interval="50">25</span>
+                                                        <span class="timer" data-from="1" data-to="215" data-speed="5000" data-refresh-interval="50" style="color: darkorange">215</span>
                                                     </h1>
                                                     <div class="icon"><span class="flaticon-plus"></span></div>
                                                 </div>
                                                 <div class="title">
-                                                    <h3>Winning Awards</h3>
+                                                    <h3>Client’s Feedback</h3>
                                                 </div>
                                             </li>
                                             <li class="single-fact-counter text-center wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
                                                 <div class="count-box">
                                                     <h1>
-                                                        <span class="timer" data-from="1" data-to="99" data-speed="5000" data-refresh-interval="50">99</span>
+                                                        <span class="timer" data-from="1" data-to="310" data-speed="5000" data-refresh-interval="50" style="color: darkorange">310</span>
                                                     </h1>
                                                     <div class="icon"><span class="flaticon-plus"></span></div>
                                                 </div>
                                                 <div class="title">
-                                                    <h3>Complet Project</h3>
+                                                    <h3>Completed Works</h3>
                                                 </div>
                                             </li>
                                         </ul>      
@@ -225,66 +196,6 @@ $ABOUT_PAGE_2 = new Page(3);
             <!--End About Style2 Area-->
 
 
-            <!--Start Service Style1 Area-->
-            <section class="video-gallery-area lazy-image" style="background-image:url(assets/images/parallax-background/video-gallery-bg.jpg);">
-                <div class="container">
-                    <div class="row">
-
-                        <!--Start Single Service Style1-->
-                        <div class="col-xl-4 col-lg-4" style="box-shadow: 2px 4px 10px;background-color: #c7fbd6">
-                            <div class="single-service-style1">
-                                <div class="icon-holder">
-                                    <img src="assets/images/icon/services/service-icon-1.png" alt="Icon">
-                                </div> 
-                                <div class="text-holder">
-                                    <h3>Our Value</h3>
-                                    <p>Our values are based on principles that are very dear to us.
-                                        We take our clients requirements very seriously and incorporate the following values 
-                                        into the mindsets of our consultants and partners alike.</p>
-                                </div>   
-                            </div>
-                        </div>
-                        <!--End Single Service Style1-->
-
-
-                        <!--Start Single Service Style1-->
-                        <div class="col-xl-4 col-lg-4" style="box-shadow: 2px 4px 10px;background-color: #ffd3b4">
-                            <div class="single-service-style1">
-                                <div class="icon-holder">
-                                    <img src="assets/images/icon/services/service-icon-2.png" alt="Icon">
-                                </div> 
-                                <div class="text-holder">
-                                    <h3>Our Mission</h3>
-                                    <p>Creation of new industry standard through the best practices by 
-                                        fullfilling our clients requirements.</p>
-                                </div>   
-                            </div>
-                        </div>
-                        <!--End Single Service Style1-->
-
-
-                        <!--Start Single Service Style1-->
-                        <div class="col-xl-4 col-lg-4" style="box-shadow: 2px 4px 10px;background-color: #cccdff">
-                            <div class="single-service-style1">
-                                <div class="icon-holder">
-                                    <img src="assets/images/icon/services/service-icon-3.png" alt="Icon">
-                                </div> 
-                                <div class="text-holder">
-                                    <h3>Our Vision</h3>
-                                    <p>Be the game changer</p>
-
-                                </div>   
-                            </div>
-                        </div>
-                        <!--End Single Service Style1-->
-
-
-                    </div>
-                </div>
-            </section>
-            <!--End Service Style1 Area-->
-
-
             <!--Start Faq Content Area-->
             <section class="faq-content-area">
                 <div class="container">
@@ -292,7 +203,7 @@ $ABOUT_PAGE_2 = new Page(3);
                         <div class="col-xl-6">
                             <div class="faq-content-box">
                                 <div class="sec-title">
-                                    <p class="letter" style="margin: 3px;">MPBC.lk works by</p>
+                                    <p style="margin: 3px;">MPBC.lk works by</p>
                                     <div class="big-title black-clr">
                                         <h1>leveraging expertise, providing solutions to businesses</h1>
                                     </div>
@@ -347,6 +258,53 @@ $ABOUT_PAGE_2 = new Page(3);
                 </div>
             </section>
             <!--End Faq Content Area-->
+
+
+            <!-- vision, mission-->
+            <section class="header" style="background-color: #f2f3f4;padding-top: 10px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <!-- Tabs nav -->
+                            <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link mb-3 p-3 shadow active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" style="text-align: center; font-size: 25px;">                                    
+                                    <span class="font-weight-bold small text-uppercase">Our Value</span></a>
+
+                                <a class="nav-link mb-3 p-3 shadow" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false" style="text-align: center; font-size: 25px;">                                    
+                                    <span class="font-weight-bold small text-uppercase">Our Mission</span></a>
+
+                                <a class="nav-link mb-3 p-3 shadow" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false" style="text-align: center; font-size: 25px;">                                  
+                                    <span class="font-weight-bold small text-uppercase">Our Vision</span></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-9">
+                            <!-- Tabs content -->
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                    <h4 class="font-italic mb-4 text-center">Our Value</h4>
+                                    <p class="font-italic text-muted mb-2 text-center">Our values are based on principles that are very dear to us.
+                                        We take our clients requirements very seriously and incorporate the following values 
+                                        into the mindsets of our consultants and partners alike.</p>
+                                </div>
+
+                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                    <h4 class="font-italic mb-4 text-center">Our Mission</h4>
+                                    <p class="font-italic text-muted mb-2 text-center">Creation of new industry standard through the best practices by fullfilling our clients requirements.</p>
+                                </div>
+
+                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                    <h4 class="font-italic mb-4 text-center">Our Vision</h4>
+                                    <p class="font-italic text-muted mb-2 text-center">Be the game changer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
 
 
             <!--Start footer area-->  

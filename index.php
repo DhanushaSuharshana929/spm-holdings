@@ -34,8 +34,8 @@ $ABOUT_INDEX = new Page(1);
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/owl.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        
-       <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Lobster&display=swap&family=Courgette&display=swap&family=Lemonada:wght@600&display=swap" rel="stylesheet"> 
+
+        <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Lobster&display=swap&family=Courgette&display=swap&family=Lemonada:wght@600&display=swap" rel="stylesheet"> 
 
         <link rel="stylesheet" href="assets/css/color.css">
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
@@ -76,35 +76,22 @@ $ABOUT_INDEX = new Page(1);
                     <div class="row">
                         <div class="col-xl-5">
                             <div class="about-style1-image-box clearfix">
-                                <div class="shape zoom-fade"></div>
-                                <div class="image-box1">
+                                <div></div>
+                                <div>
                                     <img src="assets/images/about/about-1.jpg" alt="Awesome Image">
                                 </div>
-                                <div class="image-box2">
-                                    <img src="assets/images/about/about-2.jpg" alt="Awesome Image">
-                                </div>
-                                <div class="video-holder-box" style="background-image:url(assets/images/about/video-gallery.jpg);">
-                                    <div class="icon">
-                                        <div class="inner">
-                                            <a class="video-popup wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms" title="MPBC.lk" href="https://www.youtube.com/watch?v=p25gICT63ek">
-                                                <span class="flaticon-play-button"></span>
-                                            </a>
-                                        </div>   
-                                    </div>
-                                </div>
+
                             </div>     
                         </div>
                         <div class="col-xl-7 col-lg-12">
                             <div class="about-style1-text-box">
                                 <div class="title">
                                     <p>WELCOME</p>
-                                    <h1 class="letter"><span>MPBC.lk</span>Think <b>big</b> <br> <b>Think</b> different<br> </h1>
+                                    <h1><span>MPBC.lk</span>Think <b>big</b> <br> <b>Think</b> different<br> </h1>
                                 </div>
                                 <div class="inner-contant">
-                                    <p><?php echo $ABOUT_INDEX->description ?></p>
-                                    <div class="signature-box">
-                                        <img src="assets/images/resources/signature.png" alt="Signature">    
-                                    </div>
+                                    <p class="about-text"><?php echo $ABOUT_INDEX->description ?></p>
+                                   
                                 </div>    
                             </div>  
                         </div>
@@ -122,7 +109,7 @@ $ABOUT_INDEX = new Page(1);
                     <div class="sec-title text-center">
                         <p style="font-size: 19px;color: #ffe1e1; font-weight: 330"><b>We position our clients at the forefront of their field by advancing 
                                 an agenda.</b></p>
-                                <div class="big-title"><h1 class="letter">Company Services</h1></div>
+                        <div class="big-title"><h1>Company Services</h1></div>
                     </div>
                     <div class="auto-container">
                         <div class="row">
@@ -136,30 +123,35 @@ $ABOUT_INDEX = new Page(1);
 
                                             <!--Start Single Service Style3-->
                                             <div class="single-service-style2">
-                                                <div class="img-holder">
-                                                    <img src="upload/service/<?php echo $service['image_name']; ?>" alt="Awesome Image">
-                                                    <div class="static-content">
-                                                        <div class="title">
-                                                            <h3>
-                                                                <a href="view-service.php?id=<?php echo $service['id']; ?>">
-                                                                    <?php echo $service['title'] ?>
-                                                                </a>
-                                                            </h3>
-                                                        </div>
+                                                <a href="view-service.php?id=<?php echo $service['id']; ?>">
+                                                    <div class="img-holder">
+                                                        <img src="upload/service/<?php echo $service['image_name']; ?>" alt="Awesome Image">
+                                                        <div class="static-content">
+                                                            <div class="title">
+                                                                <h3>
 
-                                                    </div>
-                                                    <div class="overlay-content">
-                                                        <div class="inner-content">
-                                                            <div class="icon"><span class="flaticon-building"></span></div>
-                                                            <div class="text-holder">
-                                                                <div class="title">
-                                                                    <h3><a href="view-service.php?id=<?php echo $service['id']; ?>"><?php echo $service['title'] ?></a></h3>
+                                                                    <?php echo $service['title'] ?>
+
+                                                                </h3>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="overlay-content">
+                                                            <div class="inner-content">
+                                                                <div class="icon"><span class="flaticon-building"></span></div>
+                                                                <div class="text-holder">
+                                                                    <div class="title">
+                                                                        <h3 style="color: #fd4f4f"><?php echo $service['title'] ?></h3>
+                                                                    </div>
+                                                                    <p><?php echo substr($service['description'], 0, 100) ?></p> 
+                                                                    <div class="read-more-button float-right" style="color: #fd4f4f">
+                                                                        Read More <span class="flaticon-next"></span>
+                                                                    </div>
                                                                 </div>
-                                                                <p><?php echo substr($service['description'], 0, 100) ?></p>      
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                </div> 
+                                                    </div> 
+                                                </a>
                                             </div>
 
                                             <?php
@@ -187,7 +179,7 @@ $ABOUT_INDEX = new Page(1);
                 <div class="container">
                     <div class="sec-title">
                         <p>Many organizations realize the benefits of forming work teams</p>
-                        <div class="big-title black-clr"><h1 class="letter">Our Team</h1></div>
+                        <div class="big-title black-clr"><h1>Our Team</h1></div>
                     </div>
                 </div>
                 <div class="container">
@@ -202,6 +194,7 @@ $ABOUT_INDEX = new Page(1);
 
                                         <!--Start Single Service Style3-->
                                         <div class="wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="1300ms">
+                                            <a href="meet-us.php">
                                             <div class="single-team-member wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
                                                 <div class="img-holder">
                                                     <img src="upload/activity/<?php echo $team['image_name']; ?>" alt="Awesome Image">
@@ -224,6 +217,7 @@ $ABOUT_INDEX = new Page(1);
                                                     </div>    
                                                 </div>
                                             </div>
+                                            </a>
                                         </div>
                                         <!--End Single Service Style3-->
                                         <?php
@@ -250,7 +244,7 @@ $ABOUT_INDEX = new Page(1);
                 <div class="container">
                     <div class="sec-title text-center">
                         <p>Learn something more from our blog</p>
-                        <div class="big-title black-clr"><h1 class="letter">Blog Posts</h1></div>
+                        <div class="big-title black-clr"><h1>Blog Posts</h1></div>
                     </div>
 
                     <div class="row filter-layout masonary-layout">
@@ -313,53 +307,77 @@ $ABOUT_INDEX = new Page(1);
                         <div class="col-xl-12 col-lg- col-md-12 col-sm-12 float-right">
                             <div class="shop-content">
 
-                                <div class="rinbuild-carousel shop-carousel owl-carousel owl-theme owl-nav-style-one" data-options='{"loop":true, "margin":30, "autoheight":true, "nav":true, "dots":false, "autoplay":true, "autoplayTimeout":6000, "smartSpeed":500, "responsive":{ "0":{"items": "1"}, "768":{"items": "2"}, "1000":{"items": "5" }}}'>
+                                <div class="rinbuild-carousel shop-carousel owl-carousel owl-theme owl-nav-style-one" data-options='{"loop":true, "margin":30, "autoheight":true, "nav":false, "dots":false, "autoplay":true, "autoplayTimeout":6000, "smartSpeed":500, "responsive":{ "0":{"items": "1"}, "768":{"items": "2"}, "1000":{"items": "5" }}}'>
+
                                     <!--Start single product item-->
                                     <div>
                                         <div class="img-holder">
                                             <img src="assets/images/brand/brand-1.png" alt="Awesome Product Image">
-
-                                            <div class="overlay-content">
-
-                                            </div>
                                         </div>
-
                                     </div>
                                     <!--End single product item-->
+
                                     <!--Start single product item-->
                                     <div>
                                         <div class="img-holder">
-                                            <img src="assets/images/brand/brand-2.png" alt="Awesome Product Image">
-
-                                            <div class="overlay-content">
-
-                                            </div>
+                                            <img src="assets/images/brand/brand-2.jpeg" alt="Awesome Product Image">
                                         </div>
-
                                     </div>
                                     <!--End single product item-->
+
                                     <!--Start single product item-->
                                     <div>
                                         <div class="img-holder">
                                             <img src="assets/images/brand/brand-3.png" alt="Awesome Product Image">
-
-                                            <div class="overlay-content">
-
-                                            </div>
                                         </div>
-
                                     </div>
                                     <!--End single product item-->
+
                                     <!--Start single product item-->
                                     <div>
                                         <div class="img-holder">
-                                            <img src="assets/images/brand/brand-4.png" alt="Awesome Product Image">
-
-                                            <div class="overlay-content">
-
-                                            </div>
+                                            <img src="assets/images/brand/brand-4.jpeg" alt="Awesome Product Image">                                          
                                         </div>
+                                    </div>
+                                    <!--End single product item-->
 
+                                    <!--Start single product item-->
+                                    <div>
+                                        <div class="img-holder">
+                                            <img src="assets/images/brand/brand-5.png" alt="Awesome Product Image">
+                                        </div>
+                                    </div>
+                                    <!--End single product item-->
+
+                                    <!--Start single product item-->
+                                    <div>
+                                        <div class="img-holder">
+                                            <img src="assets/images/brand/brand-6.jpeg" alt="Awesome Product Image">
+                                        </div>
+                                    </div>
+                                    <!--End single product item-->
+
+                                    <!--Start single product item-->
+                                    <div>
+                                        <div class="img-holder">
+                                            <img src="assets/images/brand/brand-7.png" alt="Awesome Product Image">
+                                        </div>
+                                    </div>
+                                    <!--End single product item-->
+
+                                    <!--Start single product item-->
+                                    <div>
+                                        <div class="img-holder">
+                                            <img src="assets/images/brand/brand-8.png" alt="Awesome Product Image">                                          
+                                        </div>
+                                    </div>
+                                    <!--End single product item-->
+
+                                    <!--Start single product item-->
+                                    <div>
+                                        <div class="img-holder">
+                                            <img src="assets/images/brand/brand-9.png" alt="Awesome Product Image">                                          
+                                        </div>
                                     </div>
                                     <!--End single product item-->
 

@@ -71,7 +71,7 @@ include './class/include.php';
                         <div class="col-xl-12">
                             <div class="inner-content clearfix">
                                 <div class="title">
-                                    <br/><br/><h1 class="breadcrumb-letter">SERVICES</h1>
+                                    <br/><br/><h1>Services</h1>
                                 </div>
                                 <div class="breadcrumb-menu">
                                     <ul class="clearfix">

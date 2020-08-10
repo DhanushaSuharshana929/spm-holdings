@@ -101,7 +101,7 @@ $SERVICE = new Service($id)
                                         }
                                     } else {
                                         ?> 
-                                        <b style="padding-left: 15px;">No services in the database.</b> 
+                                        <b style="padding-left: 15px;">No Images in the database.</b> 
                                     <?php } ?> 
 
                                 </div>
