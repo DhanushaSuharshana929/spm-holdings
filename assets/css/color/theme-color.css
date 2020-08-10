@@ -227,7 +227,7 @@
     background-color: rgba(253, 93, 19, 0.80);
 }
 .main-slider .content h3:before{
-    background: rgb(100, 14, 39);
+/*    background: rgb(100, 14, 39);*/
 }
 .single-portfolio-slider .slider-pager .thumb-box li a .img-holder:before{
     background-color: rgba(253, 93, 19, 0.50);

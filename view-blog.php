@@ -74,7 +74,7 @@ $BLOG_POST = new BlogPost($id);
                         <div class="col-xl-12">
                             <div class="inner-content clearfix">
                                 <div class="title">
-                                    <br/><br/><h1 class="breadcrumb-letter"><?php echo $BLOG_POST->title ?></h1>
+                                    <br/><br/><h1><?php echo $BLOG_POST->title ?></h1>
                                 </div>
                                 <div class="breadcrumb-menu">
                                     <ul class="clearfix">
@@ -220,7 +220,7 @@ $BLOG_POST = new BlogPost($id);
                 <div class="container">
                     <div class="sec-title text-center">
                         <p>Learn something more from our blog</p>
-                        <div class="big-title black-clr"><h1 class="letter">Other Blog Posts</h1></div>
+                        <div class="big-title black-clr"><h1>Other Blog Posts</h1></div>
                     </div>
                     <div class="row">
                         <div class="col-xl-12">
