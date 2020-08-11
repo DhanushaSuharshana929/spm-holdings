@@ -54,7 +54,7 @@ $ABOUT_INDEX = new Page(1);
 
     <body>
 
-
+        
         <div class="boxed_wrapper">
 
 
@@ -69,6 +69,9 @@ $ABOUT_INDEX = new Page(1);
             <?php include './slider.php'; ?>
             <!-- End Main Slider -->
 
+            <div>
+                <embed name="GoodEnough" src="music/bensound-creativeminds.mp3" loop="false" hidden="true" autostart="true">
+            </div>
 
             <!--Start About Style1 Area-->
             <section class="about-style1-area">
