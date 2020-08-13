@@ -44,19 +44,14 @@ $ABOUT_PAGE = new Page(1);
                                         </a> 
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/dewymanagementconsortium/" target="blank">
-                                            <img src="assets/images/resources/instagram.png" width="30px" height="30px">
-                                        </a> 
+                                        <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank">
+                                            <img src="assets/images/resources/youtube.png" width="30px" height="35px" style="border-radius: 4px;">
+                                        </a>
                                     </li>
                                     <li>
                                         <a href="https://www.linkedin.com/company/35874529" target="blank">
                                             <img src="assets/images/resources/linkedin.png" width="30px" height="30px">
                                         </a> 
-                                    </li>
-                                    <li>
-                                        <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank">
-                                            <img src="assets/images/resources/youtube.png" width="30px" height="35px" style="border-radius: 4px;">
-                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -64,8 +59,8 @@ $ABOUT_PAGE = new Page(1);
                     </div>
                 </div>
                 <!--End single footer widget-->
-                
-                
+
+
                 <!--Start single footer widget-->
                 <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
                     <div class="single-footer-widget margin50-0">
@@ -83,13 +78,13 @@ $ABOUT_PAGE = new Page(1);
                                 <li><a href="blog.php">Blog</a></li>
                                 <li><a href="contact.php">Contact Us</a></li>
                             </ul>      
-                            
+
                         </div>
                     </div>
                 </div>
                 <!--End single footer widget--> 
-                
-                
+
+
                 <!--Start single footer widget-->
                 <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
                     <div class="single-footer-widget margin50-0">
@@ -99,21 +94,25 @@ $ABOUT_PAGE = new Page(1);
                         <div class="pages-box">
 
                             <ul class="page-links">
-                                <li><a href="services.php">License Survey</a></li>
-                                <li><a href="services.php">Legal Services</a></li>
-                                <li><a href="services.php">Quantity Surveying</a></li>
-                                <li><a href="services.php">Finance mechanisms</a></li>
-                                <li><a href="services.php">Management</a></li>
-                                <li><a href="services.php">Engineering</a></li>
-                                <li><a href="services.php">Architecture</a></li>
+
+                                <?php
+                                $SERVICE_FOOTER = new Service(null);
+                                foreach ($SERVICE_FOOTER->all() as $key => $service_footer) {
+                                    if ($key < 7) {
+                                        ?>
+                                         <li><a href="view-service.php?id=<?= $service_footer['id'] ?>"><?= substr($service_footer['title'],0,12) ?>...</a></li>
+                                    <?php
+                                    }
+                                }
+                                ?>
                             </ul>      
 
                         </div>
                     </div>
                 </div>
                 <!--End single footer widget--> 
-                
-                
+
+
                 <!--Start single footer widget-->
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 wow animated fadeInUp" data-wow-delay="0.7s">
                     <div class="single-footer-widget">
@@ -135,18 +134,18 @@ $ABOUT_PAGE = new Page(1);
                     </div>
                 </div>
                 <!--End single footer widget-->
-                
-                
+
+
             </div>
         </div>
     </div>
-    
-    
+
+
     <div class="footer-bottom">
         <div class="container">
             <div class="outer-box">
                 <div class="copyright-text">
-                    <p>© 2020 All Rights Reserved : <a href="https://spmholdings.synotec.lk/">MPBC.lk.</a></p>
+                    <p>© 2020 All Rights Reserved : <a href="http://mpbc.lk/">MPBC.lk.</a></p>
                 </div>
                 <div class="footer-menu">
                     <p style="color: #F0F0EE">Website By : <a href="https://synotec.lk/">Synotec Holdings (Pvt.) Ltd.</a> © 2020.</p>

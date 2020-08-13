@@ -143,10 +143,11 @@ $ABOUT_PAGE_2 = new Page(3);
                             <div class="about-style1-text-box style2">
                                 <div class="title">
 
-                                    <h1>Our 14 <span>MPBC.lk</span><br> <b>years</b> working<br> experience.</h1><br/>
+                                    <h1>Our 14 <span>MPBC.lk</span><br> <b>years</b> working<br> experience.</h1><br/><br/>
                                 </div>
                                 <div class="inner-contant">
-                                    <h2 class="breadcrumb-letter text-center" style="color: #fdb2b2">Like What We Offer, DO BUSINESS WITH US!</h2><br/>
+                                    <h3 style="color: #fdb2b2">Like What We Offer</h3>
+                                    <h1 style="color: #fdb2b2">DO BUSINESS WITH US!</h1><br/>
                                     <h5 class="text-center" style="color: #acacac">In order to acquire our services please kindly send us your inquiry of interest. 
                                         We shall revert back immediately.</h5>
                                     <div class="fact-box-style2">
@@ -268,13 +269,13 @@ $ABOUT_PAGE_2 = new Page(3);
                             <!-- Tabs nav -->
                             <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                 <a class="nav-link mb-3 p-3 shadow active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" style="text-align: center; font-size: 25px;">                                    
-                                    <span class="font-weight-bold small text-uppercase">Our Value</span></a>
+                                    <span class="font-weight-bold small text-capitalize tab-text">Our Value</span></a>
 
                                 <a class="nav-link mb-3 p-3 shadow" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false" style="text-align: center; font-size: 25px;">                                    
-                                    <span class="font-weight-bold small text-uppercase">Our Mission</span></a>
+                                    <span class="font-weight-bold small text-capitalize tab-text">Our Mission</span></a>
 
                                 <a class="nav-link mb-3 p-3 shadow" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false" style="text-align: center; font-size: 25px;">                                  
-                                    <span class="font-weight-bold small text-uppercase">Our Vision</span></a>
+                                    <span class="font-weight-bold small text-capitalize tab-text">Our Vision</span></a>
                             </div>
                         </div>
 
@@ -283,20 +284,20 @@ $ABOUT_PAGE_2 = new Page(3);
                             <!-- Tabs content -->
                             <div class="tab-content" id="v-pills-tabContent">
                                 <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                    <h4 class="font-italic mb-4 text-center">Our Value</h4>
-                                    <p class="font-italic text-muted mb-2 text-center">Our values are based on principles that are very dear to us.
+                                    <h4 class="mb-4 text-center tab-text">Our Value</h4>
+                                    <p class="text-muted mb-2 text-center">Our values are based on principles that are very dear to us.
                                         We take our clients requirements very seriously and incorporate the following values 
                                         into the mindsets of our consultants and partners alike.</p>
                                 </div>
 
                                 <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                                    <h4 class="font-italic mb-4 text-center">Our Mission</h4>
-                                    <p class="font-italic text-muted mb-2 text-center">Creation of new industry standard through the best practices by fullfilling our clients requirements.</p>
+                                    <h4 class="mb-4 text-center tab-text">Our Mission</h4>
+                                    <p class="text-muted mb-2 text-center">Creation of new industry standard through the best practices by fullfilling our clients requirements.</p>
                                 </div>
 
                                 <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                                    <h4 class="font-italic mb-4 text-center">Our Vision</h4>
-                                    <p class="font-italic text-muted mb-2 text-center">Be the game changer</p>
+                                    <h4 class="mb-4 text-center tab-text">Our Vision</h4>
+                                    <p class="text-muted mb-2 text-center">Be the game changer</p>
                                 </div>
                             </div>
                         </div>

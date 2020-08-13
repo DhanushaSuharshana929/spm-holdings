@@ -100,7 +100,7 @@ include './class/include.php';
                                     foreach ($CAREERS->all() as $careers) {
                                         ?>
                                         <!--Start single product item-->
-                                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                             <div class="single-product-item">
                                                 <div class="img-holder">
                                                     <img src="upload/careers/<?php echo $careers['image_name']; ?>" alt="Awesome Product Image">
@@ -110,10 +110,10 @@ include './class/include.php';
                                                     </div>
                                                 </div>
                                                 <div class="title-holder">
-                                                    <h4><a href="contact.php"><?php echo $careers['title']; ?></a></h4>
+                                                    <h4 class="text-center"><a href="contact.php"><?php echo $careers['title']; ?></a></h4>
                                                     <div class="bottom">
 
-                                                        <div class="price-box">
+                                                        <div class="price-box" style="text-align: justify;">
                                                             <span><a href="contact.php"><?php echo $careers['short_description']; ?></a></span>   
                                                         </div>
                                                     </div>

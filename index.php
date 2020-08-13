@@ -70,7 +70,7 @@ $ABOUT_INDEX = new Page(1);
             <!-- End Main Slider -->
 
             <div>
-                <embed name="GoodEnough" src="music/bensound-creativeminds.mp3" loop="false" hidden="true" autostart="true">
+                <embed name="GoodEnough" src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" loop="false" hidden="true" autostart="true">
             </div>
 
             <!--Start About Style1 Area-->
@@ -130,23 +130,18 @@ $ABOUT_INDEX = new Page(1);
                                                     <div class="img-holder">
                                                         <img src="upload/service/<?php echo $service['image_name']; ?>" alt="Awesome Image">
                                                         <div class="static-content">
-                                                            <div class="title">
-                                                                <h3>
-
-                                                                    <?php echo $service['title'] ?>
-
-                                                                </h3>
+                                                            <div>
+                                                                <h3 class="text-center"><?php echo $service['title'] ?></h3>
                                                             </div>
-
                                                         </div>
                                                         <div class="overlay-content">
                                                             <div class="inner-content">
                                                                 <div class="icon"><span class="flaticon-building"></span></div>
                                                                 <div class="text-holder">
-                                                                    <div class="title">
-                                                                        <h3 style="color: #fd4f4f"><?php echo $service['title'] ?></h3>
+                                                                    <div>
+                                                                        <h3 class="text-center" style="color: #fd4f4f"><?php echo $service['title'] ?></h3>
                                                                     </div>
-                                                                    <p><?php echo substr($service['description'], 0, 100) ?></p> 
+                                                                    <p><?php echo substr($service['description'], 0, 100)?>...</p> 
                                                                     <div class="read-more-button float-right" style="color: #fd4f4f">
                                                                         Read More <span class="flaticon-next"></span>
                                                                     </div>
@@ -207,7 +202,7 @@ $ABOUT_INDEX = new Page(1);
                                                         <div class="left">
                                                             <h3><?php echo $team['title'] ?></h3>
                                                             <div class="social-links">
-                                                                <ul class="social-links-style1">
+                                                                <ul class="social-links-style1" style="padding-top: 0px;font-family: 'Poppins', sans-serif;">
                                                                     <li>
                                                                         <a href="meet-us.php">
                                                                             <span class="flaticon-engineer-1">&nbsp;<?php echo $team['short_description'] ?></span>
@@ -277,7 +272,7 @@ $ABOUT_INDEX = new Page(1);
                                             </div>
                                             <div class="title-holder">
                                                 <span class="tag"><?php echo $blog_post['title'] ?></span>
-                                                <h5><a href="view-blog.php?id=<?php echo $blog_post['id'] ?>"><?php echo substr($blog_post['description'], 0, 100) ?></a></h5>
+                                                <h5><a href="view-blog.php?id=<?php echo $blog_post['id'] ?>"><?php echo substr($blog_post['description'], 0, 100) ?>...</a></h5>
                                                 <p><span class="flaticon-calendar"></span><?php echo $blog_post['date'] ?></p>
                                             </div>
                                         </div>
@@ -409,7 +404,7 @@ $ABOUT_INDEX = new Page(1);
             <span class="icon-angle"></span>
         </button>
 
-
+<!--<body class=" gallery  bottom  right "><span id="tawkchat-chat-bubble-close" class="image-bubble-close" style="visibility: hidden;"></span><img src="https://static-v.tawk.to/a-v3/images/bubbles/168-r-br.svg" style="width:124px; height:79px;"><a id="bubble-image" class="gallery-bubble" href="javascript:void(0);"></a></body>-->
 
         <script src="assets/js/jquery.js"></script>
         <script src="assets/js/aos.js"></script>
