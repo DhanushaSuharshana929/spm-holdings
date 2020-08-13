@@ -57,7 +57,7 @@
                 </div>
                 <div class="header-top-right">
                     <div class="header-social-links">
-                        <ul class="social-links-style1 float-right">
+                        <ul class="social-links-style1 float-right" style="padding-top: 0px;">
                             <li class="mobile-icon">
                                 <a href="https://www.facebook.com/DewyMC/?modal=admin_todo_tour" target="blank">
                                     <img src="assets/images/resources/facebook.png" width="30px" height="30px">
@@ -66,11 +66,6 @@
                             <li class="mobile-icon">
                                 <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank"> 
                                     <img src="assets/images/resources/youtube.png" width="30px" height="35px" style="border-radius: 4px">
-                                </a> 
-                            </li>
-                            <li class="mobile-icon">
-                                <a href="https://www.instagram.com/dewymanagementconsortium/" target="blank">
-                                    <img src="assets/images/resources/instagram.png" width="30px" height="30px">
                                 </a> 
                             </li>
                             <li class="mobile-icon">
@@ -109,7 +104,7 @@
                         <!-- Main Menu -->
                         <nav class="main-menu style2 navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                <ul class="navigation clearfix">
+                                <ul class="navigation clearfix" style="padding-top: 5px;">
                                     <li><a href="./">Home</a></li>
                                     <li><a href="services.php">Services</a></li>
                                     <li><a href="about.php">About Us</a></li>
@@ -163,21 +158,16 @@
                         <a href="https://www.facebook.com/DewyMC/?modal=admin_todo_tour" target="blank">
                             <img src="assets/images/resources/facebook.png" width="30px" height="30px">
                         </a> 
-                    </li>
+                    </li>                   
                     <li>
-                        <a href="https://www.instagram.com/dewymanagementconsortium/" target="blank">
-                            <img src="assets/images/resources/instagram.png" width="30px" height="30px">
-                        </a> 
+                        <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank">
+                            <img src="assets/images/resources/youtube.png" width="30px" height="35px">
+                        </a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/company/35874529" target="blank">
                             <img src="assets/images/resources/linkedin.png" width="30px" height="30px">
                         </a> 
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank">
-                            <img src="assets/images/resources/youtube.png" width="30px" height="35px">
-                        </a>
                     </li>
                 </ul>
             </div>

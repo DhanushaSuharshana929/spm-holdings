@@ -106,7 +106,7 @@ include './class/include.php';
                                         <div class="left">
                                             <h3><?php echo $team['title'] ?></h3>
                                             <div class="social-links">
-                                                <ul class="social-links-style1">
+                                                <ul class="social-links-style1" style="padding-top: 0px;font-family: 'Poppins', sans-serif;">
                                                     <li>
                                                         <a href="#">
                                                             <span class="flaticon-engineer-1">&nbsp;<?php echo $team['short_description'] ?></span>

@@ -75,7 +75,7 @@ body {
     font-size: 16px;
     line-height: 28px;
     font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 button:focus{
     outline: none;
@@ -96,6 +96,7 @@ h3 {
     font-size: 18px; 
     line-height: 30px;
     font-weight: 500;
+    font-family: 'Poppins', sans-serif;
 }
 h4 {
 
@@ -200,7 +201,7 @@ li{
     font-size: 16px;
     line-height: 56px;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease-in-out 0.1s;
 }
@@ -225,9 +226,9 @@ li{
     font-size: 14px;
     line-height: 14px;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: none;
     border-radius: 5px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }
@@ -242,28 +243,33 @@ li{
     top: -5px;
     display: block;
     padding-bottom: 56px;
+    font-family: 'Poppins', sans-serif;
 }
 .sec-title p{
     font-size: 19px;
     line-height: 20px;
     font-weight: 330;
-    text-transform: uppercase;
+    text-transform: none;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .sec-title .big-title{
     position: relative;
     display: block;
     padding: 7px 0 0;
+    font-family: 'Poppins', sans-serif;
 }
 .sec-title .big-title h1{
     color: #ffffff;
     font-size: 32px;
     line-height: 40px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
 }
 .sec-title .big-title.black-clr h1{
     color: #000000;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -790,7 +796,7 @@ header.main-header.box-layout {
     line-height: 53px;
     font-weight: 600;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: none;
     display: none;
     cursor: pointer;
     transition: all 200ms linear;
@@ -1059,6 +1065,7 @@ select:focus {
     position: relative;
     display: block;
     overflow: hidden;
+    padding-top: 30px;
 }
 .social-links-style1 li{
     position: relative;
@@ -1292,7 +1299,7 @@ select:focus {
     font-size: 15px;
     line-height: 24px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
@@ -1455,10 +1462,11 @@ select:focus {
     display: inline-block;
 }
 .sticky-header .main-menu .navigation> li{
-
+    font-family: 'Poppins', sans-serif;
 }
 .sticky-header .main-menu .navigation> li> a{
     color: #000000;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -1699,24 +1707,27 @@ select:focus {
 .main-menu .navigation {
     position: relative;
     display: block;
+    font-family: 'Poppins', sans-serif;
 }
 .main-menu .navigation>li {
     position: relative;
     display: inline-block;
     float: left;
     margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 .main-menu .navigation>li:last-child{
     margin-right: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .main-menu .navigation>li>a {
     position: relative;
     display: block;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none;
     padding: 20px 0px 20px;
     transition: all 500ms ease;
     opacity: 1;
@@ -2070,7 +2081,7 @@ select:focus {
     font-size: 18px;
     line-height: 80px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: 'Poppins', sans-serif;
     transition: all 200ms linear;
     transition-delay: 0.1s;
@@ -2186,7 +2197,7 @@ select:focus {
     font-size: 24px;
     line-height: 1.0em;
     font-weight: 300;
-    text-transform: uppercase;
+    text-transform: none;
     opacity: 0;
     -webkit-transition: all 1000ms ease;
     -moz-transition: all 100ms ease;
@@ -2246,7 +2257,7 @@ select:focus {
     font-size: 18px;
     line-height: 1.8em; 
     font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .main-slider .active .content .text{
     opacity: 1;
@@ -2289,7 +2300,7 @@ select:focus {
     font-size: 16px;
     line-height: 57px;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: none;
     border: 2px solid #ffffff;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease-in-out 0.1s;
@@ -2298,6 +2309,7 @@ select:focus {
     color: #ffffff;
     padding: 0 30px;
     margin-left: 11px;
+    font-family: 'Poppins', sans-serif;
 }
 .main-slider .content .btns-box .btn-one:hover{
     color: #ffffff;
@@ -2631,7 +2643,7 @@ select:focus {
     font-size: 18px;
     line-height: 20px;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 6px;
     margin: 0;
 }
@@ -2657,7 +2669,7 @@ select:focus {
     line-height: 30px;
     font-weight: 700;
     border-radius: 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .about-style1-text-box .inner-contant{
     position: relative;
@@ -2957,7 +2969,7 @@ select:focus {
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -3018,7 +3030,7 @@ select:focus {
     text-transform: capitalize;
     cursor: pointer;
     transition: all .4s ease;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .project-filter li .filter-text i:before{
     position: relative;
@@ -3118,10 +3130,10 @@ select:focus {
     position: relative;
     display: inline-block;
     padding: 0 15px;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 22px;
-    font-weight: 400;
-    text-transform: uppercase;
+    font-weight: 500;
+    text-transform: none;
     transition: all 0.2s ease-in-out 0.3s;
 }
 .single-portfolio-style1:hover .img-holder .title-holder span.tag{
@@ -3135,7 +3147,7 @@ select:focus {
     line-height: 22px;
     font-weight: 700;
     margin: 13px 0 10px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 .single-portfolio-style1 .img-holder .title-holder h5 a{
     color: #000000;
@@ -3155,6 +3167,7 @@ select:focus {
     line-height: 22px;
     margin: 0;
     transition: all 0.2s ease-in-out 0.3s;
+    font-family: 'Poppins', sans-serif;
 }
 .single-portfolio-style1:hover .img-holder .title-holder p{
     color: #ffffff;
@@ -3215,7 +3228,7 @@ select:focus {
     font-size: 14px;
     line-height: 20px;
     font-weight: 300;
-    text-transform: uppercase;
+    text-transform: none;
     margin: 0;
 }
 .testimonial-style1-title-box .sec-title .big-title {
@@ -3836,7 +3849,7 @@ select:focus {
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .single-footer-widget .our-company-info{
@@ -4528,7 +4541,7 @@ select:focus {
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: none;
     margin: 0 0 9px;
 }
 .single-service-style3 .overlay-content .title-holder h3{
@@ -4701,7 +4714,7 @@ select:focus {
     font-size: 48px;
     line-height: 56px;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .slogan-content .quote-button{
     position: relative;
@@ -5058,7 +5071,7 @@ select:focus {
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: none;
     margin: 0 0 9px;
 }
 .single-portfolio-style2 .overlay-content .title-holder h3{
@@ -5164,7 +5177,7 @@ select:focus {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 155px 0 113px;
-    margin-top: 48px;
+    margin-top: 42px;
     z-index: 10;
 }
 .breadcrumb-area::before {
@@ -5189,10 +5202,11 @@ select:focus {
 }
 .breadcrumb-area .title h1{
     color: #ffffff;
-    font-size: 90px;
+    font-size: 40px;
     line-height: 80px;
     font-weight: 700;
     text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
 }
 
 .breadcrumb-area .breadcrumb-menu {
@@ -5576,6 +5590,7 @@ select:focus {
     position: relative;
     top: 9px;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .portfolio-pagev2 .top-box .styled-pagination{
     margin: 0;
@@ -5946,7 +5961,7 @@ select:focus {
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .inner-comment-box .single-comment-box {
@@ -6061,7 +6076,7 @@ select:focus {
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
 }
 .add-comment-box #add-comment-form {}
 .add-comment-box #add-comment-form p{
@@ -6477,7 +6492,7 @@ select:focus {
     font-size: 28px;
     line-height: 36px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
 }
 .single-blog-post-style3 .text-holder .blog-title a{
     color: #000000;
@@ -6675,7 +6690,7 @@ select:focus {
     font-size: 24px;
     line-height: 58px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none;
 }
 .categories {
     position: relative;
@@ -6699,7 +6714,7 @@ select:focus {
     font-weight: 400;
     transition: all 200ms linear;
     transition-delay: 0.1s;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .more-categories {
     position: relative;
@@ -6741,7 +6756,7 @@ select:focus {
     font-size: 18px;
     line-height: 20px;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .single-sidebar .popular-tag {
@@ -7086,7 +7101,7 @@ select:focus {
     font-size: 24px;
     line-height: 30px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none;
     margin-top: -6px;
 }
 
@@ -7205,7 +7220,7 @@ select:focus {
     font-size: 24px;
     line-height: 30px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none;
 }
 .contact-information-box .title p {
     color: #798795;
@@ -7301,7 +7316,7 @@ select:focus {
     color: #000000;
     font-size: 14px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
 }
 .error-content .title{
     position: relative;
@@ -7309,7 +7324,7 @@ select:focus {
     font-size: 180px;
     line-height: 150px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
     margin: 13px 0 14px;
 }
 .error-content p{
@@ -7616,7 +7631,7 @@ select:focus {
     font-size: 14px;
     line-height: 40px;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: none;
     opacity: 0;
     transform: translateY(-50px);
     transition: all 500ms ease 300ms;
@@ -7644,7 +7659,7 @@ select:focus {
     position: relative;
     display: block;
     padding: 25px 20px 22px;
-    border-top: 1px solid #e5e5e7;
+    border: 1px solid #0c0c11;
 }
 .single-product-item .title-holder h4{
     font-size: 16px;
@@ -7693,6 +7708,7 @@ select:focus {
 .single-product-item .title-holder .bottom .price-box{
     position: relative;
     display: block;
+    font-family: 'Poppins', sans-serif; 
 }
 .single-product-item .title-holder .bottom .price-box span{
     position: relative;
@@ -7702,6 +7718,7 @@ select:focus {
     font-size: 14px;
     line-height: 20px;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif; 
 }
 .single-product-item .title-holder .bottom .price-box del{
     position: relative;
@@ -7819,7 +7836,7 @@ select:focus {
     line-height: 28px;
     box-shadow: none !important;
     font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .shorting-box .selects-box .bootstrap-select>.dropdown-toggle::after {
     position: absolute;
@@ -7863,7 +7880,7 @@ select:focus {
     border: 0;
     border-radius: 0;
     transition: all 500ms ease;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .shorting-box .selects-box .dropdown-item.active,
 .shorting-box .selects-box .dropdown-item:active {
@@ -7917,7 +7934,7 @@ select:focus {
     line-height: 28px;
     box-shadow: none !important;
     font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .showing-box .selects-box .bootstrap-select>.dropdown-toggle::after {
     position: absolute;
@@ -7961,7 +7978,7 @@ select:focus {
     border: 0;
     border-radius: 0;
     transition: all 500ms ease;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .showing-box .selects-box .dropdown-item.active,
 .showing-box .selects-box .dropdown-item:active {
@@ -8007,7 +8024,7 @@ select:focus {
     border: 1px solid #e5e5e7;
     text-transform: capitalize;
     transition: all 500ms ease;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .styled-pagination2 li a:hover,
 .styled-pagination2 li a.active{
@@ -8201,7 +8218,7 @@ select:focus {
     line-height: 20px;
     font-weight: 700;
     margin: 8px 0 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .rating-box span.review-text{
     position: relative;
@@ -8232,7 +8249,7 @@ select:focus {
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .single-shop-content .content-box .top .price-box .left h3 del{
     position: relative;
@@ -8261,7 +8278,7 @@ select:focus {
     display: inline-block;
     padding-left: 10px;
     color: #798795;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .product-info-box {
@@ -8328,7 +8345,7 @@ select:focus {
     font-size: 13px;
     font-weight: 700;
     text-transform: capitalize;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .product-quantity-box .input-group.bootstrap-touchspin {
@@ -8421,12 +8438,14 @@ select:focus {
     margin-top: 24px;
 }
 .single-shop-content .content-box .text p{
-    color: #798795;
-    font-size: 14px;
+    color: #383838;
+    font-size: 16px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: normal;
     margin: 0;
-}
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+}  
 
 
 .share-products-socials {
@@ -8443,7 +8462,7 @@ select:focus {
     font-size: 14px;
     line-height: 50px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: 'Poppins', sans-serif;
 }
 .share-products-socials ul {
@@ -8501,10 +8520,10 @@ select:focus {
     font-size: 13px;
     line-height: 50px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none;
     cursor: pointer;
     border-radius: 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: all 200ms linear;
     transition-delay: 0.1s;
     -webkit-box-shadow: 0px 2px 0px 1px #e5e5e5; 
@@ -8600,9 +8619,9 @@ select:focus {
     color: #333333;
     font-size: 13px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
     transition: all 500ms ease;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .product-tab-box .tab-btns .tab-btn.active-btn span, 
 .product-tab-box .tab-btns .tab-btn:hover span{
@@ -8633,7 +8652,7 @@ select:focus {
     display: block;    
 }
 .product-details-content .desc-content-box p{
-    color: #798795;
+    color: #212426;
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
@@ -8648,7 +8667,7 @@ select:focus {
     font-size: 15px;
     line-height: 30px;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .product-details-content .desc-content-box .bottom ul{
     position: relative;
@@ -8837,7 +8856,7 @@ select:focus {
     font-size: 16px;
     font-weight: 400;
     text-transform: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .review-box-holder .single-review-box .text-holder .top .review-box ul {
     position: relative;
@@ -8899,12 +8918,12 @@ select:focus {
     font-size: 14px;
     line-height: 24px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
     text-align: center;
     min-width: 160px;
     padding: 22px 40px;
     border: 1px solid #ededed;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -8949,7 +8968,7 @@ select:focus {
     line-height: 24px;
     font-weight: 600;
     margin: 0 0 7px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .product-description p{
     color: #798795;
@@ -9259,7 +9278,7 @@ select:focus {
     font-size: 16px;
     line-height: 20px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none;
 } 
 .buyer-info .top .left{}
 .buyer-info .top .right{}
@@ -9302,7 +9321,7 @@ select:focus {
     font-weight: 500;
     border-radius: 5px;
     transition: all 500ms ease 0s;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -9322,7 +9341,7 @@ select:focus {
     font-size: 16px;
     line-height: 20px;
     font-weight: 600;
-    text-transform: uppercase;    
+    text-transform: none;    
 }
 .billing-info .inner-box{
     position: relative;
@@ -9340,7 +9359,7 @@ select:focus {
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .billing-info .inner-box ul{
     position: relative;
@@ -9368,7 +9387,7 @@ select:focus {
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -9390,7 +9409,7 @@ select:focus {
     font-size: 16px;
     line-height: 20px;
     font-weight: 600;
-    text-transform: uppercase;    
+    text-transform: none;    
 }
 .payment-info .inner-box{
     position: relative;
@@ -9484,7 +9503,7 @@ select:focus {
     font-weight: 500;
     border-radius: 5px;
     transition: all 500ms ease 0s;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .place-order-button-box{
@@ -9521,7 +9540,7 @@ select:focus {
     font-size: 22px;
     line-height: 30px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
 }    
 
 .login-register-area .form form {
@@ -9542,7 +9561,7 @@ select:focus {
     padding-left: 15px;
     padding-right: 50px;
     transition: all 700ms ease 0s;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .login-register-area .form .input-field .icon-holder {
     position: absolute;
@@ -9716,13 +9735,6 @@ select:focus {
 }
 
 /*----------font style-----------*/
-.letter{
-    font-family: 'Lobster', regular;
-}
-
-.breadcrumb-letter{
-    font-family: 'Courgette', regular;
-}
 
 .slider-text{
     color: #640b27;
@@ -9731,6 +9743,8 @@ select:focus {
     font-weight: 700;
     font-size: 60px;
     border-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    text-transform: none;
 }
 
 .about-text{
@@ -9754,11 +9768,13 @@ select:focus {
     color: #aaa;
     background: #fff;
     position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-pills-custom .nav-link.active {
     color: #640b27;
     background: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -9775,11 +9791,17 @@ select:focus {
         right: -10px;
         transform: translateY(-50%);
         opacity: 0;
+        font-family: 'Poppins', sans-serif;
     }
 }
 
 .nav-pills-custom .nav-link.active::before {
     opacity: 1;
+}
+
+.tab-text{
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
 }
 
 
@@ -9795,4 +9817,4 @@ select:focus {
 body {
     min-height: 100vh;
     background: linear-gradient(to left, #dce35b, #45b649);
-}
+} 

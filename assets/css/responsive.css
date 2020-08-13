@@ -1024,9 +1024,9 @@
     .header-upper-left-style2 .logo {
         position: relative;
         display: block;
-        text-align: left;
+        text-align: center;
         margin: 0;
-        padding: 10px 0;
+        padding: 0px 0;
         border: none;
     }
     .header-upper-right-style2 {
@@ -1528,7 +1528,7 @@
     }
 
     .mobile-icon{
-        height: 50px;
+        height: 30px;
         width: 50px;
     }
 
@@ -1581,7 +1581,7 @@
         display: none;
     }           
     .header-top {
-        padding: 16px 0;
+        padding: 6px 62px;
     }    
     .header-top-left {
         max-width: 100%;

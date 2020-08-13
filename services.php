@@ -104,18 +104,20 @@ include './class/include.php';
                                     <div class="img-holder">
                                         <img src="upload/service/<?php echo $service['image_name']; ?>" alt="Awesome Image">
                                         <div class="static-content">
-                                            <div class="title">
-                                                <h3><?php echo $service['title'] ?></h3>
+                                            <div>
+                                                <h3 class="text-center"><?php echo $service['title'] ?></h3>
                                             </div>                                       
                                         </div>
                                         <div class="overlay-content">
                                             <div class="inner-content">
                                                 <div class="icon"><span class="flaticon-building"></span></div>
                                                 <div class="text-holder">
-                                                    <div class="title">
-                                                        <h3 style="color: #fd4f4f"><?php echo $service['title'] ?></h3>
+                                                    <div>
+                                                        <h3 class="text-center" style="color: #fd4f4f">
+                                                            <?php echo $service['title'] ?>
+                                                        </h3>
                                                     </div>
-                                                    <p><?php echo substr($service['description'], 0, 200) ?></p>      
+                                                    <p><?php echo substr($service['description'], 0, 200) ?>...</p>      
                                                     <div class="read-more-button float-right" style="color: #fd4f4f">
                                                         Read More <span class="flaticon-next"></span>
                                                     </div>

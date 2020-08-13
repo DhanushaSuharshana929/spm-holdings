@@ -71,7 +71,7 @@ $CAREERS = new Careers($id);
                                     </div>
 
 
-                                    <div class="col-sm-12 hidden">
+                                    <div class="col-sm-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="text" id="short_description" class="form-control" value="<?php echo $CAREERS->short_description; ?>"  name="short_description">

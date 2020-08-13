@@ -112,15 +112,17 @@ $(document).ready(function () {
                 timer: 1500,
                 showConfirmButton: false
             });
-        }else if (!$('#short_description').val() || $('#short_description').val().length === 0) {
-            swal({
-                title: "Error!",
-                text: "Please enter short description..!",
-                type: 'error',
-                timer: 1500,
-                showConfirmButton: false
-            });
-        } else if (!$('#description').val() || $('#description').val().length === 0) {
+        }
+//        else if (!$('#short_description').val() || $('#short_description').val().length === 0) {
+//            swal({
+//                title: "Error!",
+//                text: "Please enter short description..!",
+//                type: 'error',
+//                timer: 1500,
+//                showConfirmButton: false
+//            });
+//        } 
+        else if (!$('#description').val() || $('#description').val().length === 0) {
             swal({
                 title: "Error!",
                 text: "Please enter description..!",
