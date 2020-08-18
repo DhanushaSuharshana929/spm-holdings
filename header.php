@@ -59,7 +59,7 @@
                     <div class="header-social-links">
                         <ul class="social-links-style1 float-right" style="padding-top: 0px;">
                             <li class="mobile-icon">
-                                <a href="https://www.facebook.com/DewyMC/?modal=admin_todo_tour" target="blank">
+                                <a href="https://www.facebook.com/mpbc.lk" target="blank">
                                     <img src="assets/images/resources/facebook.png" width="30px" height="30px">
                                 </a> 
                             </li>
@@ -155,7 +155,7 @@
             <div class="social-links">
                 <ul class="clearfix">
                     <li>
-                        <a href="https://www.facebook.com/DewyMC/?modal=admin_todo_tour" target="blank">
+                        <a href="https://www.facebook.com/mpbc.lk" target="blank">
                             <img src="assets/images/resources/facebook.png" width="30px" height="30px">
                         </a> 
                     </li>                   

@@ -8,6 +8,10 @@ $SLIDER_IMAGES = count(Slider::all());
 $COUNT_GALLERY = count(AlbumPhoto::all());
 $COUNT_PRODUCT = count(Product::all());
 $COUNT_COMMENT = count(Comments::activeComments());
+$COUNT_CAREERS = count(careers::all());
+$COUNT_OUR_TEAM = count(Activities::all());
+$COUNT_BLOG_POST = count(BlogPost::all());
+
 ?> 
 <!DOCTYPE html>
 <html> 
@@ -141,7 +145,7 @@ $COUNT_COMMENT = count(Comments::activeComments());
                                     CAREERS 
                                 </h2>
                                 <ul class="header-dropdown m-r--5">
-                                    <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_PRODUCT; ?>" data-speed="1500" data-fresh-interval="1"></div>
+                                    <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_CAREERS; ?>" data-speed="1500" data-fresh-interval="1"></div>
                                 </ul>
                             </div>
                             <div class="body">
@@ -161,7 +165,7 @@ $COUNT_COMMENT = count(Comments::activeComments());
     <!--                                    <small>  </small>-->
                                 </h2>
                                 <ul class="header-dropdown m-r--5">
-                                    <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_COMMENT; ?>" data-speed="1500" data-fresh-interval="1"></div>
+                                    <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_OUR_TEAM; ?>" data-speed="1500" data-fresh-interval="1"></div>
                                 </ul>
                             </div>
                             <div class="body">
@@ -181,7 +185,7 @@ $COUNT_COMMENT = count(Comments::activeComments());
                                     BLOG POST
                                 </h2>
                                 <ul class="header-dropdown m-r--5">
-                                    <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_GALLERY; ?>" data-speed="1500" data-fresh-interval="1"></div>
+                                    <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_BLOG_POST; ?>" data-speed="1500" data-fresh-interval="1"></div>
                                 </ul>
                             </div>
                             <div class="body">

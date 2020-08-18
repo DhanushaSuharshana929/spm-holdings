@@ -9,11 +9,11 @@ $todayis = date("l, F j, Y, g:i a");
 $site_link = "https://" . $_SERVER['HTTP_HOST'];
 
 //----------------------- DISPLAY STRINGS ---------------------
-$comany_name = "Enjoy Sri Lanka";
-$website_name = "www.enjoy-srilanka.com";
-$comConNumber = "+94 777 719 380";
-$comEmail = "jayashantha68@gmail.com";
-$comOwner = "Jaya Shantha";
+$comany_name = "M P Business Consultants (Pvt) Ltd";
+$website_name = "http://mpbc.lk/";
+$comConNumber = "+94 77 149 0000";
+$comEmail = "info@mpbc.lk";
+$comOwner = "Sanjaya Senaratne | Chief Executive Officer";
 $customer_msg = 'Hello, and thank you for your interest in ' . $comany_name . '. We have received your enquiry , and we will get back to you as soon as possible.';
 
 //----------------------- LOGO ---------------------------------
@@ -33,8 +33,8 @@ $message = $_POST['message'];
 //---------------------- SERVER WEBMAIL LOGIN ------------------------
 
 $host = "sg1-ls7.a2hosting.com";
-$username = "info@enjoy-srilanka.com";
-$password = "EnjoySri123";
+$username = "info@mpbc.lk";
+$password = "MPBC@2738";
 
 // $host = "sg1-ls7.a2hosting.com";
 // $username = "info@srilankapetertours.com";
@@ -43,8 +43,8 @@ $password = "EnjoySri123";
 
 //------------------------ MAIL ESSENTIALS --------------------------------
 
-$webmail = "info@enjoy-srilanka.com";
-$visitorSubject = "Thank You " . $visitor_name . " -Enjoy Sri Lanka ";
+$webmail = "info@mpbc.lk";
+$visitorSubject = "Thank You " . $visitor_name . " -M P Business Consultants (Pvt) Ltd ";
 $companySubject = "Contact Inquiry - " . $visitor_name;
 
 //----------------------CAPTCHACODE---------------------

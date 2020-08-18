@@ -833,7 +833,7 @@
         padding: 0px 30px;
     }    
     .main-slider .content h2 {
-        font-size: 42px;
+        font-size: 25px;
         line-height: 1.0em;
         margin-bottom: 36px;
     }    
@@ -1167,7 +1167,7 @@
     }      
     /*** Main Slider Style3 Css ***/     
     .main-slider.style3 .slide {
-        padding: 232px 0px 400px;
+/*        padding: 232px 0px 400px;*/
     }        
     .main-slider.style3 .content .btns-box {
         margin-top: 42px;

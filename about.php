@@ -65,6 +65,16 @@ $ABOUT_PAGE_2 = new Page(3);
             <?php include './header.php'; ?>
 
 
+            <!-- Background Music -->
+            <div style="display: none;">
+                <iframe src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" type=”audio/mp3″ allow=”autoplay” id=”audio”></iframe>
+                <audio autoplay>
+                    <source src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" type=”audio/mp3″ style=”display:none!important;”>
+                </audio>
+            </div>
+            <!-- End Background Music -->
+            
+            
             <!--Start breadcrumb area-->     
             <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-about.jpg);">
                 <div class="container">
