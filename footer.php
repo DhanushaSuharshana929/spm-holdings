@@ -39,7 +39,7 @@ $ABOUT_PAGE = new Page(1);
                             <div class="footer-social-links">
                                 <ul class="social-links-style1">
                                     <li>
-                                        <a href="https://www.facebook.com/DewyMC/?modal=admin_todo_tour" target="blank">
+                                        <a href="https://www.facebook.com/mpbc.lk" target="blank">
                                             <img src="assets/images/resources/facebook.png" width="30px" height="30px">
                                         </a> 
                                     </li>
@@ -100,8 +100,8 @@ $ABOUT_PAGE = new Page(1);
                                 foreach ($SERVICE_FOOTER->all() as $key => $service_footer) {
                                     if ($key < 7) {
                                         ?>
-                                         <li><a href="view-service.php?id=<?= $service_footer['id'] ?>"><?= substr($service_footer['title'],0,12) ?>...</a></li>
-                                    <?php
+                                        <li><a href="view-service.php?id=<?= $service_footer['id'] ?>"><?= substr($service_footer['title'], 0, 12) ?>...</a></li>
+                                        <?php
                                     }
                                 }
                                 ?>
@@ -153,4 +153,33 @@ $ABOUT_PAGE = new Page(1);
             </div>    
         </div>    
     </div>
+
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5f3ba48ab7f44f406e95a9df/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175657096-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175657096-1');
+    </script>
+
 </footer>  

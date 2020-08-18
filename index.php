@@ -54,7 +54,7 @@ $ABOUT_INDEX = new Page(1);
 
     <body>
 
-        
+
         <div class="boxed_wrapper">
 
 
@@ -69,10 +69,22 @@ $ABOUT_INDEX = new Page(1);
             <?php include './slider.php'; ?>
             <!-- End Main Slider -->
 
-            <div>
-                <embed name="GoodEnough" src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" loop="false" hidden="true" autostart="true">
-            </div>
+            
+            <!--            <div>
+                            <embed name="GoodEnough" src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" loop="false" hidden="true" autostart="true">
+                        </div>-->
 
+            
+            <!-- Background Music -->
+            <div style="display: none;">
+                <iframe src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" type=”audio/mp3″ allow=”autoplay” id=”audio”></iframe>
+                <audio autoplay>
+                    <source src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" type=”audio/mp3″ style=”display:none!important;”>
+                </audio>
+            </div>
+            <!-- End Background Music -->
+            
+            
             <!--Start About Style1 Area-->
             <section class="about-style1-area">
                 <div class="container">
@@ -94,7 +106,7 @@ $ABOUT_INDEX = new Page(1);
                                 </div>
                                 <div class="inner-contant">
                                     <p class="about-text"><?php echo $ABOUT_INDEX->description ?></p>
-                                   
+
                                 </div>    
                             </div>  
                         </div>
@@ -141,7 +153,7 @@ $ABOUT_INDEX = new Page(1);
                                                                     <div>
                                                                         <h3 class="text-center" style="color: #fd4f4f"><?php echo $service['title'] ?></h3>
                                                                     </div>
-                                                                    <p><?php echo substr($service['description'], 0, 100)?>...</p> 
+                                                                    <p><?php echo substr($service['description'], 0, 100) ?>...</p> 
                                                                     <div class="read-more-button float-right" style="color: #fd4f4f">
                                                                         Read More <span class="flaticon-next"></span>
                                                                     </div>
@@ -193,28 +205,28 @@ $ABOUT_INDEX = new Page(1);
                                         <!--Start Single Service Style3-->
                                         <div class="wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="1300ms">
                                             <a href="meet-us.php">
-                                            <div class="single-team-member wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                                                <div class="img-holder">
-                                                    <img src="upload/activity/<?php echo $team['image_name']; ?>" alt="Awesome Image">
-                                                </div>
-                                                <div class="title-holder">
-                                                    <div class="inner">
-                                                        <div class="left">
-                                                            <h3><?php echo $team['title'] ?></h3>
-                                                            <div class="social-links">
-                                                                <ul class="social-links-style1" style="padding-top: 0px;font-family: 'Poppins', sans-serif;">
-                                                                    <li>
-                                                                        <a href="meet-us.php">
-                                                                            <span class="flaticon-engineer-1">&nbsp;<?php echo $team['short_description'] ?></span>
-                                                                        </a> 
-                                                                    </li>
-                                                                </ul>
+                                                <div class="single-team-member wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                                    <div class="img-holder">
+                                                        <img src="upload/activity/<?php echo $team['image_name']; ?>" alt="Awesome Image">
+                                                    </div>
+                                                    <div class="title-holder">
+                                                        <div class="inner">
+                                                            <div class="left">
+                                                                <h3><?php echo $team['title'] ?></h3>
+                                                                <div class="social-links">
+                                                                    <ul class="social-links-style1" style="padding-top: 0px;font-family: 'Poppins', sans-serif;">
+                                                                        <li>
+                                                                            <a href="meet-us.php">
+                                                                                <span class="flaticon-engineer-1">&nbsp;<?php echo $team['short_description'] ?></span>
+                                                                            </a> 
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
-                                                        </div>
 
-                                                    </div>    
+                                                        </div>    
+                                                    </div>
                                                 </div>
-                                            </div>
                                             </a>
                                         </div>
                                         <!--End Single Service Style3-->

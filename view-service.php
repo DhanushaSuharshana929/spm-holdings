@@ -38,7 +38,7 @@ $SERVICE = new Service($id);
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
         <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Lobster&display=swap&family=Courgette&display=swap" rel="stylesheet"> 
-        
+
         <link rel="stylesheet" href="assets/css/color.css">
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -55,18 +55,28 @@ $SERVICE = new Service($id);
 
 
     <body>
-        
-        
+
+
         <div class="boxed_wrapper">
 
-            
+
             <div class="preloader"></div>
 
 
             <!-- main header -->
             <?php include './header.php'; ?>
 
-            
+
+            <!-- Background Music -->
+            <div style="display: none;">
+                <iframe src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" type=”audio/mp3″ allow=”autoplay” id=”audio”></iframe>
+                <audio autoplay>
+                    <source src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" type=”audio/mp3″ style=”display:none!important;”>
+                </audio>
+            </div>
+            <!-- End Background Music -->
+
+
             <!--Start breadcrumb area-->     
             <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-service.jpg);">
                 <div class="container">
@@ -74,7 +84,7 @@ $SERVICE = new Service($id);
                         <div class="col-xl-12">
                             <div class="inner-content clearfix">
                                 <div class="title">
-                                   <br/><br/> <h1><?php echo $SERVICE->title ?></h1>
+                                    <br/><br/> <h1><?php echo $SERVICE->title ?></h1>
                                 </div>
                                 <div class="breadcrumb-menu">
                                     <ul class="clearfix">
@@ -92,7 +102,7 @@ $SERVICE = new Service($id);
             </section>
             <!--End breadcrumb area-->
 
-            
+
             <!--Start Portfolio Single Style1 area-->
             <section class="portfolio-single-style1-area">
                 <div class="container">
@@ -120,7 +130,7 @@ $SERVICE = new Service($id);
                                             <?php } ?>
                                         </ul> 
 
-                                        
+
                                         <!--Start Portfolio Single Content Area-->
                                         <div class="portfolio-single-content-area" style="padding-top: 15px;">
                                             <div class="container">
@@ -148,8 +158,8 @@ $SERVICE = new Service($id);
                                         <!--End Portfolio Single Content Area-->
 
                                     </div>
-                                    
-                                    
+
+
                                     <div class="col-xl-4 col-lg-5 col-md-9 col-sm-12">
                                         <div class="sidebar-wrapper">
                                             <!--Start sidebar categories Box-->
@@ -165,7 +175,8 @@ $SERVICE = new Service($id);
                                                             ?>
                                                             <li><a href="view-service.php?id=<?= $services['id'] ?>"><?= $services['title'] ?></a></li>
 
-                                                        <?php }
+                                                        <?php
+                                                        }
                                                     }
                                                     ?>
                                                 </ul>
@@ -185,10 +196,10 @@ $SERVICE = new Service($id);
 
 
             <!--Start footer area-->  
-            <?php include './footer.php'; ?>  
+<?php include './footer.php'; ?>  
             <!--End footer area-->
 
-            
+
         </div> 
 
 
@@ -224,13 +235,13 @@ $SERVICE = new Service($id);
         <script src="assets/js/lazyload.js"></script>
         <script src="assets/js/jquery.bxslider.min.js"></script>
         <script src="assets/js/jQuery.style.switcher.min.js"></script>
-        
-        
+
+
         <!-- thm custom script -->
         <script src="assets/js/custom.js"></script>
 
 
     </body>
 
-    
+
 </html>
