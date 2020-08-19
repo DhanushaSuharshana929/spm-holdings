@@ -1,5 +1,5 @@
 <header class="main-header header-style2"> 
-    
+
     <div class="header-upper mobile-text">
         <div class="container clearfix">
             <div class="outer-box clearfix"> 
@@ -45,8 +45,8 @@
             </div>
         </div>
     </div>
-    
-    
+
+
     <div class="header-top">
         <div class="container">
             <div class="outer-box">
@@ -80,8 +80,8 @@
             </div>    
         </div>
     </div>
-    
-               
+
+
     <!--Start Header upper -->
     <div class="header-upper header-upper-style2">
         <div class="container clearfix">
@@ -175,3 +175,18 @@
     </div>
     <!-- End Mobile Menu --> 
 </header>
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/5f3ba48ab7f44f406e95a9df/default';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->

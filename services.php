@@ -34,7 +34,7 @@ include './class/include.php';
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
         <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Lobster&display=swap&family=Courgette&display=swap" rel="stylesheet"> 
-        
+
         <link rel="stylesheet" href="assets/css/color.css">
         <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -63,7 +63,7 @@ include './class/include.php';
             <!-- main header -->
             <?php include './header.php'; ?>
 
-            
+
             <!-- Background Music -->
             <div style="display: none;">
                 <iframe src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" type=”audio/mp3″ allow=”autoplay” id=”audio”></iframe>
@@ -72,7 +72,7 @@ include './class/include.php';
                 </audio>
             </div>
             <!-- End Background Music -->
-            
+
 
             <!--Start breadcrumb area-->     
             <section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-service.jpg);">
@@ -110,33 +110,33 @@ include './class/include.php';
                             <!--Start Single Service Style2-->
                             <div class="col-xl-4 col-lg-4">
                                 <a href="view-service.php?id=<?php echo $service['id']; ?>">
-                                <div class="single-service-style2">
-                                    <div class="img-holder">
-                                        <img src="upload/service/<?php echo $service['image_name']; ?>" alt="Awesome Image">
-                                        <div class="static-content">
-                                            <div>
-                                                <h3 class="text-center"><?php echo $service['title'] ?></h3>
-                                            </div>                                       
-                                        </div>
-                                        <div class="overlay-content">
-                                            <div class="inner-content">
-                                                <div class="icon"><span class="flaticon-building"></span></div>
-                                                <div class="text-holder">
-                                                    <div>
-                                                        <h3 class="text-center" style="color: #fd4f4f">
-                                                            <?php echo $service['title'] ?>
-                                                        </h3>
-                                                    </div>
-                                                    <p><?php echo substr($service['description'], 0, 200) ?>...</p>      
-                                                    <div class="read-more-button float-right" style="color: #fd4f4f">
-                                                        Read More <span class="flaticon-next"></span>
-                                                    </div>
-                                                </div>
-
+                                    <div class="single-service-style2">
+                                        <div class="img-holder">
+                                            <img src="upload/service/<?php echo $service['image_name']; ?>" alt="Awesome Image">
+                                            <div class="static-content">
+                                                <div>
+                                                    <h3 class="text-center"><?php echo $service['title'] ?></h3>
+                                                </div>                                       
                                             </div>
-                                        </div>
-                                    </div> 
-                                </div>
+                                            <div class="overlay-content">
+                                                <div class="inner-content">
+                                                    <div class="icon"><span class="flaticon-building"></span></div>
+                                                    <div class="text-holder">
+                                                        <div>
+                                                            <h3 class="text-center" style="color: #fd4f4f">
+                                                                <?php echo $service['title'] ?>
+                                                            </h3>
+                                                        </div>
+                                                        <p><?php echo substr($service['description'], 0, 200) ?>...</p>      
+                                                        <div class="read-more-button float-right" style="color: #fd4f4f">
+                                                            Read More <span class="flaticon-next"></span>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
                                 </a>
                             </div>
                             <!--End Single Service Style2-->
@@ -148,7 +148,7 @@ include './class/include.php';
 
 
             <!--Start footer area-->  
-            <?php include './footer.php'; ?>  
+            <?php include './footer.php'; ?> 
             <!--End footer area-->
 
 

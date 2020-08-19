@@ -786,7 +786,7 @@ header.main-header.box-layout {
 /*** Scroll To Top style ***/
 .scroll-top {
     position: fixed;
-    right: 15px;
+    right: 23px;
     bottom: 20px;
     width: 55px;
     height: 55px;
@@ -802,6 +802,7 @@ header.main-header.box-layout {
     transition: all 200ms linear;
     transition-delay: 0.1s;
     z-index: 999999999;
+    top: 80%;
 }
 .scroll-top span {}
 .scroll-top:after {
