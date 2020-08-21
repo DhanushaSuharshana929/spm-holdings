@@ -1604,7 +1604,7 @@ select:focus {
     position: relative;
     display: block;
     background: #640b27;
-    padding: 2px 0;
+    padding: 4px 0;
 }
 .header-upper .outer-box {
     position: relative;
