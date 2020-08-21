@@ -118,7 +118,7 @@ include './class/include.php';
                                                 <div class="social-links">
                                                     <ul class="social-links-style1" style="padding-top: 0px;font-family: 'Poppins', sans-serif;">
                                                         <li>
-                                                            <a href="#">
+                                                            <a href="<?php echo $team['url']; ?>">
                                                                 <span class="flaticon-engineer-1">&nbsp;<?php echo $team['short_description'] ?></span>
                                                             </a> 
                                                         </li>

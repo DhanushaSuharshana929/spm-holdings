@@ -74,6 +74,15 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         </div>
                                     </div>
 
+                                    <div class="col-md-12">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+                                                <input type="text" id="url" class="form-control" autocomplete="off" id="url" name="url" required="true">
+                                                <label class="form-label">URL</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden">
                                         <label for="description">Description</label>
                                         <div class="form-line">
@@ -133,7 +142,7 @@ include_once(dirname(__FILE__) . '/auth.php');
 
                 relative_urls: false
 
-            }); 
+            });
 
         </script>
         <script src="js/ajax/activity.js" type="text/javascript"></script>

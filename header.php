@@ -47,7 +47,7 @@
     </div>
 
 
-    <div class="header-top">
+<!--    <div class="header-top">
         <div class="container">
             <div class="outer-box">
                 <div class="header-top-left">
@@ -79,7 +79,7 @@
 
             </div>    
         </div>
-    </div>
+    </div>-->
 
 
     <!--Start Header upper -->

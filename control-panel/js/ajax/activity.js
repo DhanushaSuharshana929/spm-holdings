@@ -21,6 +21,14 @@ $(document).ready(function () {
                 timer: 1500,
                 showConfirmButton: false
             });
+        } else if (!$('#url').val() || $('#url').val().length === 0) {
+            swal({
+                title: "Error!",
+                text: "Please enter  url..!",
+                type: 'error',
+                timer: 1500,
+                showConfirmButton: false
+            });
         } else if (!$('#short_description').val() || $('#short_description').val().length === 0) {
             swal({
                 title: "Error!",
@@ -99,6 +107,14 @@ $(document).ready(function () {
             swal({
                 title: "Error!",
                 text: "Please enter title..!",
+                type: 'error',
+                timer: 1500,
+                showConfirmButton: false
+            });
+        } else if (!$('#url').val() || $('#url').val().length === 0) {
+            swal({
+                title: "Error!",
+                text: "Please enter  url..!",
                 type: 'error',
                 timer: 1500,
                 showConfirmButton: false

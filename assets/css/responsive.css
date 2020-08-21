@@ -799,7 +799,10 @@
     }  
     .sec-title .big-title h1 br{
         display: none;
-    }   
+    } 
+    .mobile-social{
+        width: 33% !important;
+    }
 
 
     /*** Main Header Css ***/
@@ -1167,7 +1170,7 @@
     }      
     /*** Main Slider Style3 Css ***/     
     .main-slider.style3 .slide {
-/*        padding: 232px 0px 400px;*/
+        /*        padding: 232px 0px 400px;*/
     }        
     .main-slider.style3 .content .btns-box {
         margin-top: 42px;
@@ -1239,7 +1242,7 @@
     /*** Breadcrumb Area Css ***/ 
     .breadcrumb-area {
         padding: 155px 0 113px;
-        /*        margin-top: 177px;*/
+        margin-top: 0px;
     }
     .breadcrumb-area .title {
         margin: 0 0 21px;

@@ -69,12 +69,12 @@ $ABOUT_INDEX = new Page(1);
             <?php include './slider.php'; ?>
             <!-- End Main Slider -->
 
-            
+
             <!--            <div>
                             <embed name="GoodEnough" src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" loop="false" hidden="true" autostart="true">
                         </div>-->
 
-            
+
             <!-- Background Music -->
             <div style="display: none;">
                 <iframe src="music/2019-04-20_-_Quiet_Time_-_David_Fesliyan.mp3" type=”audio/mp3″ allow=”autoplay” id=”audio”></iframe>
@@ -83,8 +83,8 @@ $ABOUT_INDEX = new Page(1);
                 </audio>
             </div>
             <!-- End Background Music -->
-            
-            
+
+
             <!--Start About Style1 Area-->
             <section class="about-style1-area">
                 <div class="container">
@@ -108,7 +108,30 @@ $ABOUT_INDEX = new Page(1);
                                     <p class="about-text"><?php echo $ABOUT_INDEX->description ?></p>
 
                                 </div>    
-                            </div>  
+                            </div> 
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3"></div>
+                                <div class="col-md-2 col-sm-2 col-xs-2 mobile-social">
+                                      <a href="https://www.facebook.com/mpbc.lk" target="blank">
+                                          <img src="assets/images/resources/facebook.png" width="100px">
+                                        </a> 
+                                </div>
+                                
+                                <div class="col-md-2 col-sm-2 col-xs-2 mobile-social">
+                                       <a href="https://www.youtube.com/channel/UC2GX1-ApQvdVDNdGSg3Ysqg" target="blank"> 
+                                            <img src="assets/images/resources/youtube.png" style="border-radius: 4px" width="100px">
+                                        </a> 
+                                </div>
+                                
+                                <div class="col-md-2 col-sm-2 col-xs-2 mobile-social">
+                                        <a href="https://www.linkedin.com/company/35874529" target="blank">
+                                            <img src="assets/images/resources/linkedin.png" width="100px">
+                                        </a>
+                                </div>
+                                    
+                                <div class="col-md-3 col-sm-3 col-xs-3"></div>
+                            </div>
                         </div>
 
                     </div> 
@@ -387,6 +410,30 @@ $ABOUT_INDEX = new Page(1);
                                     <div>
                                         <div class="img-holder">
                                             <img src="assets/images/brand/brand-9.png" alt="Awesome Product Image">                                          
+                                        </div>
+                                    </div>
+                                    <!--End single product item-->
+                                    
+                                    <!--Start single product item-->
+                                    <div>
+                                        <div class="img-holder">
+                                            <img src="assets/images/brand/brand-10.png" alt="Awesome Product Image">
+                                        </div>
+                                    </div>
+                                    <!--End single product item-->
+                                    
+                                    <!--Start single product item-->
+                                    <div>
+                                        <div class="img-holder">
+                                            <img src="assets/images/brand/brand-11.png" alt="Awesome Product Image">
+                                        </div>
+                                    </div>
+                                    <!--End single product item-->
+                                    
+                                    <!--Start single product item-->
+                                    <div>
+                                        <div class="img-holder">
+                                            <img src="assets/images/brand/brand-12.png" alt="Awesome Product Image">
                                         </div>
                                     </div>
                                     <!--End single product item-->
